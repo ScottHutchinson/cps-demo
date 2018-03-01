@@ -1,0 +1,559 @@
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-boxplot.png ***
+------------------------------
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-barplot.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Early-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-EarlyCPS-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-Late-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-LateCPS-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFound-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS--density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS--facetDensity.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-Default-timeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-Default-timelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-Default-cummean.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-Default-density.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-facetTimeline.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-facetTimelineSmooth.png ***
+------------------------------
+TableGrob (2 x 1) "arrange": 2 grobs
+  z     cells    name              grob
+1 1 (1-1,1-1) arrange    gtable[layout]
+2 2 (2-2,1-1) arrange text[GRID.text.1]
+*** Plot: C:\Users\scott\source\repos\cps-demo\BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-NotFoundCPS-cummean.png ***
+------------------------------
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+gdata: Unable to locate valid perl interpreter
+gdata: 
+gdata: read.xls() will be unable to read Excel XLS and XLSX files
+gdata: unless the 'perl=' argument is used to specify the location of a
+gdata: valid perl intrpreter.
+gdata: 
+gdata: (To avoid display of this message in the future, please ensure
+gdata: perl is installed and available on the executable search path.)
+gdata: Unable to load perl libaries needed by read.xls()
+gdata: to support 'XLX' (Excel 97-2004) files.
+
+gdata: Unable to load perl libaries needed by read.xls()
+gdata: to support 'XLSX' (Excel 2007+) files.
+
+gdata: Run the function 'installXLSXsupport()'
+gdata: to automatically download and install the perl
+gdata: libaries needed to support Excel XLS and XLSX formats.
+
+Attaching package: 'gdata'
+
+The following objects are masked from 'package:dplyr':
+
+    combine, first, last
+
+The following object is masked from 'package:stats':
+
+    nobs
+
+The following object is masked from 'package:utils':
+
+    object.size
+
+The following object is masked from 'package:base':
+
+    startsWith
+
+
+Attaching package: 'gridExtra'
+
+The following object is masked from 'package:gdata':
+
+    combine
+
+The following object is masked from 'package:dplyr':
+
+    combine
+
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image
+`geom_smooth()` using method = 'loess'
+Saving 7 x 7 in image

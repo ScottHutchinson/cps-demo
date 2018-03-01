@@ -1,0 +1,28 @@
+Number of lines read from file: 67663
+Number of words read from file: 578334
+
+1. replaceFirstItem with needle = 'MISÉRABLES'
+
+Real: 00:00:03.992, CPU: 00:00:03.515, GC gen0: 125, gen1: 54, gen2: 7
+
+1.CPS. replaceFirstItemCPS with needle = 'MISÉRABLES'
+
+Real: 00:00:00.004, CPU: 00:00:00.000, GC gen0: 0, gen1: 0, gen2: 0
+
+2. replaceFirstItem with needle = 'lichens'
+
+Real: 00:00:03.164, CPU: 00:00:02.968, GC gen0: 127, gen1: 51, gen2: 8
+
+2.CPS. replaceFirstItemCPS with needle = 'lichens'
+
+Real: 00:00:02.849, CPU: 00:00:02.703, GC gen0: 122, gen1: 46, gen2: 5
+
+3. replaceFirstItem with needle = 'aWordThatNeverOccursInLesMisérables'
+
+Real: 00:00:02.859, CPU: 00:00:02.781, GC gen0: 125, gen1: 48, gen2: 6
+
+3.CPS. replaceFirstItemCPS with needle = 'aWordThatNeverOccursInLesMisérables'
+
+Real: 00:00:01.662, CPU: 00:00:01.640, GC gen0: 63, gen1: 24, gen2: 4
+
+Done.

@@ -1,0 +1,203 @@
+Microsoft (R) F# Interactive version 4.1
+Copyright (c) Microsoft Corporation. All Rights Reserved.
+
+For help type #help;;
+
+> # silentCd @"c:\Users\scott\source\repos\cps-demo";;
+- # 1 @"c:\Users\scott\source\repos\cps-demo\Prototype.fsx"
+- ;;
+> #I __SOURCE_DIRECTORY__ // Add the script file location to the include file path.
+-
+- open System.IO
+- open System.Text.RegularExpressions
+-
+- let replaceFirstItem itm replacement lst =
+-    let rec replace isFound acc list =
+-        match list with
+-        | [] -> acc |> List.rev
+-        | h :: t ->
+-            if h = itm then
+-                if isFound then
+-                    replace true (h :: acc) t
+-                else
+-                    replace true (replacement :: acc) t
+-            else
+-                replace isFound (h :: acc) t
+-
+-    replace false [] lst
+-
+- // let testList = [ 1; 4; 6; 4; 7 ]
+- // let test = testList |> replaceFirstItem 4 42
+-
+- let replaceFirstItemCPS item replacement list =
+-     let rec replace cont = function
+-         | x :: xs when x = item -> cont (replacement :: xs)
+-         | x :: xs -> replace (fun ys -> x :: ys |> cont) xs
+-         | [] -> list
+-     replace id list
+-
+- let load filePath =
+-     filePath
+-     |> File.ReadAllLines
+-
+- let words line= Regex.Matches(line, "\w+(-\w+)?") |> Seq.cast |> Seq.map (fun (x:Match) -> x.Value)
+-
+- let getAllWordsSeq lines =
+-     seq { for line in lines do
+-             yield! words line
+-     }
+-
+- let getAllTheWordsAsList () =
+-     // https://www.gutenberg.org/files/135/135-0.txt (Les Mis�rables by Victor Hugo)
+-     let lines = load (__SOURCE_DIRECTORY__ + @"\Les Misérables.txt")
+-     let allWords = getAllWordsSeq lines
+-     printfn "Number of lines read from file: %i" lines.Length
+-     printfn "Number of words read from file: %i" (Seq.length allWords)
+-     // allWords |> Seq.take 1000 |> Seq.iter (fun w -> printfn "%s" w)
+-     allWords
+-     |> List.ofSeq
+-
+- let allTheWords = getAllTheWordsAsList ()
+-
+- let repeat f item replacement list =
+-     [1..20] |> List.iter (fun _ -> f item replacement list |> ignore)
+-
+- let needle = "MISÉRABLES" // occurs near the beginning of the file
+- printfn "1. replaceFirstItem with needle = '%s'" needle
+- #time
+- allTheWords |> repeat replaceFirstItem needle "PERSONNES-CONTENUES"
+- #time
+-
+- printfn "1.CPS. replaceFirstItemCPS with needle = '%s'" needle
+- #time
+- allTheWords |> repeat replaceFirstItemCPS needle "PERSONNES-CONTENUES"
+- #time
+-
+- let needle2 = "lichens" // occurs in the last chapter of the book/file
+- printfn "2. replaceFirstItem with needle = '%s'" needle2
+- #time
+- allTheWords |> repeat replaceFirstItem needle2 "BANANAS"
+- #time
+-
+- printfn "2.CPS. replaceFirstItemCPS with needle = '%s'" needle2
+- #time
+- allTheWords |> repeat replaceFirstItemCPS needle2 "BANANAS"
+- #time
+-
+- let needle3 = "aWordThatNeverOccursInLesMisérables"
+- printfn "3. replaceFirstItem with needle = '%s'" needle3
+- #time
+- allTheWords |> repeat replaceFirstItem needle3 "BANANAS"
+- #time
+-
+- printfn "3.CPS. replaceFirstItemCPS with needle = '%s'" needle3
+- #time
+- allTheWords |> repeat replaceFirstItemCPS needle3 "BANANAS"
+- #time
+-
+- printfn "Done."
+-
+- ;;
+
+--> Added 'c:\Users\scott\source\repos\cps-demo' to library include path
+
+Number of lines read from file: 67663
+Number of words read from file: 578334
+1. replaceFirstItem with needle = 'MISÉRABLES'
+val replaceFirstItem :
+  itm:'a -> replacement:'a -> lst:'a list -> 'a list when 'a : equality
+val replaceFirstItemCPS :
+  item:'a -> replacement:'a -> list:'a list -> 'a list when 'a : equality
+val load : filePath:string -> string []
+val words : line:string -> seq<string>
+val getAllWordsSeq : lines:seq<string> -> seq<string>
+val getAllTheWordsAsList : unit -> string list
+val allTheWords : string list =
+  ["The"; "Project"; "Gutenberg"; "EBook"; "of"; "Les"; "Misérables"; "by";
+   "Victor"; "Hugo"; "This"; "eBook"; "is"; "for"; "the"; "use"; "of";
+   "anyone"; "anywhere"; "at"; "no"; "cost"; "and"; "with"; "almost"; "no";
+   "restrictions"; "whatsoever"; "You"; "may"; "copy"; "it"; "give"; "it";
+   "away"; "or"; "re"; "use"; "it"; "under"; "the"; "terms"; "of"; "the";
+   "Project"; "Gutenberg"; "License"; "included"; "with"; "this"; "eBook";
+   "or"; "online"; "at"; "www"; "gutenberg"; "org"; "Title"; "Les";
+   "Misérables"; "Complete"; "in"; "Five"; "Volumes"; "Author"; "Victor";
+   "Hugo"; "Translator"; "Isabel"; "F"; "Hapgood"; "Release"; "Date"; "June";
+   "22"; "2008"; "EBook"; "135"; "Last"; "Updated"; "January"; "18"; "2016";
+   "Language"; "English"; "Character"; "set"; "encoding"; "UTF"; "8"; "START";
+   "OF"; "THIS"; "PROJECT"; "GUTENBERG"; "EBOOK"; "LES"; "MISÉRABLES";
+   "Produced"; "by"; ...]
+val repeat :
+  f:('a -> 'b -> 'c -> 'd) -> item:'a -> replacement:'b -> list:'c -> unit
+val needle : string = "MISÉRABLES"
+
+
+--> Timing now on
+
+Real: 00:00:03.992, CPU: 00:00:03.515, GC gen0: 125, gen1: 54, gen2: 7
+val it : unit = ()
+
+
+--> Timing now off
+
+1.CPS. replaceFirstItemCPS with needle = 'MISÉRABLES'
+val it : unit = ()
+
+
+--> Timing now on
+
+Real: 00:00:00.004, CPU: 00:00:00.000, GC gen0: 0, gen1: 0, gen2: 0
+val it : unit = ()
+
+
+--> Timing now off
+
+2. replaceFirstItem with needle = 'lichens'
+val needle2 : string = "lichens"
+
+
+--> Timing now on
+
+Real: 00:00:03.164, CPU: 00:00:02.968, GC gen0: 127, gen1: 51, gen2: 8
+val it : unit = ()
+
+
+--> Timing now off
+
+2.CPS. replaceFirstItemCPS with needle = 'lichens'
+val it : unit = ()
+
+
+--> Timing now on
+
+Real: 00:00:02.849, CPU: 00:00:02.703, GC gen0: 122, gen1: 46, gen2: 5
+val it : unit = ()
+
+
+--> Timing now off
+
+3. replaceFirstItem with needle = 'aWordThatNeverOccursInLesMisérables'
+val needle3 : string = "aWordThatNeverOccursInLesMisérables"
+
+
+--> Timing now on
+
+Real: 00:00:02.859, CPU: 00:00:02.781, GC gen0: 125, gen1: 48, gen2: 6
+val it : unit = ()
+
+
+--> Timing now off
+
+3.CPS. replaceFirstItemCPS with needle = 'aWordThatNeverOccursInLesMisérables'
+val it : unit = ()
+
+
+--> Timing now on
+
+Real: 00:00:01.662, CPU: 00:00:01.640, GC gen0: 63, gen1: 24, gen2: 4
+val it : unit = ()
+
+
+--> Timing now off
+
+Done.
+val it : unit = ()
