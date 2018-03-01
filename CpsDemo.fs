@@ -28,6 +28,30 @@ let replaceFirstItemCPS itm replacement list =
         
     replace id list
 
+let replaceFirstItemAvm1 itm rep lst =
+    let rec iter acc lst =
+        match lst with
+        | [] -> List.rev acc
+        | h :: t ->
+            if h = itm then
+                (List.rev acc) @ [rep] @ t
+            else
+                iter (h :: acc) t
+
+    iter [] lst
+
+let replaceFirstItemAvm2 itm rep lst =
+    let rec iter acc lst =
+        match lst with
+        | [] -> List.rev acc
+        | h :: t ->
+            if h = itm then
+                ((rep :: acc) |> List.rev) @ t
+            else
+                iter (h :: acc) t
+
+    iter [] lst
+
 let load filePath =
     filePath
     |> File.ReadAllLines

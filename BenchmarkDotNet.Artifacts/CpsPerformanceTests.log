@@ -2,14 +2,20 @@
 // Found benchmarks:
 //   CpsPerformanceTests.Early: DefaultJob
 //   CpsPerformanceTests.EarlyCPS: DefaultJob
+//   CpsPerformanceTests.EarlyAvm1: DefaultJob
+//   CpsPerformanceTests.EarlyAvm2: DefaultJob
 //   CpsPerformanceTests.Late: DefaultJob
 //   CpsPerformanceTests.LateCPS: DefaultJob
+//   CpsPerformanceTests.LateAvm1: DefaultJob
+//   CpsPerformanceTests.LateAvm2: DefaultJob
 //   CpsPerformanceTests.NotFound: DefaultJob
 //   CpsPerformanceTests.NotFoundCPS: DefaultJob
+//   CpsPerformanceTests.NotFoundAvm1: DefaultJob
+//   CpsPerformanceTests.NotFoundAvm2: DefaultJob
 
 // Validating benchmarks:
-// ***** Building 6 benchmark(s) in Parallel: Start   *****
-// ***** Done, took 00:00:22 (22.45 sec)   *****
+// ***** Building 12 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:48 (48.4 sec)   *****
 // **************************
 // Benchmark: CpsPerformanceTests.Early: DefaultJob
 // *** Execute ***
@@ -23,204 +29,246 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 2752014565.24 ns, 172.0009 ms/op
+Pilot  1: 16 op, 4126718605.32 ns, 257.9199 ms/op
 
-IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
-IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  1: 16 op, 8278.60 ns, 517.4124 ns/op
+IdleWarmup  2: 16 op, 2547.26 ns, 159.2038 ns/op
+IdleWarmup  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  4: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  6: 16 op, 2547.26 ns, 159.2038 ns/op
+IdleWarmup  7: 16 op, 1910.45 ns, 119.4029 ns/op
 
-IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  1: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  2: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  3: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  8: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 10: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 11: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 14: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 18: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  6: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  7: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  8: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  9: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 10: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 11: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 12: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 13: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1910.45 ns, 119.4029 ns/op
 
-MainWarmup  1: 16 op, 2936915164.74 ns, 183.5572 ms/op
-MainWarmup  2: 16 op, 2602327305.24 ns, 162.6455 ms/op
-MainWarmup  3: 16 op, 2862194440.09 ns, 178.8872 ms/op
-MainWarmup  4: 16 op, 2892329177.48 ns, 180.7706 ms/op
-MainWarmup  5: 16 op, 3015188682.01 ns, 188.4493 ms/op
-MainWarmup  6: 16 op, 2884816667.24 ns, 180.3010 ms/op
-MainWarmup  7: 16 op, 2727050768.19 ns, 170.4407 ms/op
-MainWarmup  8: 16 op, 2765975467.33 ns, 172.8735 ms/op
-MainWarmup  9: 16 op, 2759718120.07 ns, 172.4824 ms/op
+MainWarmup  1: 16 op, 4094717362.26 ns, 255.9198 ms/op
+MainWarmup  2: 16 op, 3967467016.15 ns, 247.9667 ms/op
+MainWarmup  3: 16 op, 3797632830.12 ns, 237.3521 ms/op
+MainWarmup  4: 16 op, 3887426336.39 ns, 242.9641 ms/op
+MainWarmup  5: 16 op, 3956141255.83 ns, 247.2588 ms/op
+MainWarmup  6: 16 op, 4504390841.58 ns, 281.5244 ms/op
+MainWarmup  7: 16 op, 4252677489.98 ns, 265.7923 ms/op
+MainWarmup  8: 16 op, 4241668863.68 ns, 265.1043 ms/op
+MainWarmup  9: 16 op, 4289328758.45 ns, 268.0830 ms/op
+MainWarmup 10: 16 op, 4458552238.60 ns, 278.6595 ms/op
+MainWarmup 11: 16 op, 4375551641.26 ns, 273.4720 ms/op
 
 // BeforeMainRun
-MainTarget  1: 16 op, 2524848533.48 ns, 157.8030 ms/op
-MainTarget  2: 16 op, 2550835055.92 ns, 159.4272 ms/op
-MainTarget  3: 16 op, 2737863892.19 ns, 171.1165 ms/op
-MainTarget  4: 16 op, 2665180976.54 ns, 166.5738 ms/op
-MainTarget  5: 16 op, 3175434976.70 ns, 198.4647 ms/op
-MainTarget  6: 16 op, 2743088961.83 ns, 171.4431 ms/op
-MainTarget  7: 16 op, 3002496952.84 ns, 187.6561 ms/op
-MainTarget  8: 16 op, 2790542528.44 ns, 174.4089 ms/op
-MainTarget  9: 16 op, 2855138526.43 ns, 178.4462 ms/op
-MainTarget 10: 16 op, 2789405813.10 ns, 174.3379 ms/op
-MainTarget 11: 16 op, 2504197249.72 ns, 156.5123 ms/op
-MainTarget 12: 16 op, 2754508334.00 ns, 172.1568 ms/op
-MainTarget 13: 16 op, 2518793056.68 ns, 157.4246 ms/op
-MainTarget 14: 16 op, 2812642567.03 ns, 175.7902 ms/op
-MainTarget 15: 16 op, 2823042397.89 ns, 176.4401 ms/op
-MainTarget 16: 16 op, 2879654005.50 ns, 179.9784 ms/op
-MainTarget 17: 16 op, 2968568069.83 ns, 185.5355 ms/op
-MainTarget 18: 16 op, 2977123046.73 ns, 186.0702 ms/op
-MainTarget 19: 16 op, 2626202148.11 ns, 164.1376 ms/op
-MainTarget 20: 16 op, 2898703061.94 ns, 181.1689 ms/op
-MainTarget 21: 16 op, 2676544945.79 ns, 167.2841 ms/op
-MainTarget 22: 16 op, 2937590825.78 ns, 183.5994 ms/op
-MainTarget 23: 16 op, 2596641818.13 ns, 162.2901 ms/op
-MainTarget 24: 16 op, 2745768680.66 ns, 171.6105 ms/op
-MainTarget 25: 16 op, 2778593325.92 ns, 173.6621 ms/op
-MainTarget 26: 16 op, 2706226270.67 ns, 169.1391 ms/op
-MainTarget 27: 16 op, 2831547066.38 ns, 176.9717 ms/op
-MainTarget 28: 16 op, 3083952636.22 ns, 192.7470 ms/op
-MainTarget 29: 16 op, 2551319672.37 ns, 159.4575 ms/op
-MainTarget 30: 16 op, 2551455950.85 ns, 159.4660 ms/op
-MainTarget 31: 16 op, 2634438080.54 ns, 164.6524 ms/op
-MainTarget 32: 16 op, 2645111741.98 ns, 165.3195 ms/op
-MainTarget 33: 16 op, 2708432835.73 ns, 169.2771 ms/op
-MainTarget 34: 16 op, 2608403796.95 ns, 163.0252 ms/op
-MainTarget 35: 16 op, 2816860831.66 ns, 176.0538 ms/op
-MainTarget 36: 16 op, 2713287278.85 ns, 169.5805 ms/op
-MainTarget 37: 16 op, 2864830855.48 ns, 179.0519 ms/op
-MainTarget 38: 16 op, 2754743955.67 ns, 172.1715 ms/op
-MainTarget 39: 16 op, 2894158111.05 ns, 180.8849 ms/op
-MainTarget 40: 16 op, 2589102561.65 ns, 161.8189 ms/op
-MainTarget 41: 16 op, 2650851358.39 ns, 165.6782 ms/op
-MainTarget 42: 16 op, 2841113306.00 ns, 177.5696 ms/op
-MainTarget 43: 16 op, 2912918053.33 ns, 182.0574 ms/op
-MainTarget 44: 16 op, 2764789080.40 ns, 172.7993 ms/op
-MainTarget 45: 16 op, 2807132204.13 ns, 175.4458 ms/op
-MainTarget 46: 16 op, 2894364439.21 ns, 180.8978 ms/op
-MainTarget 47: 16 op, 2643301912.87 ns, 165.2064 ms/op
-MainTarget 48: 16 op, 2721097818.65 ns, 170.0686 ms/op
-MainTarget 49: 16 op, 2866105759.74 ns, 179.1316 ms/op
-MainTarget 50: 16 op, 2846517320.74 ns, 177.9073 ms/op
-MainTarget 51: 16 op, 2591774638.70 ns, 161.9859 ms/op
-MainTarget 52: 16 op, 2652754799.36 ns, 165.7972 ms/op
-MainTarget 53: 16 op, 2831713911.99 ns, 176.9821 ms/op
-MainTarget 54: 16 op, 2749520796.48 ns, 171.8450 ms/op
-MainTarget 55: 16 op, 2598758592.23 ns, 162.4224 ms/op
-MainTarget 56: 16 op, 2631473705.26 ns, 164.4671 ms/op
-MainTarget 57: 16 op, 2850557277.08 ns, 178.1598 ms/op
-MainTarget 58: 16 op, 2652865605.22 ns, 165.8041 ms/op
-MainTarget 59: 16 op, 2823588785.43 ns, 176.4743 ms/op
-MainTarget 60: 16 op, 2764440105.61 ns, 172.7775 ms/op
-MainTarget 61: 16 op, 2566232613.35 ns, 160.3895 ms/op
-MainTarget 62: 16 op, 2989985442.40 ns, 186.8741 ms/op
-MainTarget 63: 16 op, 2860691555.96 ns, 178.7932 ms/op
-MainTarget 64: 16 op, 2943715078.64 ns, 183.9822 ms/op
-MainTarget 65: 16 op, 2557066930.56 ns, 159.8167 ms/op
-MainTarget 66: 16 op, 2861364032.93 ns, 178.8353 ms/op
-MainTarget 67: 16 op, 2796372572.62 ns, 174.7733 ms/op
-MainTarget 68: 16 op, 2737738439.57 ns, 171.1087 ms/op
-MainTarget 69: 16 op, 2631446322.20 ns, 164.4654 ms/op
-MainTarget 70: 16 op, 2899312494.19 ns, 181.2070 ms/op
-MainTarget 71: 16 op, 2634404966.14 ns, 164.6503 ms/op
-MainTarget 72: 16 op, 2822732905.65 ns, 176.4208 ms/op
-MainTarget 73: 16 op, 2585398206.98 ns, 161.5874 ms/op
-MainTarget 74: 16 op, 2738321762.40 ns, 171.1451 ms/op
-MainTarget 75: 16 op, 2554782674.04 ns, 159.6739 ms/op
-MainTarget 76: 16 op, 2817267119.82 ns, 176.0792 ms/op
-MainTarget 77: 16 op, 2679315729.21 ns, 167.4572 ms/op
+MainTarget  1: 16 op, 4270632497.70 ns, 266.9145 ms/op
+MainTarget  2: 16 op, 3995961954.11 ns, 249.7476 ms/op
+MainTarget  3: 16 op, 4445756071.72 ns, 277.8598 ms/op
+MainTarget  4: 16 op, 4292039044.42 ns, 268.2524 ms/op
+MainTarget  5: 16 op, 4363487811.99 ns, 272.7180 ms/op
+MainTarget  6: 16 op, 4418617550.38 ns, 276.1636 ms/op
+MainTarget  7: 16 op, 4262683132.16 ns, 266.4177 ms/op
+MainTarget  8: 16 op, 4191294225.23 ns, 261.9559 ms/op
+MainTarget  9: 16 op, 4491889520.19 ns, 280.7431 ms/op
+MainTarget 10: 16 op, 4171057508.24 ns, 260.6911 ms/op
+MainTarget 11: 16 op, 4386750675.34 ns, 274.1719 ms/op
+MainTarget 12: 16 op, 4111748350.97 ns, 256.9843 ms/op
+MainTarget 13: 16 op, 3949217162.94 ns, 246.8261 ms/op
+MainTarget 14: 16 op, 4187110985.45 ns, 261.6944 ms/op
+MainTarget 15: 16 op, 4595471351.59 ns, 287.2170 ms/op
+MainTarget 16: 16 op, 3886643053.55 ns, 242.9152 ms/op
+MainTarget 17: 16 op, 3960111162.48 ns, 247.5069 ms/op
+MainTarget 18: 16 op, 3816746204.90 ns, 238.5466 ms/op
+MainTarget 19: 16 op, 4194803077.60 ns, 262.1752 ms/op
+MainTarget 20: 16 op, 4559555604.80 ns, 284.9722 ms/op
+MainTarget 21: 16 op, 4125651302.86 ns, 257.8532 ms/op
+MainTarget 22: 16 op, 4438802685.32 ns, 277.4252 ms/op
+MainTarget 23: 16 op, 4427915053.93 ns, 276.7447 ms/op
+MainTarget 24: 16 op, 4489231453.07 ns, 280.5770 ms/op
+MainTarget 25: 16 op, 4177574039.33 ns, 261.0984 ms/op
+MainTarget 26: 16 op, 4192668472.67 ns, 262.0418 ms/op
+MainTarget 27: 16 op, 4608703100.14 ns, 288.0439 ms/op
+MainTarget 28: 16 op, 3919623081.75 ns, 244.9764 ms/op
+MainTarget 29: 16 op, 4248987782.06 ns, 265.5617 ms/op
+MainTarget 30: 16 op, 4552888148.48 ns, 284.5555 ms/op
+MainTarget 31: 16 op, 4274308195.69 ns, 267.1443 ms/op
+MainTarget 32: 16 op, 4002548534.88 ns, 250.1593 ms/op
+MainTarget 33: 16 op, 3852145494.47 ns, 240.7591 ms/op
+MainTarget 34: 16 op, 4080794032.28 ns, 255.0496 ms/op
+MainTarget 35: 16 op, 3907681521.02 ns, 244.2301 ms/op
+MainTarget 36: 16 op, 3585845888.15 ns, 224.1154 ms/op
+MainTarget 37: 16 op, 3879142005.99 ns, 242.4464 ms/op
+MainTarget 38: 16 op, 3734725029.52 ns, 233.4203 ms/op
+MainTarget 39: 16 op, 4352130210.90 ns, 272.0081 ms/op
+MainTarget 40: 16 op, 4089170700.89 ns, 255.5732 ms/op
+MainTarget 41: 16 op, 3691670583.08 ns, 230.7294 ms/op
+MainTarget 42: 16 op, 4277049048.79 ns, 267.3156 ms/op
+MainTarget 43: 16 op, 3898285947.91 ns, 243.6429 ms/op
+MainTarget 44: 16 op, 4257174679.71 ns, 266.0734 ms/op
+MainTarget 45: 16 op, 3988816886.30 ns, 249.3011 ms/op
+MainTarget 46: 16 op, 3975665376.48 ns, 248.4791 ms/op
+MainTarget 47: 16 op, 4232501270.45 ns, 264.5313 ms/op
+MainTarget 48: 16 op, 3614286696.80 ns, 225.8929 ms/op
+MainTarget 49: 16 op, 4372624201.27 ns, 273.2890 ms/op
+MainTarget 50: 16 op, 3895343224.35 ns, 243.4590 ms/op
+MainTarget 51: 16 op, 3894662468.78 ns, 243.4164 ms/op
+MainTarget 52: 16 op, 4357070624.09 ns, 272.3169 ms/op
+MainTarget 53: 16 op, 3985206143.48 ns, 249.0754 ms/op
+MainTarget 54: 16 op, 3949040765.10 ns, 246.8150 ms/op
+MainTarget 55: 16 op, 4069822341.26 ns, 254.3639 ms/op
+MainTarget 56: 16 op, 3668273351.70 ns, 229.2671 ms/op
+MainTarget 57: 16 op, 3966039913.04 ns, 247.8775 ms/op
+MainTarget 58: 16 op, 4088246045.06 ns, 255.5154 ms/op
+MainTarget 59: 16 op, 4665084180.62 ns, 291.5678 ms/op
+MainTarget 60: 16 op, 4252450146.91 ns, 265.7781 ms/op
+MainTarget 61: 16 op, 4139651687.50 ns, 258.7282 ms/op
+MainTarget 62: 16 op, 4434127187.30 ns, 277.1329 ms/op
+MainTarget 63: 16 op, 4018589275.78 ns, 251.1618 ms/op
+MainTarget 64: 16 op, 3920460493.89 ns, 245.0288 ms/op
+MainTarget 65: 16 op, 3937194089.84 ns, 246.0746 ms/op
+MainTarget 66: 16 op, 3824032008.88 ns, 239.0020 ms/op
+MainTarget 67: 16 op, 3917252218.35 ns, 244.8283 ms/op
+MainTarget 68: 16 op, 4296259219.49 ns, 268.5162 ms/op
+MainTarget 69: 16 op, 4265919427.58 ns, 266.6200 ms/op
+MainTarget 70: 16 op, 4446683274.81 ns, 277.9177 ms/op
+MainTarget 71: 16 op, 4404115355.27 ns, 275.2572 ms/op
+MainTarget 72: 16 op, 4172627894.80 ns, 260.7892 ms/op
+MainTarget 73: 16 op, 4258832309.97 ns, 266.1770 ms/op
+MainTarget 74: 16 op, 4177568307.99 ns, 261.0980 ms/op
+MainTarget 75: 16 op, 3884775911.06 ns, 242.7985 ms/op
+MainTarget 76: 16 op, 4097271628.48 ns, 256.0795 ms/op
+MainTarget 77: 16 op, 4130604452.36 ns, 258.1628 ms/op
+MainTarget 78: 16 op, 4110699516.15 ns, 256.9187 ms/op
+MainTarget 79: 16 op, 4428305421.72 ns, 276.7691 ms/op
+MainTarget 80: 16 op, 4500192955.04 ns, 281.2621 ms/op
+MainTarget 81: 16 op, 4433440700.39 ns, 277.0900 ms/op
+MainTarget 82: 16 op, 4079537595.67 ns, 254.9711 ms/op
+MainTarget 83: 16 op, 4125506108.97 ns, 257.8441 ms/op
+MainTarget 84: 16 op, 4340589843.81 ns, 271.2869 ms/op
+MainTarget 85: 16 op, 4228901990.30 ns, 264.3064 ms/op
+MainTarget 86: 16 op, 4287758371.89 ns, 267.9849 ms/op
+MainTarget 87: 16 op, 4296298702.04 ns, 268.5187 ms/op
+MainTarget 88: 16 op, 4244924900.37 ns, 265.3078 ms/op
+MainTarget 89: 16 op, 4007393425.77 ns, 250.4621 ms/op
+MainTarget 90: 16 op, 4567234323.84 ns, 285.4521 ms/op
+MainTarget 91: 16 op, 4383360270.62 ns, 273.9600 ms/op
+MainTarget 92: 16 op, 4526361606.66 ns, 282.8976 ms/op
+MainTarget 93: 16 op, 4528872569.44 ns, 283.0545 ms/op
+MainTarget 94: 16 op, 4173462122.86 ns, 260.8414 ms/op
+MainTarget 95: 16 op, 4142081774.73 ns, 258.8801 ms/op
+MainTarget 96: 16 op, 3949569958.62 ns, 246.8481 ms/op
+MainTarget 97: 16 op, 4371322550.78 ns, 273.2077 ms/op
+MainTarget 98: 16 op, 4482886862.12 ns, 280.1804 ms/op
+MainTarget 99: 16 op, 4224141795.84 ns, 264.0089 ms/op
 
 // AfterMainRun
-Result  1: 16 op, 2524847514.57 ns, 157.8030 ms/op
-Result  2: 16 op, 2550834037.01 ns, 159.4271 ms/op
-Result  3: 16 op, 2737862873.29 ns, 171.1164 ms/op
-Result  4: 16 op, 2665179957.64 ns, 166.5737 ms/op
-Result  5: 16 op, 3175433957.79 ns, 198.4646 ms/op
-Result  6: 16 op, 2743087942.92 ns, 171.4430 ms/op
-Result  7: 16 op, 3002495933.93 ns, 187.6560 ms/op
-Result  8: 16 op, 2790541509.53 ns, 174.4088 ms/op
-Result  9: 16 op, 2855137507.53 ns, 178.4461 ms/op
-Result 10: 16 op, 2789404794.20 ns, 174.3378 ms/op
-Result 11: 16 op, 2504196230.82 ns, 156.5123 ms/op
-Result 12: 16 op, 2754507315.10 ns, 172.1567 ms/op
-Result 13: 16 op, 2518792037.77 ns, 157.4245 ms/op
-Result 14: 16 op, 2812641548.12 ns, 175.7901 ms/op
-Result 15: 16 op, 2823041378.99 ns, 176.4401 ms/op
-Result 16: 16 op, 2879652986.60 ns, 179.9783 ms/op
-Result 17: 16 op, 2968567050.92 ns, 185.5354 ms/op
-Result 18: 16 op, 2977122027.82 ns, 186.0701 ms/op
-Result 19: 16 op, 2626201129.20 ns, 164.1376 ms/op
-Result 20: 16 op, 2898702043.03 ns, 181.1689 ms/op
-Result 21: 16 op, 2676543926.88 ns, 167.2840 ms/op
-Result 22: 16 op, 2937589806.88 ns, 183.5994 ms/op
-Result 23: 16 op, 2596640799.23 ns, 162.2900 ms/op
-Result 24: 16 op, 2745767661.75 ns, 171.6105 ms/op
-Result 25: 16 op, 2778592307.02 ns, 173.6620 ms/op
-Result 26: 16 op, 2706225251.76 ns, 169.1391 ms/op
-Result 27: 16 op, 2831546047.48 ns, 176.9716 ms/op
-Result 28: 16 op, 3083951617.32 ns, 192.7470 ms/op
-Result 29: 16 op, 2551318653.47 ns, 159.4574 ms/op
-Result 30: 16 op, 2551454931.94 ns, 159.4659 ms/op
-Result 31: 16 op, 2634437061.63 ns, 164.6523 ms/op
-Result 32: 16 op, 2645110723.08 ns, 165.3194 ms/op
-Result 33: 16 op, 2708431816.82 ns, 169.2770 ms/op
-Result 34: 16 op, 2608402778.04 ns, 163.0252 ms/op
-Result 35: 16 op, 2816859812.75 ns, 176.0537 ms/op
-Result 36: 16 op, 2713286259.95 ns, 169.5804 ms/op
-Result 37: 16 op, 2864829836.58 ns, 179.0519 ms/op
-Result 38: 16 op, 2754742936.76 ns, 172.1714 ms/op
-Result 39: 16 op, 2894157092.15 ns, 180.8848 ms/op
-Result 40: 16 op, 2589101542.75 ns, 161.8188 ms/op
-Result 41: 16 op, 2650850339.49 ns, 165.6781 ms/op
-Result 42: 16 op, 2841112287.10 ns, 177.5695 ms/op
-Result 43: 16 op, 2912917034.43 ns, 182.0573 ms/op
-Result 44: 16 op, 2764788061.50 ns, 172.7993 ms/op
-Result 45: 16 op, 2807131185.23 ns, 175.4457 ms/op
-Result 46: 16 op, 2894363420.31 ns, 180.8977 ms/op
-Result 47: 16 op, 2643300893.96 ns, 165.2063 ms/op
-Result 48: 16 op, 2721096799.75 ns, 170.0685 ms/op
-Result 49: 16 op, 2866104740.84 ns, 179.1315 ms/op
-Result 50: 16 op, 2846516301.84 ns, 177.9073 ms/op
-Result 51: 16 op, 2591773619.80 ns, 161.9859 ms/op
-Result 52: 16 op, 2652753780.45 ns, 165.7971 ms/op
-Result 53: 16 op, 2831712893.09 ns, 176.9821 ms/op
-Result 54: 16 op, 2749519777.57 ns, 171.8450 ms/op
-Result 55: 16 op, 2598757573.33 ns, 162.4223 ms/op
-Result 56: 16 op, 2631472686.35 ns, 164.4670 ms/op
-Result 57: 16 op, 2850556258.18 ns, 178.1598 ms/op
-Result 58: 16 op, 2652864586.32 ns, 165.8040 ms/op
-Result 59: 16 op, 2823587766.52 ns, 176.4742 ms/op
-Result 60: 16 op, 2764439086.70 ns, 172.7774 ms/op
-Result 61: 16 op, 2566231594.45 ns, 160.3895 ms/op
-Result 62: 16 op, 2989984423.50 ns, 186.8740 ms/op
-Result 63: 16 op, 2860690537.05 ns, 178.7932 ms/op
-Result 64: 16 op, 2943714059.74 ns, 183.9821 ms/op
-Result 65: 16 op, 2557065911.66 ns, 159.8166 ms/op
-Result 66: 16 op, 2861363014.02 ns, 178.8352 ms/op
-Result 67: 16 op, 2796371553.71 ns, 174.7732 ms/op
-Result 68: 16 op, 2737737420.67 ns, 171.1086 ms/op
-Result 69: 16 op, 2631445303.30 ns, 164.4653 ms/op
-Result 70: 16 op, 2899311475.28 ns, 181.2070 ms/op
-Result 71: 16 op, 2634403947.24 ns, 164.6502 ms/op
-Result 72: 16 op, 2822731886.74 ns, 176.4207 ms/op
-Result 73: 16 op, 2585397188.08 ns, 161.5873 ms/op
-Result 74: 16 op, 2738320743.49 ns, 171.1450 ms/op
-Result 75: 16 op, 2554781655.13 ns, 159.6739 ms/op
-Result 76: 16 op, 2817266100.92 ns, 176.0791 ms/op
-Result 77: 16 op, 2679314710.31 ns, 167.4572 ms/op
-GC:  101 53 7 587615248 16
+Result  1: 16 op, 4270630672.17 ns, 266.9144 ms/op
+Result  2: 16 op, 3995960128.57 ns, 249.7475 ms/op
+Result  3: 16 op, 4445754246.18 ns, 277.8596 ms/op
+Result  4: 16 op, 4292037218.88 ns, 268.2523 ms/op
+Result  5: 16 op, 4363485986.45 ns, 272.7179 ms/op
+Result  6: 16 op, 4418615724.84 ns, 276.1635 ms/op
+Result  7: 16 op, 4262681306.63 ns, 266.4176 ms/op
+Result  8: 16 op, 4191292399.69 ns, 261.9558 ms/op
+Result  9: 16 op, 4491887694.65 ns, 280.7430 ms/op
+Result 10: 16 op, 4171055682.71 ns, 260.6910 ms/op
+Result 11: 16 op, 4386748849.81 ns, 274.1718 ms/op
+Result 12: 16 op, 4111746525.43 ns, 256.9842 ms/op
+Result 13: 16 op, 3949215337.40 ns, 246.8260 ms/op
+Result 14: 16 op, 4187109159.91 ns, 261.6943 ms/op
+Result 15: 16 op, 4595469526.05 ns, 287.2168 ms/op
+Result 16: 16 op, 3886641228.02 ns, 242.9151 ms/op
+Result 17: 16 op, 3960109336.94 ns, 247.5068 ms/op
+Result 18: 16 op, 3816744379.36 ns, 238.5465 ms/op
+Result 19: 16 op, 4194801252.06 ns, 262.1751 ms/op
+Result 20: 16 op, 4559553779.27 ns, 284.9721 ms/op
+Result 21: 16 op, 4125649477.32 ns, 257.8531 ms/op
+Result 22: 16 op, 4438800859.79 ns, 277.4251 ms/op
+Result 23: 16 op, 4427913228.39 ns, 276.7446 ms/op
+Result 24: 16 op, 4489229627.54 ns, 280.5769 ms/op
+Result 25: 16 op, 4177572213.80 ns, 261.0983 ms/op
+Result 26: 16 op, 4192666647.14 ns, 262.0417 ms/op
+Result 27: 16 op, 4608701274.61 ns, 288.0438 ms/op
+Result 28: 16 op, 3919621256.22 ns, 244.9763 ms/op
+Result 29: 16 op, 4248985956.52 ns, 265.5616 ms/op
+Result 30: 16 op, 4552886322.95 ns, 284.5554 ms/op
+Result 31: 16 op, 4274306370.15 ns, 267.1441 ms/op
+Result 32: 16 op, 4002546709.34 ns, 250.1592 ms/op
+Result 33: 16 op, 3852143668.93 ns, 240.7590 ms/op
+Result 34: 16 op, 4080792206.74 ns, 255.0495 ms/op
+Result 35: 16 op, 3907679695.48 ns, 244.2300 ms/op
+Result 36: 16 op, 3585844062.61 ns, 224.1153 ms/op
+Result 37: 16 op, 3879140180.46 ns, 242.4463 ms/op
+Result 38: 16 op, 3734723203.98 ns, 233.4202 ms/op
+Result 39: 16 op, 4352128385.36 ns, 272.0080 ms/op
+Result 40: 16 op, 4089168875.35 ns, 255.5731 ms/op
+Result 41: 16 op, 3691668757.54 ns, 230.7293 ms/op
+Result 42: 16 op, 4277047223.25 ns, 267.3155 ms/op
+Result 43: 16 op, 3898284122.37 ns, 243.6428 ms/op
+Result 44: 16 op, 4257172854.18 ns, 266.0733 ms/op
+Result 45: 16 op, 3988815060.77 ns, 249.3009 ms/op
+Result 46: 16 op, 3975663550.94 ns, 248.4790 ms/op
+Result 47: 16 op, 4232499444.91 ns, 264.5312 ms/op
+Result 48: 16 op, 3614284871.26 ns, 225.8928 ms/op
+Result 49: 16 op, 4372622375.74 ns, 273.2889 ms/op
+Result 50: 16 op, 3895341398.81 ns, 243.4588 ms/op
+Result 51: 16 op, 3894660643.24 ns, 243.4163 ms/op
+Result 52: 16 op, 4357068798.55 ns, 272.3168 ms/op
+Result 53: 16 op, 3985204317.95 ns, 249.0753 ms/op
+Result 54: 16 op, 3949038939.56 ns, 246.8149 ms/op
+Result 55: 16 op, 4069820515.73 ns, 254.3638 ms/op
+Result 56: 16 op, 3668271526.16 ns, 229.2670 ms/op
+Result 57: 16 op, 3966038087.50 ns, 247.8774 ms/op
+Result 58: 16 op, 4088244219.52 ns, 255.5153 ms/op
+Result 59: 16 op, 4665082355.08 ns, 291.5676 ms/op
+Result 60: 16 op, 4252448321.38 ns, 265.7780 ms/op
+Result 61: 16 op, 4139649861.96 ns, 258.7281 ms/op
+Result 62: 16 op, 4434125361.76 ns, 277.1328 ms/op
+Result 63: 16 op, 4018587450.24 ns, 251.1617 ms/op
+Result 64: 16 op, 3920458668.35 ns, 245.0287 ms/op
+Result 65: 16 op, 3937192264.31 ns, 246.0745 ms/op
+Result 66: 16 op, 3824030183.35 ns, 239.0019 ms/op
+Result 67: 16 op, 3917250392.81 ns, 244.8281 ms/op
+Result 68: 16 op, 4296257393.96 ns, 268.5161 ms/op
+Result 69: 16 op, 4265917602.04 ns, 266.6199 ms/op
+Result 70: 16 op, 4446681449.27 ns, 277.9176 ms/op
+Result 71: 16 op, 4404113529.74 ns, 275.2571 ms/op
+Result 72: 16 op, 4172626069.27 ns, 260.7891 ms/op
+Result 73: 16 op, 4258830484.43 ns, 266.1769 ms/op
+Result 74: 16 op, 4177566482.46 ns, 261.0979 ms/op
+Result 75: 16 op, 3884774085.52 ns, 242.7984 ms/op
+Result 76: 16 op, 4097269802.94 ns, 256.0794 ms/op
+Result 77: 16 op, 4130602626.82 ns, 258.1627 ms/op
+Result 78: 16 op, 4110697690.61 ns, 256.9186 ms/op
+Result 79: 16 op, 4428303596.18 ns, 276.7690 ms/op
+Result 80: 16 op, 4500191129.50 ns, 281.2619 ms/op
+Result 81: 16 op, 4433438874.86 ns, 277.0899 ms/op
+Result 82: 16 op, 4079535770.13 ns, 254.9710 ms/op
+Result 83: 16 op, 4125504283.43 ns, 257.8440 ms/op
+Result 84: 16 op, 4340588018.28 ns, 271.2868 ms/op
+Result 85: 16 op, 4228900164.77 ns, 264.3063 ms/op
+Result 86: 16 op, 4287756546.36 ns, 267.9848 ms/op
+Result 87: 16 op, 4296296876.51 ns, 268.5186 ms/op
+Result 88: 16 op, 4244923074.83 ns, 265.3077 ms/op
+Result 89: 16 op, 4007391600.24 ns, 250.4620 ms/op
+Result 90: 16 op, 4567232498.30 ns, 285.4520 ms/op
+Result 91: 16 op, 4383358445.08 ns, 273.9599 ms/op
+Result 92: 16 op, 4526359781.12 ns, 282.8975 ms/op
+Result 93: 16 op, 4528870743.90 ns, 283.0544 ms/op
+Result 94: 16 op, 4173460297.32 ns, 260.8413 ms/op
+Result 95: 16 op, 4142079949.19 ns, 258.8800 ms/op
+Result 96: 16 op, 3949568133.08 ns, 246.8480 ms/op
+Result 97: 16 op, 4371320725.24 ns, 273.2075 ms/op
+Result 98: 16 op, 4482885036.58 ns, 280.1803 ms/op
+Result 99: 16 op, 4224139970.31 ns, 264.0087 ms/op
+GC:  103 55 9 587623032 16
 
 // AfterAll
 Parse error in the following line:
@@ -232,11 +280,11 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 172.1258 ms, StdErr = 1.0133 ms (0.59%); N = 77, StdDev = 8.8917 ms
-Min = 156.5123 ms, Q1 = 164.6513 ms, Median = 172.1567 ms, Q3 = 178.3029 ms, Max = 198.4646 ms
-IQR = 13.6516 ms, LowerFence = 144.1738 ms, UpperFence = 198.7804 ms
-ConfidenceInterval = [168.6571 ms; 175.5945 ms] (CI 99.9%), Margin = 3.4687 ms (2.02% of Mean)
-Skewness = 0.33, Kurtosis = 2.72
+Mean = 260.9533 ms, StdErr = 1.5245 ms (0.58%); N = 99, StdDev = 15.1681 ms
+Min = 224.1153 ms, Q1 = 248.4790 ms, Median = 261.6943 ms, Q3 = 273.2075 ms, Max = 291.5676 ms
+IQR = 24.7286 ms, LowerFence = 211.3861 ms, UpperFence = 310.3004 ms
+ConfidenceInterval = [255.7815 ms; 266.1252 ms] (CI 99.9%), Margin = 5.1718 ms (1.98% of Mean)
+Skewness = -0.2, Kurtosis = 2.37
 
 
 // **************************
@@ -252,94 +300,111 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 341969.82 ns, 21.3731 us/op
-Pilot  2: 32 op, 134368.03 ns, 4.1990 us/op
-Pilot  3: 64 op, 291024.60 ns, 4.5473 us/op
-Pilot  4: 128 op, 532377.60 ns, 4.1592 us/op
-Pilot  5: 256 op, 1076217.88 ns, 4.2040 us/op
-Pilot  6: 512 op, 2848474.89 ns, 5.5634 us/op
-Pilot  7: 1024 op, 4717527.83 ns, 4.6070 us/op
-Pilot  8: 2048 op, 9291772.22 ns, 4.5370 us/op
-Pilot  9: 4096 op, 17745495.49 ns, 4.3324 us/op
-Pilot 10: 8192 op, 34640205.72 ns, 4.2285 us/op
-Pilot 11: 16384 op, 66058125.95 ns, 4.0319 us/op
-Pilot 12: 32768 op, 130338263.56 ns, 3.9776 us/op
-Pilot 13: 65536 op, 265256502.84 ns, 4.0475 us/op
-Pilot 14: 131072 op, 517189555.72 ns, 3.9458 us/op
+Pilot  1: 16 op, 520278.11 ns, 32.5174 us/op
+Pilot  2: 32 op, 239442.56 ns, 7.4826 us/op
+Pilot  3: 64 op, 453412.50 ns, 7.0846 us/op
+Pilot  4: 128 op, 885810.10 ns, 6.9204 us/op
+Pilot  5: 256 op, 1962664.79 ns, 7.6667 us/op
+Pilot  6: 512 op, 4536672.28 ns, 8.8607 us/op
+Pilot  7: 1024 op, 7745584.64 ns, 7.5640 us/op
+Pilot  8: 2048 op, 15870074.39 ns, 7.7491 us/op
+Pilot  9: 4096 op, 28419156.93 ns, 6.9383 us/op
+Pilot 10: 8192 op, 57473218.73 ns, 7.0158 us/op
+Pilot 11: 16384 op, 113121961.59 ns, 6.9044 us/op
+Pilot 12: 32768 op, 228250528.24 ns, 6.9657 us/op
+Pilot 13: 65536 op, 452875030.09 ns, 6.9103 us/op
+Pilot 14: 131072 op, 900853587.24 ns, 6.8730 us/op
 
-IdleWarmup  1: 131072 op, 882626.02 ns, 6.7339 ns/op
-IdleWarmup  2: 131072 op, 866705.64 ns, 6.6124 ns/op
-IdleWarmup  3: 131072 op, 981969.21 ns, 7.4918 ns/op
-IdleWarmup  4: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleWarmup  5: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleWarmup  6: 131072 op, 829133.54 ns, 6.3258 ns/op
+IdleWarmup  1: 131072 op, 1369152.92 ns, 10.4458 ns/op
+IdleWarmup  2: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleWarmup  3: 131072 op, 1338585.79 ns, 10.2126 ns/op
+IdleWarmup  4: 131072 op, 1335401.71 ns, 10.1883 ns/op
+IdleWarmup  5: 131072 op, 1287640.56 ns, 9.8239 ns/op
+IdleWarmup  6: 131072 op, 1276177.89 ns, 9.7365 ns/op
+IdleWarmup  7: 131072 op, 1327123.11 ns, 10.1251 ns/op
+IdleWarmup  8: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleWarmup  9: 131072 op, 1210585.91 ns, 9.2360 ns/op
+IdleWarmup 10: 131072 op, 1332854.45 ns, 10.1689 ns/op
 
-IdleTarget  1: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget  2: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget  3: 131072 op, 829133.54 ns, 6.3258 ns/op
-IdleTarget  4: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget  5: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget  6: 131072 op, 879441.95 ns, 6.7096 ns/op
-IdleTarget  7: 131072 op, 880715.58 ns, 6.7193 ns/op
-IdleTarget  8: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget  9: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget 10: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget 11: 131072 op, 828496.72 ns, 6.3209 ns/op
-IdleTarget 12: 131072 op, 829133.54 ns, 6.3258 ns/op
-IdleTarget 13: 131072 op, 837412.14 ns, 6.3889 ns/op
-IdleTarget 14: 131072 op, 796655.96 ns, 6.0780 ns/op
-IdleTarget 15: 131072 op, 797292.77 ns, 6.0829 ns/op
+IdleTarget  1: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleTarget  2: 131072 op, 1344953.94 ns, 10.2612 ns/op
+IdleTarget  3: 131072 op, 1269172.92 ns, 9.6830 ns/op
+IdleTarget  4: 131072 op, 1327759.93 ns, 10.1300 ns/op
+IdleTarget  5: 131072 op, 1383162.86 ns, 10.5527 ns/op
+IdleTarget  6: 131072 op, 1338585.79 ns, 10.2126 ns/op
+IdleTarget  7: 131072 op, 1040556.22 ns, 7.9388 ns/op
+IdleTarget  8: 131072 op, 1332854.45 ns, 10.1689 ns/op
+IdleTarget  9: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleTarget 10: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleTarget 11: 131072 op, 1324575.85 ns, 10.1057 ns/op
+IdleTarget 12: 131072 op, 1339222.60 ns, 10.2175 ns/op
+IdleTarget 13: 131072 op, 1222048.58 ns, 9.3235 ns/op
+IdleTarget 14: 131072 op, 1332854.45 ns, 10.1689 ns/op
+IdleTarget 15: 131072 op, 1334764.89 ns, 10.1834 ns/op
 
-MainWarmup  1: 131072 op, 508594459.45 ns, 3.8803 us/op
-MainWarmup  2: 131072 op, 516736143.22 ns, 3.9424 us/op
-MainWarmup  3: 131072 op, 515397557.43 ns, 3.9322 us/op
-MainWarmup  4: 131072 op, 521407183.53 ns, 3.9780 us/op
-MainWarmup  5: 131072 op, 504627736.87 ns, 3.8500 us/op
-MainWarmup  6: 131072 op, 504912393.32 ns, 3.8522 us/op
+MainWarmup  1: 131072 op, 906095214.08 ns, 6.9130 us/op
+MainWarmup  2: 131072 op, 883130380.29 ns, 6.7378 us/op
+MainWarmup  3: 131072 op, 873113912.25 ns, 6.6613 us/op
+MainWarmup  4: 131072 op, 900963119.48 ns, 6.8738 us/op
+MainWarmup  5: 131072 op, 883631553.94 ns, 6.7416 us/op
+MainWarmup  6: 131072 op, 893009933.05 ns, 6.8131 us/op
+MainWarmup  7: 131072 op, 904529922.04 ns, 6.9010 us/op
+MainWarmup  8: 131072 op, 896511780.45 ns, 6.8398 us/op
 
 // BeforeMainRun
-MainTarget  1: 131072 op, 494088443.46 ns, 3.7696 us/op
-MainTarget  2: 131072 op, 494112005.62 ns, 3.7698 us/op
-MainTarget  3: 131072 op, 521344138.82 ns, 3.9775 us/op
-MainTarget  4: 131072 op, 522290446.37 ns, 3.9848 us/op
-MainTarget  5: 131072 op, 517718112.43 ns, 3.9499 us/op
-MainTarget  6: 131072 op, 518581633.99 ns, 3.9565 us/op
-MainTarget  7: 131072 op, 517713017.91 ns, 3.9498 us/op
-MainTarget  8: 131072 op, 493599369.30 ns, 3.7659 us/op
-MainTarget  9: 131072 op, 517343028.21 ns, 3.9470 us/op
-MainTarget 10: 131072 op, 501208675.46 ns, 3.8239 us/op
-MainTarget 11: 131072 op, 518385494.88 ns, 3.9550 us/op
-MainTarget 12: 131072 op, 513125400.40 ns, 3.9148 us/op
-MainTarget 13: 131072 op, 512064466.09 ns, 3.9067 us/op
-MainTarget 14: 131072 op, 499255562.90 ns, 3.8090 us/op
-MainTarget 15: 131072 op, 517846749.12 ns, 3.9509 us/op
-MainTarget 16: 131072 op, 501091501.44 ns, 3.8230 us/op
-MainTarget 17: 131072 op, 492804623.79 ns, 3.7598 us/op
-MainTarget 18: 131072 op, 492908424.68 ns, 3.7606 us/op
-MainTarget 19: 131072 op, 496066391.82 ns, 3.7847 us/op
-MainTarget 20: 131072 op, 494245736.84 ns, 3.7708 us/op
+MainTarget  1: 131072 op, 872598728.66 ns, 6.6574 us/op
+MainTarget  2: 131072 op, 849086233.71 ns, 6.4780 us/op
+MainTarget  3: 131072 op, 854597233.42 ns, 6.5201 us/op
+MainTarget  4: 131072 op, 886090934.68 ns, 6.7603 us/op
+MainTarget  5: 131072 op, 877607281.09 ns, 6.6956 us/op
+MainTarget  6: 131072 op, 875940098.60 ns, 6.6829 us/op
+MainTarget  7: 131072 op, 871451187.47 ns, 6.6486 us/op
+MainTarget  8: 131072 op, 846940802.92 ns, 6.4616 us/op
+MainTarget  9: 131072 op, 883346897.50 ns, 6.7394 us/op
+MainTarget 10: 131072 op, 865060745.81 ns, 6.5999 us/op
+MainTarget 11: 131072 op, 881467018.70 ns, 6.7251 us/op
+MainTarget 12: 131072 op, 892240023.33 ns, 6.8073 us/op
+MainTarget 13: 131072 op, 830247963.15 ns, 6.3343 us/op
+MainTarget 14: 131072 op, 808053039.07 ns, 6.1650 us/op
+MainTarget 15: 131072 op, 824332585.71 ns, 6.2892 us/op
+MainTarget 16: 131072 op, 829139904.50 ns, 6.3258 us/op
+MainTarget 17: 131072 op, 868900742.14 ns, 6.6292 us/op
+MainTarget 18: 131072 op, 865049283.14 ns, 6.5998 us/op
+MainTarget 19: 131072 op, 865675272.59 ns, 6.6046 us/op
+MainTarget 20: 131072 op, 865163273.08 ns, 6.6007 us/op
+MainTarget 21: 131072 op, 902401685.27 ns, 6.8848 us/op
+MainTarget 22: 131072 op, 886859570.76 ns, 6.7662 us/op
+MainTarget 23: 131072 op, 888456066.75 ns, 6.7784 us/op
+MainTarget 24: 131072 op, 900833845.97 ns, 6.8728 us/op
+MainTarget 25: 131072 op, 883506101.33 ns, 6.7406 us/op
+MainTarget 26: 131072 op, 864321403.24 ns, 6.5942 us/op
 
 // AfterMainRun
-Result  1: 131072 op, 493256592.84 ns, 3.7632 us/op
-Result  2: 131072 op, 493280155.01 ns, 3.7634 us/op
-Result  3: 131072 op, 520512288.20 ns, 3.9712 us/op
-Result  4: 131072 op, 521458595.75 ns, 3.9784 us/op
-Result  5: 131072 op, 516886261.81 ns, 3.9435 us/op
-Result  6: 131072 op, 517749783.38 ns, 3.9501 us/op
-Result  7: 131072 op, 516881167.29 ns, 3.9435 us/op
-Result  8: 131072 op, 492767518.68 ns, 3.7595 us/op
-Result  9: 131072 op, 516511177.59 ns, 3.9407 us/op
-Result 10: 131072 op, 500376824.85 ns, 3.8176 us/op
-Result 11: 131072 op, 517553644.26 ns, 3.9486 us/op
-Result 12: 131072 op, 512293549.78 ns, 3.9085 us/op
-Result 13: 131072 op, 511232615.47 ns, 3.9004 us/op
-Result 14: 131072 op, 498423712.29 ns, 3.8027 us/op
-Result 15: 131072 op, 517014898.51 ns, 3.9445 us/op
-Result 16: 131072 op, 500259650.83 ns, 3.8167 us/op
-Result 17: 131072 op, 491972773.17 ns, 3.7535 us/op
-Result 18: 131072 op, 492076574.07 ns, 3.7542 us/op
-Result 19: 131072 op, 495234541.20 ns, 3.7783 us/op
-Result 20: 131072 op, 493413886.22 ns, 3.7644 us/op
+Result  1: 131072 op, 871291516.64 ns, 6.6474 us/op
+Result  2: 131072 op, 847779021.69 ns, 6.4680 us/op
+Result  3: 131072 op, 853290021.40 ns, 6.5101 us/op
+Result  4: 131072 op, 884783722.66 ns, 6.7504 us/op
+Result  5: 131072 op, 876300069.07 ns, 6.6856 us/op
+Result  6: 131072 op, 874632886.59 ns, 6.6729 us/op
+Result  7: 131072 op, 870143975.45 ns, 6.6387 us/op
+Result  8: 131072 op, 845633590.90 ns, 6.4517 us/op
+Result  9: 131072 op, 882039685.48 ns, 6.7294 us/op
+Result 10: 131072 op, 863753533.79 ns, 6.5899 us/op
+Result 11: 131072 op, 880159806.68 ns, 6.7151 us/op
+Result 12: 131072 op, 890932811.31 ns, 6.7973 us/op
+Result 13: 131072 op, 828940751.13 ns, 6.3243 us/op
+Result 14: 131072 op, 823025373.69 ns, 6.2792 us/op
+Result 15: 131072 op, 827832692.48 ns, 6.3159 us/op
+Result 16: 131072 op, 867593530.13 ns, 6.6192 us/op
+Result 17: 131072 op, 863742071.12 ns, 6.5898 us/op
+Result 18: 131072 op, 864368060.57 ns, 6.5946 us/op
+Result 19: 131072 op, 863856061.06 ns, 6.5907 us/op
+Result 20: 131072 op, 901094473.25 ns, 6.8748 us/op
+Result 21: 131072 op, 885552358.74 ns, 6.7562 us/op
+Result 22: 131072 op, 887148854.73 ns, 6.7684 us/op
+Result 23: 131072 op, 899526633.95 ns, 6.8628 us/op
+Result 24: 131072 op, 882198889.31 ns, 6.7306 us/op
+Result 25: 131072 op, 863014191.22 ns, 6.5843 us/op
 GC:  383 0 0 804257792 131072
 
 // AfterAll
@@ -352,11 +417,247 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 3.8602 us, StdErr = 0.0197 us (0.51%); N = 20, StdDev = 0.0883 us
-Min = 3.7535 us, Q1 = 3.7639 us, Median = 3.8590 us, Q3 = 3.9440 us, Max = 3.9784 us
-IQR = 0.1801 us, LowerFence = 3.4938 us, UpperFence = 4.2141 us
-ConfidenceInterval = [3.7835 us; 3.9368 us] (CI 99.9%), Margin = 0.0766 us (1.99% of Mean)
-Skewness = -0.01, Kurtosis = 1.11
+Mean = 6.6219 us, StdErr = 0.0321 us (0.48%); N = 25, StdDev = 0.1605 us
+Min = 6.2792 us, Q1 = 6.5472 us, Median = 6.6387 us, Q3 = 6.7405 us, Max = 6.8748 us
+IQR = 0.1933 us, LowerFence = 6.2572 us, UpperFence = 7.0305 us
+ConfidenceInterval = [6.5016 us; 6.7421 us] (CI 99.9%), Margin = 0.1202 us (1.82% of Mean)
+Skewness = -0.56, Kurtosis = 2.52
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm1: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 550208.43 ns, 34.3880 us/op
+Pilot  2: 32 op, 299303.20 ns, 9.3532 us/op
+Pilot  3: 64 op, 629173.53 ns, 9.8308 us/op
+Pilot  4: 128 op, 1227779.92 ns, 9.5920 us/op
+Pilot  5: 256 op, 3155419.87 ns, 12.3259 us/op
+Pilot  6: 512 op, 5295119.32 ns, 10.3420 us/op
+Pilot  7: 1024 op, 9606995.80 ns, 9.3818 us/op
+Pilot  8: 2048 op, 18058171.81 ns, 8.8175 us/op
+Pilot  9: 4096 op, 41506348.41 ns, 10.1334 us/op
+Pilot 10: 8192 op, 80694689.09 ns, 9.8504 us/op
+Pilot 11: 16384 op, 158339669.65 ns, 9.6643 us/op
+Pilot 12: 32768 op, 306164244.86 ns, 9.3434 us/op
+Pilot 13: 65536 op, 601945852.87 ns, 9.1850 us/op
+
+IdleWarmup  1: 65536 op, 399920.02 ns, 6.1023 ns/op
+IdleWarmup  2: 65536 op, 667382.45 ns, 10.1834 ns/op
+IdleWarmup  3: 65536 op, 667382.45 ns, 10.1834 ns/op
+IdleWarmup  4: 65536 op, 494168.68 ns, 7.5404 ns/op
+IdleWarmup  5: 65536 op, 669929.71 ns, 10.2223 ns/op
+IdleWarmup  6: 65536 op, 680118.75 ns, 10.3778 ns/op
+
+IdleTarget  1: 65536 op, 659740.66 ns, 10.0668 ns/op
+IdleTarget  2: 65536 op, 671203.34 ns, 10.2418 ns/op
+IdleTarget  3: 65536 op, 689670.98 ns, 10.5235 ns/op
+IdleTarget  4: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget  5: 65536 op, 668019.26 ns, 10.1932 ns/op
+IdleTarget  6: 65536 op, 691581.43 ns, 10.5527 ns/op
+IdleTarget  7: 65536 op, 747621.18 ns, 11.4078 ns/op
+IdleTarget  8: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget  9: 65536 op, 387183.71 ns, 5.9080 ns/op
+IdleTarget 10: 65536 op, 401830.46 ns, 6.1314 ns/op
+IdleTarget 11: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 12: 65536 op, 426666.26 ns, 6.5104 ns/op
+IdleTarget 13: 65536 op, 480158.75 ns, 7.3266 ns/op
+IdleTarget 14: 65536 op, 382726.00 ns, 5.8399 ns/op
+IdleTarget 15: 65536 op, 669929.71 ns, 10.2223 ns/op
+IdleTarget 16: 65536 op, 392915.05 ns, 5.9954 ns/op
+IdleTarget 17: 65536 op, 661651.11 ns, 10.0960 ns/op
+IdleTarget 18: 65536 op, 668019.26 ns, 10.1932 ns/op
+IdleTarget 19: 65536 op, 655282.96 ns, 9.9988 ns/op
+IdleTarget 20: 65536 op, 457870.21 ns, 6.9865 ns/op
+
+MainWarmup  1: 65536 op, 606637908.09 ns, 9.2566 us/op
+MainWarmup  2: 65536 op, 597823747.35 ns, 9.1221 us/op
+MainWarmup  3: 65536 op, 604366387.87 ns, 9.2219 us/op
+MainWarmup  4: 65536 op, 630517845.48 ns, 9.6209 us/op
+MainWarmup  5: 65536 op, 608309548.28 ns, 9.2821 us/op
+MainWarmup  6: 65536 op, 616769639.70 ns, 9.4112 us/op
+MainWarmup  7: 65536 op, 576788463.96 ns, 8.8011 us/op
+
+// BeforeMainRun
+MainTarget  1: 65536 op, 613764508.24 ns, 9.3653 us/op
+MainTarget  2: 65536 op, 622658270.89 ns, 9.5010 us/op
+MainTarget  3: 65536 op, 639363210.16 ns, 9.7559 us/op
+MainTarget  4: 65536 op, 649312175.78 ns, 9.9077 us/op
+MainTarget  5: 65536 op, 638886235.49 ns, 9.7486 us/op
+MainTarget  6: 65536 op, 627740693.90 ns, 9.5786 us/op
+MainTarget  7: 65536 op, 629220015.87 ns, 9.6011 us/op
+MainTarget  8: 65536 op, 639899408.65 ns, 9.7641 us/op
+MainTarget  9: 65536 op, 622860778.16 ns, 9.5041 us/op
+MainTarget 10: 65536 op, 643501236.06 ns, 9.8190 us/op
+MainTarget 11: 65536 op, 638137340.68 ns, 9.7372 us/op
+MainTarget 12: 65536 op, 615487730.48 ns, 9.3916 us/op
+MainTarget 13: 65536 op, 624311443.44 ns, 9.5262 us/op
+MainTarget 14: 65536 op, 637976863.23 ns, 9.7348 us/op
+MainTarget 15: 65536 op, 627833668.94 ns, 9.5800 us/op
+
+// AfterMainRun
+Result  1: 65536 op, 613178319.75 ns, 9.3564 us/op
+Result  2: 65536 op, 622072082.40 ns, 9.4921 us/op
+Result  3: 65536 op, 638777021.67 ns, 9.7470 us/op
+Result  4: 65536 op, 648725987.29 ns, 9.8988 us/op
+Result  5: 65536 op, 638300047.00 ns, 9.7397 us/op
+Result  6: 65536 op, 627154505.40 ns, 9.5696 us/op
+Result  7: 65536 op, 628633827.37 ns, 9.5922 us/op
+Result  8: 65536 op, 639313220.16 ns, 9.7551 us/op
+Result  9: 65536 op, 622274589.67 ns, 9.4952 us/op
+Result 10: 65536 op, 642915047.56 ns, 9.8101 us/op
+Result 11: 65536 op, 637551152.19 ns, 9.7283 us/op
+Result 12: 65536 op, 614901541.98 ns, 9.3827 us/op
+Result 13: 65536 op, 623725254.95 ns, 9.5173 us/op
+Result 14: 65536 op, 637390674.73 ns, 9.7258 us/op
+Result 15: 65536 op, 627247480.44 ns, 9.5710 us/op
+GC:  286 0 0 601882624 65536
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 9.6254 us, StdErr = 0.0414 us (0.43%); N = 15, StdDev = 0.1602 us
+Min = 9.3564 us, Q1 = 9.4952 us, Median = 9.5922 us, Q3 = 9.7470 us, Max = 9.8988 us
+IQR = 0.2518 us, LowerFence = 9.1174 us, UpperFence = 10.1247 us
+ConfidenceInterval = [9.4542 us; 9.7966 us] (CI 99.9%), Margin = 0.1712 us (1.78% of Mean)
+Skewness = -0.09, Kurtosis = 1.73
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm2: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 557850.21 ns, 34.8656 us/op
+Pilot  2: 32 op, 318407.66 ns, 9.9502 us/op
+Pilot  3: 64 op, 684576.46 ns, 10.6965 us/op
+Pilot  4: 128 op, 1192755.08 ns, 9.3184 us/op
+Pilot  5: 256 op, 3152235.79 ns, 12.3134 us/op
+Pilot  6: 512 op, 5402104.29 ns, 10.5510 us/op
+Pilot  7: 1024 op, 10490895.45 ns, 10.2450 us/op
+Pilot  8: 2048 op, 19305693.00 ns, 9.4266 us/op
+Pilot  9: 4096 op, 41552199.11 ns, 10.1446 us/op
+Pilot 10: 8192 op, 74278138.00 ns, 9.0672 us/op
+Pilot 11: 16384 op, 142616699.59 ns, 8.7046 us/op
+Pilot 12: 32768 op, 295718563.29 ns, 9.0246 us/op
+Pilot 13: 65536 op, 596616345.52 ns, 9.1036 us/op
+
+IdleWarmup  1: 65536 op, 540656.20 ns, 8.2498 ns/op
+IdleWarmup  2: 65536 op, 434308.04 ns, 6.6270 ns/op
+IdleWarmup  3: 65536 op, 432397.60 ns, 6.5979 ns/op
+IdleWarmup  4: 65536 op, 570586.52 ns, 8.7065 ns/op
+IdleWarmup  5: 65536 op, 490347.79 ns, 7.4821 ns/op
+IdleWarmup  6: 65536 op, 674387.42 ns, 10.2903 ns/op
+IdleWarmup  7: 65536 op, 669929.71 ns, 10.2223 ns/op
+
+IdleTarget  1: 65536 op, 461691.10 ns, 7.0448 ns/op
+IdleTarget  2: 65536 op, 669929.71 ns, 10.2223 ns/op
+IdleTarget  3: 65536 op, 568039.26 ns, 8.6676 ns/op
+IdleTarget  4: 65536 op, 639999.39 ns, 9.7656 ns/op
+IdleTarget  5: 65536 op, 659103.85 ns, 10.0571 ns/op
+IdleTarget  6: 65536 op, 521551.74 ns, 7.9582 ns/op
+IdleTarget  7: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget  8: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget  9: 65536 op, 669929.71 ns, 10.2223 ns/op
+IdleTarget 10: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 11: 65536 op, 669929.71 ns, 10.2223 ns/op
+IdleTarget 12: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 13: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 14: 65536 op, 391641.42 ns, 5.9760 ns/op
+IdleTarget 15: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 16: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 17: 65536 op, 526646.26 ns, 8.0360 ns/op
+IdleTarget 18: 65536 op, 555302.95 ns, 8.4733 ns/op
+IdleTarget 19: 65536 op, 670566.52 ns, 10.2320 ns/op
+IdleTarget 20: 65536 op, 672476.97 ns, 10.2612 ns/op
+
+MainWarmup  1: 65536 op, 629560075.25 ns, 9.6063 us/op
+MainWarmup  2: 65536 op, 616030933.94 ns, 9.3999 us/op
+MainWarmup  3: 65536 op, 632095873.82 ns, 9.6450 us/op
+MainWarmup  4: 65536 op, 646364994.52 ns, 9.8627 us/op
+MainWarmup  5: 65536 op, 632674102.12 ns, 9.6538 us/op
+MainWarmup  6: 65536 op, 551256627.66 ns, 8.4115 us/op
+MainWarmup  7: 65536 op, 574993281.60 ns, 8.7737 us/op
+MainWarmup  8: 65536 op, 562553731.29 ns, 8.5839 us/op
+
+// BeforeMainRun
+MainTarget  1: 65536 op, 628822006.30 ns, 9.5951 us/op
+MainTarget  2: 65536 op, 643033813.62 ns, 9.8119 us/op
+MainTarget  3: 65536 op, 522391700.00 ns, 7.9711 us/op
+MainTarget  4: 65536 op, 615556506.53 ns, 9.3926 us/op
+MainTarget  5: 65536 op, 559767027.49 ns, 8.5414 us/op
+MainTarget  6: 65536 op, 631972968.46 ns, 9.6431 us/op
+MainTarget  7: 65536 op, 614424248.91 ns, 9.3754 us/op
+MainTarget  8: 65536 op, 604018049.89 ns, 9.2166 us/op
+MainTarget  9: 65536 op, 622237972.79 ns, 9.4946 us/op
+MainTarget 10: 65536 op, 642072859.31 ns, 9.7973 us/op
+MainTarget 11: 65536 op, 626062048.74 ns, 9.5529 us/op
+MainTarget 12: 65536 op, 640040781.65 ns, 9.7662 us/op
+MainTarget 13: 65536 op, 642283645.18 ns, 9.8005 us/op
+MainTarget 14: 65536 op, 639158155.63 ns, 9.7528 us/op
+MainTarget 15: 65536 op, 643489773.38 ns, 9.8189 us/op
+MainTarget 16: 65536 op, 635402218.92 ns, 9.6955 us/op
+MainTarget 17: 65536 op, 634939254.19 ns, 9.6884 us/op
+MainTarget 18: 65536 op, 628164176.08 ns, 9.5850 us/op
+
+// AfterMainRun
+Result  1: 65536 op, 628203467.59 ns, 9.5856 us/op
+Result  2: 65536 op, 642415274.91 ns, 9.8025 us/op
+Result  3: 65536 op, 614937967.82 ns, 9.3832 us/op
+Result  4: 65536 op, 631354429.75 ns, 9.6337 us/op
+Result  5: 65536 op, 613805710.20 ns, 9.3659 us/op
+Result  6: 65536 op, 603399511.18 ns, 9.2071 us/op
+Result  7: 65536 op, 621619434.07 ns, 9.4852 us/op
+Result  8: 65536 op, 641454320.60 ns, 9.7878 us/op
+Result  9: 65536 op, 625443510.02 ns, 9.5435 us/op
+Result 10: 65536 op, 639422242.94 ns, 9.7568 us/op
+Result 11: 65536 op, 641665106.47 ns, 9.7910 us/op
+Result 12: 65536 op, 638539616.92 ns, 9.7433 us/op
+Result 13: 65536 op, 642871234.67 ns, 9.8094 us/op
+Result 14: 65536 op, 634783680.21 ns, 9.6860 us/op
+Result 15: 65536 op, 634320715.47 ns, 9.6790 us/op
+Result 16: 65536 op, 627545637.37 ns, 9.5756 us/op
+GC:  287 0 0 603979776 65536
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 9.6147 us, StdErr = 0.0450 us (0.47%); N = 16, StdDev = 0.1801 us
+Min = 9.2071 us, Q1 = 9.5143 us, Median = 9.6563 us, Q3 = 9.7723 us, Max = 9.8094 us
+IQR = 0.2580 us, LowerFence = 9.1274 us, UpperFence = 10.1593 us
+ConfidenceInterval = [9.4314 us; 9.7981 us] (CI 99.9%), Margin = 0.1833 us (1.91% of Mean)
+Skewness = -0.73, Kurtosis = 2.37
 
 
 // **************************
@@ -372,208 +673,243 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 2745392959.62 ns, 171.5871 ms/op
+Pilot  1: 16 op, 2962036255.17 ns, 185.1273 ms/op
 
-IdleWarmup  1: 16 op, 7641.78 ns, 477.6115 ns/op
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
 IdleWarmup  2: 16 op, 636.82 ns, 39.8010 ns/op
-IdleWarmup  3: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  4: 16 op, 636.82 ns, 39.8010 ns/op
 IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  6: 16 op, 1910.45 ns, 119.4029 ns/op
-IdleWarmup  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
 
 IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 10: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 636.82 ns, 39.8010 ns/op
 IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 20: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
 
-MainWarmup  1: 16 op, 2688792814.69 ns, 168.0496 ms/op
-MainWarmup  2: 16 op, 2800548170.62 ns, 175.0343 ms/op
-MainWarmup  3: 16 op, 2638301002.22 ns, 164.8938 ms/op
-MainWarmup  4: 16 op, 2663352679.78 ns, 166.4595 ms/op
-MainWarmup  5: 16 op, 3119410512.80 ns, 194.9632 ms/op
-MainWarmup  6: 16 op, 2924281385.76 ns, 182.7676 ms/op
+MainWarmup  1: 16 op, 2567136254.28 ns, 160.4460 ms/op
+MainWarmup  2: 16 op, 2978794686.92 ns, 186.1747 ms/op
+MainWarmup  3: 16 op, 2766356919.70 ns, 172.8973 ms/op
+MainWarmup  4: 16 op, 2698067392.89 ns, 168.6292 ms/op
+MainWarmup  5: 16 op, 2879874343.60 ns, 179.9921 ms/op
+MainWarmup  6: 16 op, 3038225475.92 ns, 189.8891 ms/op
+MainWarmup  7: 16 op, 2846221838.43 ns, 177.8889 ms/op
 
 // BeforeMainRun
-MainTarget  1: 16 op, 2709178546.46 ns, 169.3237 ms/op
-MainTarget  2: 16 op, 2755212651.74 ns, 172.2008 ms/op
-MainTarget  3: 16 op, 2834703123.07 ns, 177.1689 ms/op
-MainTarget  4: 16 op, 2581479245.55 ns, 161.3425 ms/op
-MainTarget  5: 16 op, 2637262993.26 ns, 164.8289 ms/op
-MainTarget  6: 16 op, 2721728902.63 ns, 170.1081 ms/op
-MainTarget  7: 16 op, 2970202774.73 ns, 185.6377 ms/op
-MainTarget  8: 16 op, 2646326785.60 ns, 165.3954 ms/op
-MainTarget  9: 16 op, 3054711987.54 ns, 190.9195 ms/op
-MainTarget 10: 16 op, 2518754847.76 ns, 157.4222 ms/op
-MainTarget 11: 16 op, 2695487654.06 ns, 168.4680 ms/op
-MainTarget 12: 16 op, 2589683337.22 ns, 161.8552 ms/op
-MainTarget 13: 16 op, 2656736168.69 ns, 166.0460 ms/op
-MainTarget 14: 16 op, 2870844939.29 ns, 179.4278 ms/op
-MainTarget 15: 16 op, 2759880507.97 ns, 172.4925 ms/op
-MainTarget 16: 16 op, 2624606288.93 ns, 164.0379 ms/op
-MainTarget 17: 16 op, 2805230673.61 ns, 175.3269 ms/op
-MainTarget 18: 16 op, 2733204951.37 ns, 170.8253 ms/op
-MainTarget 19: 16 op, 2711297231.00 ns, 169.4561 ms/op
-MainTarget 20: 16 op, 3050526200.49 ns, 190.6579 ms/op
-MainTarget 21: 16 op, 2664564539.32 ns, 166.5353 ms/op
-MainTarget 22: 16 op, 2869715228.93 ns, 179.3572 ms/op
-MainTarget 23: 16 op, 3116993161.88 ns, 194.8121 ms/op
-MainTarget 24: 16 op, 2837852811.60 ns, 177.3658 ms/op
-MainTarget 25: 16 op, 2758311395.05 ns, 172.3945 ms/op
-MainTarget 26: 16 op, 2913958609.55 ns, 182.1224 ms/op
-MainTarget 27: 16 op, 2617495609.16 ns, 163.5935 ms/op
-MainTarget 28: 16 op, 2695501027.18 ns, 168.4688 ms/op
-MainTarget 29: 16 op, 2646507641.15 ns, 165.4067 ms/op
-MainTarget 30: 16 op, 2762343709.60 ns, 172.6465 ms/op
-MainTarget 31: 16 op, 2706178509.52 ns, 169.1362 ms/op
-MainTarget 32: 16 op, 2652693665.09 ns, 165.7934 ms/op
-MainTarget 33: 16 op, 2693954839.61 ns, 168.3722 ms/op
-MainTarget 34: 16 op, 2793253451.22 ns, 174.5783 ms/op
-MainTarget 35: 16 op, 3033874116.90 ns, 189.6171 ms/op
-MainTarget 36: 16 op, 2659937439.26 ns, 166.2461 ms/op
-MainTarget 37: 16 op, 2672752073.79 ns, 167.0470 ms/op
-MainTarget 38: 16 op, 3104460636.54 ns, 194.0288 ms/op
-MainTarget 39: 16 op, 2920010265.46 ns, 182.5006 ms/op
-MainTarget 40: 16 op, 2917307621.28 ns, 182.3317 ms/op
-MainTarget 41: 16 op, 2890162094.97 ns, 180.6351 ms/op
-MainTarget 42: 16 op, 2774205668.42 ns, 173.3879 ms/op
-MainTarget 43: 16 op, 2615853262.47 ns, 163.4908 ms/op
-MainTarget 44: 16 op, 2666945591.77 ns, 166.6841 ms/op
-MainTarget 45: 16 op, 2823116905.28 ns, 176.4448 ms/op
-MainTarget 46: 16 op, 2853691045.23 ns, 178.3557 ms/op
-MainTarget 47: 16 op, 2540931941.00 ns, 158.8082 ms/op
-MainTarget 48: 16 op, 2618569279.77 ns, 163.6606 ms/op
-MainTarget 49: 16 op, 2632472231.67 ns, 164.5295 ms/op
-MainTarget 50: 16 op, 2666071881.17 ns, 166.6295 ms/op
-MainTarget 51: 16 op, 2839266541.60 ns, 177.4542 ms/op
-MainTarget 52: 16 op, 2805933717.72 ns, 175.3709 ms/op
-MainTarget 53: 16 op, 2643916439.64 ns, 165.2448 ms/op
-MainTarget 54: 16 op, 2773326226.47 ns, 173.3329 ms/op
-MainTarget 55: 16 op, 2713069488.01 ns, 169.5668 ms/op
-MainTarget 56: 16 op, 2921752592.16 ns, 182.6095 ms/op
-MainTarget 57: 16 op, 2735957267.15 ns, 170.9973 ms/op
-MainTarget 58: 16 op, 3023277510.10 ns, 188.9548 ms/op
-MainTarget 59: 16 op, 2706980896.81 ns, 169.1863 ms/op
-MainTarget 60: 16 op, 2860822103.10 ns, 178.8014 ms/op
-MainTarget 61: 16 op, 2806430433.66 ns, 175.4019 ms/op
-MainTarget 62: 16 op, 2614638855.67 ns, 163.4149 ms/op
-MainTarget 63: 16 op, 3068395238.15 ns, 191.7747 ms/op
-MainTarget 64: 16 op, 3129768950.67 ns, 195.6106 ms/op
-MainTarget 65: 16 op, 2773219241.50 ns, 173.3262 ms/op
-MainTarget 66: 16 op, 2674438360.74 ns, 167.1524 ms/op
-MainTarget 67: 16 op, 2817195796.51 ns, 176.0747 ms/op
-MainTarget 68: 16 op, 2835959559.68 ns, 177.2475 ms/op
-MainTarget 69: 16 op, 2846172803.66 ns, 177.8858 ms/op
-MainTarget 70: 16 op, 2900803278.83 ns, 181.3002 ms/op
-MainTarget 71: 16 op, 3010410656.72 ns, 188.1507 ms/op
-MainTarget 72: 16 op, 2807122015.09 ns, 175.4451 ms/op
-MainTarget 73: 16 op, 2949461063.20 ns, 184.3413 ms/op
-MainTarget 74: 16 op, 2967077285.18 ns, 185.4423 ms/op
-MainTarget 75: 16 op, 2638241141.58 ns, 164.8901 ms/op
-MainTarget 76: 16 op, 2882385306.38 ns, 180.1491 ms/op
-MainTarget 77: 16 op, 2705849276.00 ns, 169.1156 ms/op
-MainTarget 78: 16 op, 2835484495.46 ns, 177.2178 ms/op
-MainTarget 79: 16 op, 2710374485.61 ns, 169.3984 ms/op
-MainTarget 80: 16 op, 2664071644.27 ns, 166.5045 ms/op
+MainTarget  1: 16 op, 2465187854.15 ns, 154.0742 ms/op
+MainTarget  2: 16 op, 2843346617.30 ns, 177.7092 ms/op
+MainTarget  3: 16 op, 2642921734.12 ns, 165.1826 ms/op
+MainTarget  4: 16 op, 2814688654.63 ns, 175.9180 ms/op
+MainTarget  5: 16 op, 2844115890.20 ns, 177.7572 ms/op
+MainTarget  6: 16 op, 2969439869.99 ns, 185.5900 ms/op
+MainTarget  7: 16 op, 2689812356.00 ns, 168.1133 ms/op
+MainTarget  8: 16 op, 2806587727.04 ns, 175.4117 ms/op
+MainTarget  9: 16 op, 2736120291.87 ns, 171.0075 ms/op
+MainTarget 10: 16 op, 4335630962.98 ns, 270.9769 ms/op
+MainTarget 11: 16 op, 3826713638.16 ns, 239.1696 ms/op
+MainTarget 12: 16 op, 3789955384.72 ns, 236.8722 ms/op
+MainTarget 13: 16 op, 4220346376.58 ns, 263.7716 ms/op
+MainTarget 14: 16 op, 4326990652.82 ns, 270.4369 ms/op
+MainTarget 15: 16 op, 4837929229.44 ns, 302.3706 ms/op
+MainTarget 16: 16 op, 4030784925.82 ns, 251.9241 ms/op
+MainTarget 17: 16 op, 4520572955.47 ns, 282.5358 ms/op
+MainTarget 18: 16 op, 4762046316.85 ns, 297.6279 ms/op
+MainTarget 19: 16 op, 3938842804.69 ns, 246.1777 ms/op
+MainTarget 20: 16 op, 4272087620.69 ns, 267.0055 ms/op
+MainTarget 21: 16 op, 4303189680.54 ns, 268.9494 ms/op
+MainTarget 22: 16 op, 4622448121.84 ns, 288.9030 ms/op
+MainTarget 23: 16 op, 4616188227.32 ns, 288.5118 ms/op
+MainTarget 24: 16 op, 4649573906.87 ns, 290.5984 ms/op
+MainTarget 25: 16 op, 4643486589.31 ns, 290.2179 ms/op
+MainTarget 26: 16 op, 4401340114.14 ns, 275.0838 ms/op
+MainTarget 27: 16 op, 4641603526.43 ns, 290.1002 ms/op
+MainTarget 28: 16 op, 4738804468.41 ns, 296.1753 ms/op
+MainTarget 29: 16 op, 4482940354.60 ns, 280.1838 ms/op
+MainTarget 30: 16 op, 4337615279.49 ns, 271.1010 ms/op
+MainTarget 31: 16 op, 4671354900.99 ns, 291.9597 ms/op
+MainTarget 32: 16 op, 4048491575.57 ns, 253.0307 ms/op
+MainTarget 33: 16 op, 4590488908.59 ns, 286.9056 ms/op
+MainTarget 34: 16 op, 4729806904.86 ns, 295.6129 ms/op
+MainTarget 35: 16 op, 4190315440.10 ns, 261.8947 ms/op
+MainTarget 36: 16 op, 4592947652.51 ns, 287.0592 ms/op
+MainTarget 37: 16 op, 4647250167.80 ns, 290.4531 ms/op
+MainTarget 38: 16 op, 4271490287.93 ns, 266.9681 ms/op
+MainTarget 39: 16 op, 4347762294.67 ns, 271.7351 ms/op
+MainTarget 40: 16 op, 4335343122.46 ns, 270.9589 ms/op
+MainTarget 41: 16 op, 4854581949.85 ns, 303.4114 ms/op
+MainTarget 42: 16 op, 4050757364.45 ns, 253.1723 ms/op
+MainTarget 43: 16 op, 4665203901.89 ns, 291.5752 ms/op
+MainTarget 44: 16 op, 4662124263.05 ns, 291.3828 ms/op
+MainTarget 45: 16 op, 4428086357.25 ns, 276.7554 ms/op
+MainTarget 46: 16 op, 4873318966.78 ns, 304.5824 ms/op
+MainTarget 47: 16 op, 4475239347.04 ns, 279.7025 ms/op
+MainTarget 48: 16 op, 4470048028.61 ns, 279.3780 ms/op
+MainTarget 49: 16 op, 4695918778.03 ns, 293.4949 ms/op
+MainTarget 50: 16 op, 4588389965.32 ns, 286.7744 ms/op
+MainTarget 51: 16 op, 4693662541.38 ns, 293.3539 ms/op
+MainTarget 52: 16 op, 4571576130.63 ns, 285.7235 ms/op
+MainTarget 53: 16 op, 4340368232.09 ns, 271.2730 ms/op
+MainTarget 54: 16 op, 4245820899.51 ns, 265.3638 ms/op
+MainTarget 55: 16 op, 4428163411.90 ns, 276.7602 ms/op
+MainTarget 56: 16 op, 4375542089.03 ns, 273.4714 ms/op
+MainTarget 57: 16 op, 4610623098.31 ns, 288.1639 ms/op
+MainTarget 58: 16 op, 3988537961.20 ns, 249.2836 ms/op
+MainTarget 59: 16 op, 4046214960.83 ns, 252.8884 ms/op
+MainTarget 60: 16 op, 2787771745.01 ns, 174.2357 ms/op
+MainTarget 61: 16 op, 2805547170.82 ns, 175.3467 ms/op
+MainTarget 62: 16 op, 2885306378.21 ns, 180.3316 ms/op
+MainTarget 63: 16 op, 4361784331.03 ns, 272.6115 ms/op
+MainTarget 64: 16 op, 4184489853.62 ns, 261.5306 ms/op
+MainTarget 65: 16 op, 4571929563.13 ns, 285.7456 ms/op
+MainTarget 66: 16 op, 4681624821.53 ns, 292.6016 ms/op
+MainTarget 67: 16 op, 3795388056.15 ns, 237.2118 ms/op
+MainTarget 68: 16 op, 4451040365.18 ns, 278.1900 ms/op
+MainTarget 69: 16 op, 3666210070.09 ns, 229.1381 ms/op
+MainTarget 70: 16 op, 2993944523.20 ns, 187.1215 ms/op
+MainTarget 71: 16 op, 2863562956.20 ns, 178.9727 ms/op
+MainTarget 72: 16 op, 2635460169.11 ns, 164.7163 ms/op
+MainTarget 73: 16 op, 2925975951.31 ns, 182.8735 ms/op
+MainTarget 74: 16 op, 2549102281.45 ns, 159.3189 ms/op
+MainTarget 75: 16 op, 3013482653.79 ns, 188.3427 ms/op
+MainTarget 76: 16 op, 2578370313.20 ns, 161.1481 ms/op
+MainTarget 77: 16 op, 2802619730.83 ns, 175.1637 ms/op
+MainTarget 78: 16 op, 2532767331.88 ns, 158.2980 ms/op
+MainTarget 79: 16 op, 2765577457.76 ns, 172.8486 ms/op
+MainTarget 80: 16 op, 2785761955.89 ns, 174.1101 ms/op
+MainTarget 81: 16 op, 2916163900.98 ns, 182.2602 ms/op
+MainTarget 82: 16 op, 2672847596.09 ns, 167.0530 ms/op
+MainTarget 83: 16 op, 3030588149.89 ns, 189.4118 ms/op
+MainTarget 84: 16 op, 2846578455.01 ns, 177.9112 ms/op
+MainTarget 85: 16 op, 2724355765.79 ns, 170.2722 ms/op
+MainTarget 86: 16 op, 2587863319.06 ns, 161.7415 ms/op
+MainTarget 87: 16 op, 2715145505.93 ns, 169.6966 ms/op
+MainTarget 88: 16 op, 2736958977.63 ns, 171.0599 ms/op
+MainTarget 89: 16 op, 3463881109.13 ns, 216.4926 ms/op
+MainTarget 90: 16 op, 4056670194.62 ns, 253.5419 ms/op
+MainTarget 91: 16 op, 4036552562.10 ns, 252.2845 ms/op
+MainTarget 92: 16 op, 4401253507.26 ns, 275.0783 ms/op
+MainTarget 93: 16 op, 4251750923.70 ns, 265.7344 ms/op
+MainTarget 94: 16 op, 4079258670.56 ns, 254.9537 ms/op
+MainTarget 95: 16 op, 4329249436.74 ns, 270.5781 ms/op
+MainTarget 96: 16 op, 4369490433.12 ns, 273.0932 ms/op
+MainTarget 97: 16 op, 4659586554.03 ns, 291.2242 ms/op
+MainTarget 98: 16 op, 3936354767.26 ns, 246.0222 ms/op
+MainTarget 99: 16 op, 4507878679.04 ns, 281.7424 ms/op
+MainTarget 100: 16 op, 4292943958.98 ns, 268.3090 ms/op
 
 // AfterMainRun
-Result  1: 16 op, 2709177559.39 ns, 169.3236 ms/op
-Result  2: 16 op, 2755211664.67 ns, 172.2007 ms/op
-Result  3: 16 op, 2834702136.01 ns, 177.1689 ms/op
-Result  4: 16 op, 2581478258.49 ns, 161.3424 ms/op
-Result  5: 16 op, 2637262006.20 ns, 164.8289 ms/op
-Result  6: 16 op, 2721727915.56 ns, 170.1080 ms/op
-Result  7: 16 op, 2970201787.67 ns, 185.6376 ms/op
-Result  8: 16 op, 2646325798.53 ns, 165.3954 ms/op
-Result  9: 16 op, 3054711000.48 ns, 190.9194 ms/op
-Result 10: 16 op, 2518753860.69 ns, 157.4221 ms/op
-Result 11: 16 op, 2695486667.00 ns, 168.4679 ms/op
-Result 12: 16 op, 2589682350.15 ns, 161.8551 ms/op
-Result 13: 16 op, 2656735181.63 ns, 166.0459 ms/op
-Result 14: 16 op, 2870843952.23 ns, 179.4277 ms/op
-Result 15: 16 op, 2759879520.91 ns, 172.4925 ms/op
-Result 16: 16 op, 2624605301.87 ns, 164.0378 ms/op
-Result 17: 16 op, 2805229686.55 ns, 175.3269 ms/op
-Result 18: 16 op, 2733203964.30 ns, 170.8252 ms/op
-Result 19: 16 op, 2711296243.94 ns, 169.4560 ms/op
-Result 20: 16 op, 3050525213.43 ns, 190.6578 ms/op
-Result 21: 16 op, 2664563552.26 ns, 166.5352 ms/op
-Result 22: 16 op, 2869714241.87 ns, 179.3571 ms/op
-Result 23: 16 op, 3116992174.81 ns, 194.8120 ms/op
-Result 24: 16 op, 2837851824.54 ns, 177.3657 ms/op
-Result 25: 16 op, 2758310407.98 ns, 172.3944 ms/op
-Result 26: 16 op, 2913957622.49 ns, 182.1224 ms/op
-Result 27: 16 op, 2617494622.09 ns, 163.5934 ms/op
-Result 28: 16 op, 2695500040.12 ns, 168.4688 ms/op
-Result 29: 16 op, 2646506654.08 ns, 165.4067 ms/op
-Result 30: 16 op, 2762342722.54 ns, 172.6464 ms/op
-Result 31: 16 op, 2706177522.46 ns, 169.1361 ms/op
-Result 32: 16 op, 2652692678.02 ns, 165.7933 ms/op
-Result 33: 16 op, 2693953852.54 ns, 168.3721 ms/op
-Result 34: 16 op, 2793252464.16 ns, 174.5783 ms/op
-Result 35: 16 op, 3033873129.83 ns, 189.6171 ms/op
-Result 36: 16 op, 2659936452.20 ns, 166.2460 ms/op
-Result 37: 16 op, 2672751086.73 ns, 167.0469 ms/op
-Result 38: 16 op, 3104459649.47 ns, 194.0287 ms/op
-Result 39: 16 op, 2920009278.40 ns, 182.5006 ms/op
-Result 40: 16 op, 2917306634.21 ns, 182.3317 ms/op
-Result 41: 16 op, 2890161107.91 ns, 180.6351 ms/op
-Result 42: 16 op, 2774204681.36 ns, 173.3878 ms/op
-Result 43: 16 op, 2615852275.40 ns, 163.4908 ms/op
-Result 44: 16 op, 2666944604.71 ns, 166.6840 ms/op
-Result 45: 16 op, 2823115918.22 ns, 176.4447 ms/op
-Result 46: 16 op, 2853690058.17 ns, 178.3556 ms/op
-Result 47: 16 op, 2540930953.94 ns, 158.8082 ms/op
-Result 48: 16 op, 2618568292.71 ns, 163.6605 ms/op
-Result 49: 16 op, 2632471244.60 ns, 164.5295 ms/op
-Result 50: 16 op, 2666070894.10 ns, 166.6294 ms/op
-Result 51: 16 op, 2839265554.53 ns, 177.4541 ms/op
-Result 52: 16 op, 2805932730.65 ns, 175.3708 ms/op
-Result 53: 16 op, 2643915452.58 ns, 165.2447 ms/op
-Result 54: 16 op, 2773325239.41 ns, 173.3328 ms/op
-Result 55: 16 op, 2713068500.95 ns, 169.5668 ms/op
-Result 56: 16 op, 2921751605.09 ns, 182.6095 ms/op
-Result 57: 16 op, 2735956280.08 ns, 170.9973 ms/op
-Result 58: 16 op, 3023276523.04 ns, 188.9548 ms/op
-Result 59: 16 op, 2706979909.75 ns, 169.1862 ms/op
-Result 60: 16 op, 2860821116.03 ns, 178.8013 ms/op
-Result 61: 16 op, 2806429446.59 ns, 175.4018 ms/op
-Result 62: 16 op, 2614637868.60 ns, 163.4149 ms/op
-Result 63: 16 op, 3068394251.09 ns, 191.7746 ms/op
-Result 64: 16 op, 3129767963.60 ns, 195.6105 ms/op
-Result 65: 16 op, 2773218254.44 ns, 173.3261 ms/op
-Result 66: 16 op, 2674437373.67 ns, 167.1523 ms/op
-Result 67: 16 op, 2817194809.45 ns, 176.0747 ms/op
-Result 68: 16 op, 2835958572.62 ns, 177.2474 ms/op
-Result 69: 16 op, 2846171816.59 ns, 177.8857 ms/op
-Result 70: 16 op, 2900802291.77 ns, 181.3001 ms/op
-Result 71: 16 op, 3010409669.66 ns, 188.1506 ms/op
-Result 72: 16 op, 2807121028.02 ns, 175.4451 ms/op
-Result 73: 16 op, 2949460076.14 ns, 184.3413 ms/op
-Result 74: 16 op, 2967076298.12 ns, 185.4423 ms/op
-Result 75: 16 op, 2638240154.52 ns, 164.8900 ms/op
-Result 76: 16 op, 2882384319.31 ns, 180.1490 ms/op
-Result 77: 16 op, 2705848288.94 ns, 169.1155 ms/op
-Result 78: 16 op, 2835483508.39 ns, 177.2177 ms/op
-Result 79: 16 op, 2710373498.55 ns, 169.3983 ms/op
-Result 80: 16 op, 2664070657.21 ns, 166.5044 ms/op
-GC:  103 55 9 587623112 16
+Result  1: 16 op, 2465186622.97 ns, 154.0742 ms/op
+Result  2: 16 op, 2843345386.12 ns, 177.7091 ms/op
+Result  3: 16 op, 2642920502.95 ns, 165.1825 ms/op
+Result  4: 16 op, 2814687423.45 ns, 175.9180 ms/op
+Result  5: 16 op, 2844114659.02 ns, 177.7572 ms/op
+Result  6: 16 op, 2969438638.81 ns, 185.5899 ms/op
+Result  7: 16 op, 2689811124.82 ns, 168.1132 ms/op
+Result  8: 16 op, 2806586495.86 ns, 175.4117 ms/op
+Result  9: 16 op, 2736119060.69 ns, 171.0074 ms/op
+Result 10: 16 op, 4335629731.80 ns, 270.9769 ms/op
+Result 11: 16 op, 3826712406.99 ns, 239.1695 ms/op
+Result 12: 16 op, 3789954153.54 ns, 236.8721 ms/op
+Result 13: 16 op, 4220345145.41 ns, 263.7716 ms/op
+Result 14: 16 op, 4326989421.65 ns, 270.4368 ms/op
+Result 15: 16 op, 4837927998.26 ns, 302.3705 ms/op
+Result 16: 16 op, 4030783694.64 ns, 251.9240 ms/op
+Result 17: 16 op, 4520571724.30 ns, 282.5357 ms/op
+Result 18: 16 op, 4762045085.68 ns, 297.6278 ms/op
+Result 19: 16 op, 3938841573.51 ns, 246.1776 ms/op
+Result 20: 16 op, 4272086389.52 ns, 267.0054 ms/op
+Result 21: 16 op, 4303188449.36 ns, 268.9493 ms/op
+Result 22: 16 op, 4622446890.66 ns, 288.9029 ms/op
+Result 23: 16 op, 4616186996.15 ns, 288.5117 ms/op
+Result 24: 16 op, 4649572675.70 ns, 290.5983 ms/op
+Result 25: 16 op, 4643485358.13 ns, 290.2178 ms/op
+Result 26: 16 op, 4401338882.97 ns, 275.0837 ms/op
+Result 27: 16 op, 4641602295.25 ns, 290.1001 ms/op
+Result 28: 16 op, 4738803237.23 ns, 296.1752 ms/op
+Result 29: 16 op, 4482939123.43 ns, 280.1837 ms/op
+Result 30: 16 op, 4337614048.32 ns, 271.1009 ms/op
+Result 31: 16 op, 4671353669.82 ns, 291.9596 ms/op
+Result 32: 16 op, 4048490344.39 ns, 253.0306 ms/op
+Result 33: 16 op, 4590487677.41 ns, 286.9055 ms/op
+Result 34: 16 op, 4729805673.68 ns, 295.6129 ms/op
+Result 35: 16 op, 4190314208.92 ns, 261.8946 ms/op
+Result 36: 16 op, 4592946421.33 ns, 287.0592 ms/op
+Result 37: 16 op, 4647248936.62 ns, 290.4531 ms/op
+Result 38: 16 op, 4271489056.75 ns, 266.9681 ms/op
+Result 39: 16 op, 4347761063.50 ns, 271.7351 ms/op
+Result 40: 16 op, 4335341891.28 ns, 270.9589 ms/op
+Result 41: 16 op, 4854580718.68 ns, 303.4113 ms/op
+Result 42: 16 op, 4050756133.27 ns, 253.1723 ms/op
+Result 43: 16 op, 4665202670.72 ns, 291.5752 ms/op
+Result 44: 16 op, 4662123031.87 ns, 291.3827 ms/op
+Result 45: 16 op, 4428085126.07 ns, 276.7553 ms/op
+Result 46: 16 op, 4873317735.60 ns, 304.5824 ms/op
+Result 47: 16 op, 4475238115.86 ns, 279.7024 ms/op
+Result 48: 16 op, 4470046797.43 ns, 279.3779 ms/op
+Result 49: 16 op, 4695917546.85 ns, 293.4948 ms/op
+Result 50: 16 op, 4588388734.14 ns, 286.7743 ms/op
+Result 51: 16 op, 4693661310.20 ns, 293.3538 ms/op
+Result 52: 16 op, 4571574899.46 ns, 285.7234 ms/op
+Result 53: 16 op, 4340367000.91 ns, 271.2729 ms/op
+Result 54: 16 op, 4245819668.34 ns, 265.3637 ms/op
+Result 55: 16 op, 4428162180.73 ns, 276.7601 ms/op
+Result 56: 16 op, 4375540857.86 ns, 273.4713 ms/op
+Result 57: 16 op, 4610621867.13 ns, 288.1639 ms/op
+Result 58: 16 op, 3988536730.02 ns, 249.2835 ms/op
+Result 59: 16 op, 4046213729.65 ns, 252.8884 ms/op
+Result 60: 16 op, 2787770513.84 ns, 174.2357 ms/op
+Result 61: 16 op, 2805545939.64 ns, 175.3466 ms/op
+Result 62: 16 op, 2885305147.04 ns, 180.3316 ms/op
+Result 63: 16 op, 4361783099.86 ns, 272.6114 ms/op
+Result 64: 16 op, 4184488622.45 ns, 261.5305 ms/op
+Result 65: 16 op, 4571928331.96 ns, 285.7455 ms/op
+Result 66: 16 op, 4681623590.36 ns, 292.6015 ms/op
+Result 67: 16 op, 3795386824.97 ns, 237.2117 ms/op
+Result 68: 16 op, 4451039134.00 ns, 278.1899 ms/op
+Result 69: 16 op, 3666208838.91 ns, 229.1381 ms/op
+Result 70: 16 op, 2993943292.02 ns, 187.1215 ms/op
+Result 71: 16 op, 2863561725.02 ns, 178.9726 ms/op
+Result 72: 16 op, 2635458937.94 ns, 164.7162 ms/op
+Result 73: 16 op, 2925974720.13 ns, 182.8734 ms/op
+Result 74: 16 op, 2549101050.28 ns, 159.3188 ms/op
+Result 75: 16 op, 3013481422.61 ns, 188.3426 ms/op
+Result 76: 16 op, 2578369082.02 ns, 161.1481 ms/op
+Result 77: 16 op, 2802618499.65 ns, 175.1637 ms/op
+Result 78: 16 op, 2532766100.71 ns, 158.2979 ms/op
+Result 79: 16 op, 2765576226.58 ns, 172.8485 ms/op
+Result 80: 16 op, 2785760724.71 ns, 174.1100 ms/op
+Result 81: 16 op, 2916162669.80 ns, 182.2602 ms/op
+Result 82: 16 op, 2672846364.91 ns, 167.0529 ms/op
+Result 83: 16 op, 3030586918.71 ns, 189.4117 ms/op
+Result 84: 16 op, 2846577223.83 ns, 177.9111 ms/op
+Result 85: 16 op, 2724354534.61 ns, 170.2722 ms/op
+Result 86: 16 op, 2587862087.88 ns, 161.7414 ms/op
+Result 87: 16 op, 2715144274.75 ns, 169.6965 ms/op
+Result 88: 16 op, 2736957746.45 ns, 171.0599 ms/op
+Result 89: 16 op, 3463879877.95 ns, 216.4925 ms/op
+Result 90: 16 op, 4056668963.45 ns, 253.5418 ms/op
+Result 91: 16 op, 4036551330.92 ns, 252.2845 ms/op
+Result 92: 16 op, 4401252276.08 ns, 275.0783 ms/op
+Result 93: 16 op, 4251749692.52 ns, 265.7344 ms/op
+Result 94: 16 op, 4079257439.38 ns, 254.9536 ms/op
+Result 95: 16 op, 4329248205.56 ns, 270.5780 ms/op
+Result 96: 16 op, 4369489201.95 ns, 273.0931 ms/op
+Result 97: 16 op, 4659585322.85 ns, 291.2241 ms/op
+Result 98: 16 op, 3936353536.09 ns, 246.0221 ms/op
+Result 99: 16 op, 4507877447.86 ns, 281.7423 ms/op
+Result 100: 16 op, 4292942727.80 ns, 268.3089 ms/op
+GC:  105 57 11 587622888 16
 
 // AfterAll
 Parse error in the following line:
@@ -585,11 +921,11 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 173.9910 ms, StdErr = 1.0107 ms (0.58%); N = 80, StdDev = 9.0403 ms
-Min = 157.4221 ms, Q1 = 166.5823 ms, Median = 172.5694 ms, Q3 = 179.3924 ms, Max = 195.6105 ms
-IQR = 12.8101 ms, LowerFence = 147.3672 ms, UpperFence = 198.6076 ms
-ConfidenceInterval = [170.5363 ms; 177.4457 ms] (CI 99.9%), Margin = 3.4547 ms (1.99% of Mean)
-Skewness = 0.57, Kurtosis = 2.55
+Mean = 242.4086 ms, StdErr = 4.9375 ms (2.04%); N = 100, StdDev = 49.3747 ms
+Min = 154.0742 ms, Q1 = 181.2959 ms, Median = 265.5490 ms, Q3 = 284.1296 ms, Max = 304.5824 ms
+IQR = 102.8337 ms, LowerFence = 27.0453 ms, UpperFence = 438.3802 ms
+ConfidenceInterval = [225.6630 ms; 259.1541 ms] (CI 99.9%), Margin = 16.7456 ms (6.91% of Mean)
+Skewness = -0.56, Kurtosis = 1.63
 
 
 // **************************
@@ -605,168 +941,154 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 2474337616.55 ns, 154.6461 ms/op
+Pilot  1: 16 op, 3940808016.74 ns, 246.3005 ms/op
 
-IdleWarmup  1: 16 op, 6368.15 ns, 398.0096 ns/op
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
 IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  6: 16 op, 1910.45 ns, 119.4029 ns/op
 
 IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  4: 16 op, 3184.08 ns, 199.0048 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  7: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 12: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
 
-MainWarmup  1: 16 op, 2387348008.11 ns, 149.2093 ms/op
-MainWarmup  2: 16 op, 2387851729.02 ns, 149.2407 ms/op
-MainWarmup  3: 16 op, 2501742326.69 ns, 156.3589 ms/op
-MainWarmup  4: 16 op, 2596815031.90 ns, 162.3009 ms/op
-MainWarmup  5: 16 op, 2761603093.39 ns, 172.6002 ms/op
-MainWarmup  6: 16 op, 2922464551.68 ns, 182.6540 ms/op
-MainWarmup  7: 16 op, 2711545588.97 ns, 169.4716 ms/op
-MainWarmup  8: 16 op, 2662701854.53 ns, 166.4189 ms/op
-MainWarmup  9: 16 op, 2593129144.87 ns, 162.0706 ms/op
-MainWarmup 10: 16 op, 2514009936.87 ns, 157.1256 ms/op
-MainWarmup 11: 16 op, 2809024819.24 ns, 175.5641 ms/op
-MainWarmup 12: 16 op, 2802599989.56 ns, 175.1625 ms/op
+MainWarmup  1: 16 op, 2727378091.26 ns, 170.4611 ms/op
+MainWarmup  2: 16 op, 2803311312.26 ns, 175.2070 ms/op
+MainWarmup  3: 16 op, 2839120074.07 ns, 177.4450 ms/op
+MainWarmup  4: 16 op, 2455173933.37 ns, 153.4484 ms/op
+MainWarmup  5: 16 op, 2833963143.68 ns, 177.1227 ms/op
+MainWarmup  6: 16 op, 2721218176.75 ns, 170.0761 ms/op
 
 // BeforeMainRun
-MainTarget  1: 16 op, 2585948415.41 ns, 161.6218 ms/op
-MainTarget  2: 16 op, 2952856562.45 ns, 184.5535 ms/op
-MainTarget  3: 16 op, 2894161295.13 ns, 180.8851 ms/op
-MainTarget  4: 16 op, 2615003750.84 ns, 163.4377 ms/op
-MainTarget  5: 16 op, 2817996273.36 ns, 176.1248 ms/op
-MainTarget  6: 16 op, 2725822988.27 ns, 170.3639 ms/op
-MainTarget  7: 16 op, 2698994595.99 ns, 168.6872 ms/op
-MainTarget  8: 16 op, 2858707239.44 ns, 178.6692 ms/op
-MainTarget  9: 16 op, 2787109457.09 ns, 174.1943 ms/op
-MainTarget 10: 16 op, 2674098938.17 ns, 167.1312 ms/op
-MainTarget 11: 16 op, 2733201130.47 ns, 170.8251 ms/op
-MainTarget 12: 16 op, 2775993845.82 ns, 173.4996 ms/op
-MainTarget 13: 16 op, 2922449268.11 ns, 182.6531 ms/op
-MainTarget 14: 16 op, 2480077869.78 ns, 155.0049 ms/op
-MainTarget 15: 16 op, 2582147264.81 ns, 161.3842 ms/op
-MainTarget 16: 16 op, 2809899166.66 ns, 175.6187 ms/op
-MainTarget 17: 16 op, 2656803671.11 ns, 166.0502 ms/op
-MainTarget 18: 16 op, 2678566197.59 ns, 167.4104 ms/op
-MainTarget 19: 16 op, 2575911569.28 ns, 160.9945 ms/op
-MainTarget 20: 16 op, 2589189168.54 ns, 161.8243 ms/op
-MainTarget 21: 16 op, 2880265348.20 ns, 180.0166 ms/op
-MainTarget 22: 16 op, 2814499520.48 ns, 175.9062 ms/op
-MainTarget 23: 16 op, 2553622396.54 ns, 159.6014 ms/op
-MainTarget 24: 16 op, 2820021346.05 ns, 176.2513 ms/op
-MainTarget 25: 16 op, 2762856982.74 ns, 172.6786 ms/op
-MainTarget 26: 16 op, 2448512208.39 ns, 153.0320 ms/op
-MainTarget 27: 16 op, 2683888063.15 ns, 167.7430 ms/op
-MainTarget 28: 16 op, 2835355858.76 ns, 177.2097 ms/op
-MainTarget 29: 16 op, 2748622250.07 ns, 171.7889 ms/op
-MainTarget 30: 16 op, 2704201834.79 ns, 169.0126 ms/op
-MainTarget 31: 16 op, 2595419769.55 ns, 162.2137 ms/op
-MainTarget 32: 16 op, 2746610550.50 ns, 171.6632 ms/op
-MainTarget 33: 16 op, 2949241998.73 ns, 184.3276 ms/op
-MainTarget 34: 16 op, 2779133982.12 ns, 173.6959 ms/op
-MainTarget 35: 16 op, 2774462941.81 ns, 173.4039 ms/op
-MainTarget 36: 16 op, 2790152160.65 ns, 174.3845 ms/op
-MainTarget 37: 16 op, 2678796724.73 ns, 167.4248 ms/op
-MainTarget 38: 16 op, 2743410553.56 ns, 171.4632 ms/op
-MainTarget 39: 16 op, 2650037508.42 ns, 165.6273 ms/op
-MainTarget 40: 16 op, 3020657015.09 ns, 188.7911 ms/op
-MainTarget 41: 16 op, 2876738665.01 ns, 179.7962 ms/op
-MainTarget 42: 16 op, 2692883716.25 ns, 168.3052 ms/op
-MainTarget 43: 16 op, 2840558003.05 ns, 177.5349 ms/op
-MainTarget 44: 16 op, 2743339230.24 ns, 171.4587 ms/op
-MainTarget 45: 16 op, 2728438388.76 ns, 170.5274 ms/op
-MainTarget 46: 16 op, 2813394645.91 ns, 175.8372 ms/op
-MainTarget 47: 16 op, 2635778576.77 ns, 164.7362 ms/op
-MainTarget 48: 16 op, 2510656467.43 ns, 156.9160 ms/op
-MainTarget 49: 16 op, 2662723506.25 ns, 166.4202 ms/op
-MainTarget 50: 16 op, 2765048901.05 ns, 172.8156 ms/op
-MainTarget 51: 16 op, 2738756070.44 ns, 171.1723 ms/op
-MainTarget 52: 16 op, 2816919418.66 ns, 176.0575 ms/op
-MainTarget 53: 16 op, 2811474010.93 ns, 175.7171 ms/op
-MainTarget 54: 16 op, 2916885412.73 ns, 182.3053 ms/op
-MainTarget 55: 16 op, 2795125051.42 ns, 174.6953 ms/op
-MainTarget 56: 16 op, 2553076009.00 ns, 159.5673 ms/op
-MainTarget 57: 16 op, 2679890773.44 ns, 167.4932 ms/op
-MainTarget 58: 16 op, 2779729404.44 ns, 173.7331 ms/op
-MainTarget 59: 16 op, 2575234634.60 ns, 160.9522 ms/op
-MainTarget 60: 16 op, 2670290782.61 ns, 166.8932 ms/op
+MainTarget  1: 16 op, 2587858224.53 ns, 161.7411 ms/op
+MainTarget  2: 16 op, 2736699793.80 ns, 171.0437 ms/op
+MainTarget  3: 16 op, 2648325748.86 ns, 165.5204 ms/op
+MainTarget  4: 16 op, 2841661603.98 ns, 177.6039 ms/op
+MainTarget  5: 16 op, 2837096275.01 ns, 177.3185 ms/op
+MainTarget  6: 16 op, 2719964287.40 ns, 169.9978 ms/op
+MainTarget  7: 16 op, 2659451549.18 ns, 166.2157 ms/op
+MainTarget  8: 16 op, 2684510231.71 ns, 167.7819 ms/op
+MainTarget  9: 16 op, 2696262658.30 ns, 168.5164 ms/op
+MainTarget 10: 16 op, 2702185677.51 ns, 168.8866 ms/op
+MainTarget 11: 16 op, 2724253875.34 ns, 170.2659 ms/op
+MainTarget 12: 16 op, 2609409965.14 ns, 163.0881 ms/op
+MainTarget 13: 16 op, 2853212796.93 ns, 178.3258 ms/op
+MainTarget 14: 16 op, 2733427199.91 ns, 170.8392 ms/op
+MainTarget 15: 16 op, 2626055043.77 ns, 164.1284 ms/op
+MainTarget 16: 16 op, 2900423736.91 ns, 181.2765 ms/op
+MainTarget 17: 16 op, 2795451737.68 ns, 174.7157 ms/op
+MainTarget 18: 16 op, 2702807209.26 ns, 168.9255 ms/op
+MainTarget 19: 16 op, 2793226704.98 ns, 174.5767 ms/op
+MainTarget 20: 16 op, 2665329354.51 ns, 166.5831 ms/op
+MainTarget 21: 16 op, 2710462366.13 ns, 169.4039 ms/op
+MainTarget 22: 16 op, 2482825091.03 ns, 155.1766 ms/op
+MainTarget 23: 16 op, 2803772366.55 ns, 175.2358 ms/op
+MainTarget 24: 16 op, 2491820744.13 ns, 155.7388 ms/op
+MainTarget 25: 16 op, 2536610512.29 ns, 158.5382 ms/op
+MainTarget 26: 16 op, 2633987852.11 ns, 164.6242 ms/op
+MainTarget 27: 16 op, 2826344285.28 ns, 176.6465 ms/op
+MainTarget 28: 16 op, 2734399616.89 ns, 170.9000 ms/op
+MainTarget 29: 16 op, 2503150325.35 ns, 156.4469 ms/op
+MainTarget 30: 16 op, 2550036489.52 ns, 159.3773 ms/op
+MainTarget 31: 16 op, 2532357222.82 ns, 158.2723 ms/op
+MainTarget 32: 16 op, 2668216038.32 ns, 166.7635 ms/op
+MainTarget 33: 16 op, 2524263937.02 ns, 157.7665 ms/op
+MainTarget 34: 16 op, 2611530560.13 ns, 163.2207 ms/op
+MainTarget 35: 16 op, 2806077001.16 ns, 175.3798 ms/op
+MainTarget 36: 16 op, 2651991257.80 ns, 165.7495 ms/op
+MainTarget 37: 16 op, 2508848548.76 ns, 156.8030 ms/op
+MainTarget 38: 16 op, 2727362170.88 ns, 170.4601 ms/op
+MainTarget 39: 16 op, 2869724144.34 ns, 179.3578 ms/op
+MainTarget 40: 16 op, 2682510631.63 ns, 167.6569 ms/op
+MainTarget 41: 16 op, 2550154937.17 ns, 159.3847 ms/op
+MainTarget 42: 16 op, 2751410227.51 ns, 171.9631 ms/op
+MainTarget 43: 16 op, 2801597642.25 ns, 175.0999 ms/op
+MainTarget 44: 16 op, 2555356444.63 ns, 159.7098 ms/op
+MainTarget 45: 16 op, 2694901147.16 ns, 168.4313 ms/op
+MainTarget 46: 16 op, 2635206079.80 ns, 164.7004 ms/op
+MainTarget 47: 16 op, 2751320436.55 ns, 171.9575 ms/op
+MainTarget 48: 16 op, 2706444698.32 ns, 169.1528 ms/op
+MainTarget 49: 16 op, 2790268697.85 ns, 174.3918 ms/op
+MainTarget 50: 16 op, 2560291126.49 ns, 160.0182 ms/op
+MainTarget 51: 16 op, 2451287449.52 ns, 153.2055 ms/op
+MainTarget 52: 16 op, 2495060860.44 ns, 155.9413 ms/op
+MainTarget 53: 16 op, 2764009618.46 ns, 172.7506 ms/op
+MainTarget 54: 16 op, 2831459822.69 ns, 176.9662 ms/op
+MainTarget 55: 16 op, 2662191765.47 ns, 166.3870 ms/op
+MainTarget 56: 16 op, 2795840195.02 ns, 174.7400 ms/op
 
 // AfterMainRun
-Result  1: 16 op, 2585947141.78 ns, 161.6217 ms/op
-Result  2: 16 op, 2952855288.81 ns, 184.5535 ms/op
-Result  3: 16 op, 2894160021.50 ns, 180.8850 ms/op
-Result  4: 16 op, 2615002477.21 ns, 163.4377 ms/op
-Result  5: 16 op, 2817994999.73 ns, 176.1247 ms/op
-Result  6: 16 op, 2725821714.64 ns, 170.3639 ms/op
-Result  7: 16 op, 2698993322.35 ns, 168.6871 ms/op
-Result  8: 16 op, 2858705965.81 ns, 178.6691 ms/op
-Result  9: 16 op, 2787108183.46 ns, 174.1943 ms/op
-Result 10: 16 op, 2674097664.54 ns, 167.1311 ms/op
-Result 11: 16 op, 2733199856.84 ns, 170.8250 ms/op
-Result 12: 16 op, 2775992572.19 ns, 173.4995 ms/op
-Result 13: 16 op, 2922447994.48 ns, 182.6530 ms/op
-Result 14: 16 op, 2480076596.15 ns, 155.0048 ms/op
-Result 15: 16 op, 2582145991.18 ns, 161.3841 ms/op
-Result 16: 16 op, 2809897893.03 ns, 175.6186 ms/op
-Result 17: 16 op, 2656802397.48 ns, 166.0501 ms/op
-Result 18: 16 op, 2678564923.96 ns, 167.4103 ms/op
-Result 19: 16 op, 2575910295.65 ns, 160.9944 ms/op
-Result 20: 16 op, 2589187894.91 ns, 161.8242 ms/op
-Result 21: 16 op, 2880264074.57 ns, 180.0165 ms/op
-Result 22: 16 op, 2814498246.85 ns, 175.9061 ms/op
-Result 23: 16 op, 2553621122.91 ns, 159.6013 ms/op
-Result 24: 16 op, 2820020072.42 ns, 176.2513 ms/op
-Result 25: 16 op, 2762855709.11 ns, 172.6785 ms/op
-Result 26: 16 op, 2448510934.76 ns, 153.0319 ms/op
-Result 27: 16 op, 2683886789.52 ns, 167.7429 ms/op
-Result 28: 16 op, 2835354585.13 ns, 177.2097 ms/op
-Result 29: 16 op, 2748620976.44 ns, 171.7888 ms/op
-Result 30: 16 op, 2704200561.16 ns, 169.0125 ms/op
-Result 31: 16 op, 2595418495.92 ns, 162.2137 ms/op
-Result 32: 16 op, 2746609276.87 ns, 171.6631 ms/op
-Result 33: 16 op, 2949240725.10 ns, 184.3275 ms/op
-Result 34: 16 op, 2779132708.49 ns, 173.6958 ms/op
-Result 35: 16 op, 2774461668.18 ns, 173.4039 ms/op
-Result 36: 16 op, 2790150887.02 ns, 174.3844 ms/op
-Result 37: 16 op, 2678795451.10 ns, 167.4247 ms/op
-Result 38: 16 op, 2743409279.93 ns, 171.4631 ms/op
-Result 39: 16 op, 2650036234.79 ns, 165.6273 ms/op
-Result 40: 16 op, 3020655741.46 ns, 188.7910 ms/op
-Result 41: 16 op, 2876737391.38 ns, 179.7961 ms/op
-Result 42: 16 op, 2692882442.62 ns, 168.3052 ms/op
-Result 43: 16 op, 2840556729.42 ns, 177.5348 ms/op
-Result 44: 16 op, 2743337956.61 ns, 171.4586 ms/op
-Result 45: 16 op, 2728437115.12 ns, 170.5273 ms/op
-Result 46: 16 op, 2813393372.28 ns, 175.8371 ms/op
-Result 47: 16 op, 2635777303.14 ns, 164.7361 ms/op
-Result 48: 16 op, 2510655193.80 ns, 156.9159 ms/op
-Result 49: 16 op, 2662722232.62 ns, 166.4201 ms/op
-Result 50: 16 op, 2765047627.42 ns, 172.8155 ms/op
-Result 51: 16 op, 2738754796.81 ns, 171.1722 ms/op
-Result 52: 16 op, 2816918145.03 ns, 176.0574 ms/op
-Result 53: 16 op, 2811472737.30 ns, 175.7170 ms/op
-Result 54: 16 op, 2916884139.10 ns, 182.3053 ms/op
-Result 55: 16 op, 2795123777.79 ns, 174.6952 ms/op
-Result 56: 16 op, 2553074735.37 ns, 159.5672 ms/op
-Result 57: 16 op, 2679889499.81 ns, 167.4931 ms/op
-Result 58: 16 op, 2779728130.81 ns, 173.7330 ms/op
-Result 59: 16 op, 2575233360.97 ns, 160.9521 ms/op
-Result 60: 16 op, 2670289508.98 ns, 166.8931 ms/op
-GC:  103 53 10 580970952 16
+Result  1: 16 op, 2587856908.45 ns, 161.7411 ms/op
+Result  2: 16 op, 2736698477.71 ns, 171.0437 ms/op
+Result  3: 16 op, 2648324432.78 ns, 165.5203 ms/op
+Result  4: 16 op, 2841660287.90 ns, 177.6038 ms/op
+Result  5: 16 op, 2837094958.93 ns, 177.3184 ms/op
+Result  6: 16 op, 2719962971.31 ns, 169.9977 ms/op
+Result  7: 16 op, 2659450233.10 ns, 166.2156 ms/op
+Result  8: 16 op, 2684508915.63 ns, 167.7818 ms/op
+Result  9: 16 op, 2696261342.21 ns, 168.5163 ms/op
+Result 10: 16 op, 2702184361.43 ns, 168.8865 ms/op
+Result 11: 16 op, 2724252559.25 ns, 170.2658 ms/op
+Result 12: 16 op, 2609408649.06 ns, 163.0880 ms/op
+Result 13: 16 op, 2853211480.85 ns, 178.3257 ms/op
+Result 14: 16 op, 2733425883.83 ns, 170.8391 ms/op
+Result 15: 16 op, 2626053727.68 ns, 164.1284 ms/op
+Result 16: 16 op, 2900422420.82 ns, 181.2764 ms/op
+Result 17: 16 op, 2795450421.59 ns, 174.7157 ms/op
+Result 18: 16 op, 2702805893.17 ns, 168.9254 ms/op
+Result 19: 16 op, 2793225388.89 ns, 174.5766 ms/op
+Result 20: 16 op, 2665328038.43 ns, 166.5830 ms/op
+Result 21: 16 op, 2710461050.04 ns, 169.4038 ms/op
+Result 22: 16 op, 2482823774.95 ns, 155.1765 ms/op
+Result 23: 16 op, 2803771050.46 ns, 175.2357 ms/op
+Result 24: 16 op, 2491819428.05 ns, 155.7387 ms/op
+Result 25: 16 op, 2536609196.21 ns, 158.5381 ms/op
+Result 26: 16 op, 2633986536.03 ns, 164.6242 ms/op
+Result 27: 16 op, 2826342969.20 ns, 176.6464 ms/op
+Result 28: 16 op, 2734398300.81 ns, 170.8999 ms/op
+Result 29: 16 op, 2503149009.26 ns, 156.4468 ms/op
+Result 30: 16 op, 2550035173.43 ns, 159.3772 ms/op
+Result 31: 16 op, 2532355906.74 ns, 158.2722 ms/op
+Result 32: 16 op, 2668214722.24 ns, 166.7634 ms/op
+Result 33: 16 op, 2524262620.94 ns, 157.7664 ms/op
+Result 34: 16 op, 2611529244.05 ns, 163.2206 ms/op
+Result 35: 16 op, 2806075685.08 ns, 175.3797 ms/op
+Result 36: 16 op, 2651989941.71 ns, 165.7494 ms/op
+Result 37: 16 op, 2508847232.68 ns, 156.8030 ms/op
+Result 38: 16 op, 2727360854.79 ns, 170.4601 ms/op
+Result 39: 16 op, 2869722828.26 ns, 179.3577 ms/op
+Result 40: 16 op, 2682509315.55 ns, 167.6568 ms/op
+Result 41: 16 op, 2550153621.08 ns, 159.3846 ms/op
+Result 42: 16 op, 2751408911.42 ns, 171.9631 ms/op
+Result 43: 16 op, 2801596326.17 ns, 175.0998 ms/op
+Result 44: 16 op, 2555355128.55 ns, 159.7097 ms/op
+Result 45: 16 op, 2694899831.07 ns, 168.4312 ms/op
+Result 46: 16 op, 2635204763.72 ns, 164.7003 ms/op
+Result 47: 16 op, 2751319120.46 ns, 171.9574 ms/op
+Result 48: 16 op, 2706443382.24 ns, 169.1527 ms/op
+Result 49: 16 op, 2790267381.77 ns, 174.3917 ms/op
+Result 50: 16 op, 2560289810.40 ns, 160.0181 ms/op
+Result 51: 16 op, 2451286133.43 ns, 153.2054 ms/op
+Result 52: 16 op, 2495059544.35 ns, 155.9412 ms/op
+Result 53: 16 op, 2764008302.37 ns, 172.7505 ms/op
+Result 54: 16 op, 2831458506.60 ns, 176.9662 ms/op
+Result 55: 16 op, 2662190449.38 ns, 166.3869 ms/op
+Result 56: 16 op, 2795838878.93 ns, 174.7399 ms/op
+GC:  103 54 10 580969536 16
 
 // AfterAll
 Parse error in the following line:
@@ -778,11 +1100,316 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 170.8350 ms, StdErr = 0.9837 ms (0.58%); N = 60, StdDev = 7.6196 ms
-Min = 153.0319 ms, Q1 = 166.2351 ms, Median = 171.4609 ms, Q3 = 175.8716 ms, Max = 188.7910 ms
-IQR = 9.6365 ms, LowerFence = 151.7804 ms, UpperFence = 190.3263 ms
-ConfidenceInterval = [167.4283 ms; 174.2417 ms] (CI 99.9%), Margin = 3.4067 ms (1.99% of Mean)
-Skewness = -0.1, Kurtosis = 2.63
+Mean = 167.6012 ms, StdErr = 0.9571 ms (0.57%); N = 56, StdDev = 7.1621 ms
+Min = 153.2054 ms, Q1 = 162.4145 ms, Median = 168.4738 ms, Q3 = 173.5711 ms, Max = 181.2764 ms
+IQR = 11.1566 ms, LowerFence = 145.6797 ms, UpperFence = 190.3060 ms
+ConfidenceInterval = [164.2740 ms; 170.9283 ms] (CI 99.9%), Margin = 3.3272 ms (1.99% of Mean)
+Skewness = -0.18, Kurtosis = 2.03
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm1: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 4257989803.31 ns, 266.1244 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  4: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  5: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  8: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 15: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 1910.45 ns, 119.4029 ns/op
+
+MainWarmup  1: 16 op, 3729245870.57 ns, 233.0779 ms/op
+MainWarmup  2: 16 op, 3784457758.13 ns, 236.5286 ms/op
+MainWarmup  3: 16 op, 3832967164.53 ns, 239.5604 ms/op
+MainWarmup  4: 16 op, 4083382686.52 ns, 255.2114 ms/op
+MainWarmup  5: 16 op, 3975273098.25 ns, 248.4546 ms/op
+MainWarmup  6: 16 op, 4203416641.51 ns, 262.7135 ms/op
+MainWarmup  7: 16 op, 3667783003.91 ns, 229.2364 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 3922310442.37 ns, 245.1444 ms/op
+MainTarget  2: 16 op, 3965999156.86 ns, 247.8749 ms/op
+MainTarget  3: 16 op, 3737639096.38 ns, 233.6024 ms/op
+MainTarget  4: 16 op, 3659710096.20 ns, 228.7319 ms/op
+MainTarget  5: 16 op, 3827997457.83 ns, 239.2498 ms/op
+MainTarget  6: 16 op, 3717576866.79 ns, 232.3486 ms/op
+MainTarget  7: 16 op, 3915433473.81 ns, 244.7146 ms/op
+MainTarget  8: 16 op, 3649721011.21 ns, 228.1076 ms/op
+MainTarget  9: 16 op, 3747108540.08 ns, 234.1943 ms/op
+MainTarget 10: 16 op, 3482375499.42 ns, 217.6485 ms/op
+MainTarget 11: 16 op, 3916547900.61 ns, 244.7842 ms/op
+MainTarget 12: 16 op, 3595983987.92 ns, 224.7490 ms/op
+MainTarget 13: 16 op, 3997281435.43 ns, 249.8301 ms/op
+MainTarget 14: 16 op, 3627073948.27 ns, 226.6921 ms/op
+MainTarget 15: 16 op, 3803327869.46 ns, 237.7080 ms/op
+MainTarget 16: 16 op, 3927417064.36 ns, 245.4636 ms/op
+MainTarget 17: 16 op, 3807653755.87 ns, 237.9784 ms/op
+MainTarget 18: 16 op, 3783407649.68 ns, 236.4630 ms/op
+MainTarget 19: 16 op, 4034614733.10 ns, 252.1634 ms/op
+MainTarget 20: 16 op, 3836279877.78 ns, 239.7675 ms/op
+MainTarget 21: 16 op, 3719165084.18 ns, 232.4478 ms/op
+MainTarget 22: 16 op, 3694491674.91 ns, 230.9057 ms/op
+MainTarget 23: 16 op, 3950960126.45 ns, 246.9350 ms/op
+MainTarget 24: 16 op, 3671440234.25 ns, 229.4650 ms/op
+MainTarget 25: 16 op, 3977582190.57 ns, 248.5989 ms/op
+MainTarget 26: 16 op, 3984280214.02 ns, 249.0175 ms/op
+MainTarget 27: 16 op, 3648483042.25 ns, 228.0302 ms/op
+MainTarget 28: 16 op, 3837423598.08 ns, 239.8390 ms/op
+MainTarget 29: 16 op, 3757511555.01 ns, 234.8445 ms/op
+MainTarget 30: 16 op, 3853149115.40 ns, 240.8218 ms/op
+MainTarget 31: 16 op, 4024130842.62 ns, 251.5082 ms/op
+MainTarget 32: 16 op, 3791707900.46 ns, 236.9817 ms/op
+MainTarget 33: 16 op, 3628637966.67 ns, 226.7899 ms/op
+MainTarget 34: 16 op, 3779987951.45 ns, 236.2492 ms/op
+MainTarget 35: 16 op, 3967815990.94 ns, 247.9885 ms/op
+MainTarget 36: 16 op, 3869096244.45 ns, 241.8185 ms/op
+MainTarget 37: 16 op, 3927903591.26 ns, 245.4940 ms/op
+MainTarget 38: 16 op, 3857055340.52 ns, 241.0660 ms/op
+MainTarget 39: 16 op, 3966361504.77 ns, 247.8976 ms/op
+MainTarget 40: 16 op, 3566339598.32 ns, 222.8962 ms/op
+MainTarget 41: 16 op, 3931015070.87 ns, 245.6884 ms/op
+MainTarget 42: 16 op, 3606164754.31 ns, 225.3853 ms/op
+MainTarget 43: 16 op, 4007713107.06 ns, 250.4821 ms/op
+MainTarget 44: 16 op, 4036788820.58 ns, 252.2993 ms/op
+MainTarget 45: 16 op, 4026777447.06 ns, 251.6736 ms/op
+MainTarget 46: 16 op, 3990965501.17 ns, 249.4353 ms/op
+MainTarget 47: 16 op, 3883973523.77 ns, 242.7483 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 3922308882.17 ns, 245.1443 ms/op
+Result  2: 16 op, 3965997596.66 ns, 247.8748 ms/op
+Result  3: 16 op, 3737637536.19 ns, 233.6023 ms/op
+Result  4: 16 op, 3659708536.00 ns, 228.7318 ms/op
+Result  5: 16 op, 3827995897.64 ns, 239.2497 ms/op
+Result  6: 16 op, 3717575306.59 ns, 232.3485 ms/op
+Result  7: 16 op, 3915431913.62 ns, 244.7145 ms/op
+Result  8: 16 op, 3649719451.01 ns, 228.1075 ms/op
+Result  9: 16 op, 3747106979.88 ns, 234.1942 ms/op
+Result 10: 16 op, 3482373939.22 ns, 217.6484 ms/op
+Result 11: 16 op, 3916546340.41 ns, 244.7841 ms/op
+Result 12: 16 op, 3595982427.72 ns, 224.7489 ms/op
+Result 13: 16 op, 3997279875.24 ns, 249.8300 ms/op
+Result 14: 16 op, 3627072388.07 ns, 226.6920 ms/op
+Result 15: 16 op, 3803326309.26 ns, 237.7079 ms/op
+Result 16: 16 op, 3927415504.16 ns, 245.4635 ms/op
+Result 17: 16 op, 3807652195.68 ns, 237.9783 ms/op
+Result 18: 16 op, 3783406089.48 ns, 236.4629 ms/op
+Result 19: 16 op, 4034613172.91 ns, 252.1633 ms/op
+Result 20: 16 op, 3836278317.58 ns, 239.7674 ms/op
+Result 21: 16 op, 3719163523.98 ns, 232.4477 ms/op
+Result 22: 16 op, 3694490114.72 ns, 230.9056 ms/op
+Result 23: 16 op, 3950958566.25 ns, 246.9349 ms/op
+Result 24: 16 op, 3671438674.05 ns, 229.4649 ms/op
+Result 25: 16 op, 3977580630.37 ns, 248.5988 ms/op
+Result 26: 16 op, 3984278653.82 ns, 249.0174 ms/op
+Result 27: 16 op, 3648481482.05 ns, 228.0301 ms/op
+Result 28: 16 op, 3837422037.89 ns, 239.8389 ms/op
+Result 29: 16 op, 3757509994.82 ns, 234.8444 ms/op
+Result 30: 16 op, 3853147555.20 ns, 240.8217 ms/op
+Result 31: 16 op, 4024129282.42 ns, 251.5081 ms/op
+Result 32: 16 op, 3791706340.26 ns, 236.9816 ms/op
+Result 33: 16 op, 3628636406.48 ns, 226.7898 ms/op
+Result 34: 16 op, 3779986391.26 ns, 236.2491 ms/op
+Result 35: 16 op, 3967814430.74 ns, 247.9884 ms/op
+Result 36: 16 op, 3869094684.25 ns, 241.8184 ms/op
+Result 37: 16 op, 3927902031.06 ns, 245.4939 ms/op
+Result 38: 16 op, 3857053780.33 ns, 241.0659 ms/op
+Result 39: 16 op, 3966359944.57 ns, 247.8975 ms/op
+Result 40: 16 op, 3566338038.12 ns, 222.8961 ms/op
+Result 41: 16 op, 3931013510.67 ns, 245.6883 ms/op
+Result 42: 16 op, 3606163194.11 ns, 225.3852 ms/op
+Result 43: 16 op, 4007711546.86 ns, 250.4820 ms/op
+Result 44: 16 op, 4036787260.38 ns, 252.2992 ms/op
+Result 45: 16 op, 4026775886.86 ns, 251.6735 ms/op
+Result 46: 16 op, 3990963940.97 ns, 249.4352 ms/op
+Result 47: 16 op, 3883971963.57 ns, 242.7482 ms/op
+GC:  153 74 14 871453808 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 239.2451 ms, StdErr = 1.3366 ms (0.56%); N = 47, StdDev = 9.1635 ms
+Min = 217.6484 ms, Q1 = 232.3485 ms, Median = 239.8389 ms, Q3 = 247.8748 ms, Max = 252.2992 ms
+IQR = 15.5264 ms, LowerFence = 209.0589 ms, UpperFence = 271.1644 ms
+ConfidenceInterval = [234.5469 ms; 243.9433 ms] (CI 99.9%), Margin = 4.6982 ms (1.96% of Mean)
+Skewness = -0.37, Kurtosis = 2.02
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm2: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 3940292196.34 ns, 246.2683 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  3: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 1910.45 ns, 119.4029 ns/op
+
+MainWarmup  1: 16 op, 3949341341.92 ns, 246.8338 ms/op
+MainWarmup  2: 16 op, 4078577914.99 ns, 254.9111 ms/op
+MainWarmup  3: 16 op, 3821753483.70 ns, 238.8596 ms/op
+MainWarmup  4: 16 op, 3772847341.36 ns, 235.8030 ms/op
+MainWarmup  5: 16 op, 3733870423.37 ns, 233.3669 ms/op
+MainWarmup  6: 16 op, 3865070934.86 ns, 241.5669 ms/op
+MainWarmup  7: 16 op, 3576429300.13 ns, 223.5268 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 3996771983.18 ns, 249.7982 ms/op
+MainTarget  2: 16 op, 3935670190.80 ns, 245.9794 ms/op
+MainTarget  3: 16 op, 3831615205.62 ns, 239.4760 ms/op
+MainTarget  4: 16 op, 3722005280.47 ns, 232.6253 ms/op
+MainTarget  5: 16 op, 3662910729.96 ns, 228.9319 ms/op
+MainTarget  6: 16 op, 3894431304.82 ns, 243.4020 ms/op
+MainTarget  7: 16 op, 3825648246.15 ns, 239.1030 ms/op
+MainTarget  8: 16 op, 3965577585.12 ns, 247.8486 ms/op
+MainTarget  9: 16 op, 3802472626.49 ns, 237.6545 ms/op
+MainTarget 10: 16 op, 3833258189.13 ns, 239.5786 ms/op
+MainTarget 11: 16 op, 3966682459.69 ns, 247.9177 ms/op
+MainTarget 12: 16 op, 3998828896.64 ns, 249.9268 ms/op
+MainTarget 13: 16 op, 3829329675.47 ns, 239.3331 ms/op
+MainTarget 14: 16 op, 3775864572.31 ns, 235.9915 ms/op
+MainTarget 15: 16 op, 4025924751.36 ns, 251.6203 ms/op
+MainTarget 16: 16 op, 3588028254.22 ns, 224.2518 ms/op
+MainTarget 17: 16 op, 3893178052.29 ns, 243.3236 ms/op
+MainTarget 18: 16 op, 3921894601.97 ns, 245.1184 ms/op
+MainTarget 19: 16 op, 3999077891.43 ns, 249.9424 ms/op
+MainTarget 20: 16 op, 3842600906.57 ns, 240.1626 ms/op
+MainTarget 21: 16 op, 3843943950.06 ns, 240.2465 ms/op
+MainTarget 22: 16 op, 3897274048.38 ns, 243.5796 ms/op
+MainTarget 23: 16 op, 3544800594.02 ns, 221.5500 ms/op
+MainTarget 24: 16 op, 4110002840.20 ns, 256.8752 ms/op
+MainTarget 25: 16 op, 3806167428.93 ns, 237.8855 ms/op
+MainTarget 26: 16 op, 3836986105.96 ns, 239.8116 ms/op
+MainTarget 27: 16 op, 4033251311.52 ns, 252.0782 ms/op
+MainTarget 28: 16 op, 3757602619.60 ns, 234.8502 ms/op
+MainTarget 29: 16 op, 3878187419.84 ns, 242.3867 ms/op
+MainTarget 30: 16 op, 3741040963.78 ns, 233.8151 ms/op
+MainTarget 31: 16 op, 3801442896.13 ns, 237.5902 ms/op
+MainTarget 32: 16 op, 3652834401.27 ns, 228.3022 ms/op
+MainTarget 33: 16 op, 3915732777.01 ns, 244.7333 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 3996770900.60 ns, 249.7982 ms/op
+Result  2: 16 op, 3935669108.22 ns, 245.9793 ms/op
+Result  3: 16 op, 3831614123.04 ns, 239.4759 ms/op
+Result  4: 16 op, 3722004197.89 ns, 232.6253 ms/op
+Result  5: 16 op, 3662909647.37 ns, 228.9319 ms/op
+Result  6: 16 op, 3894430222.24 ns, 243.4019 ms/op
+Result  7: 16 op, 3825647163.56 ns, 239.1029 ms/op
+Result  8: 16 op, 3965576502.53 ns, 247.8485 ms/op
+Result  9: 16 op, 3802471543.91 ns, 237.6545 ms/op
+Result 10: 16 op, 3833257106.54 ns, 239.5786 ms/op
+Result 11: 16 op, 3966681377.10 ns, 247.9176 ms/op
+Result 12: 16 op, 3998827814.06 ns, 249.9267 ms/op
+Result 13: 16 op, 3829328592.88 ns, 239.3330 ms/op
+Result 14: 16 op, 3775863489.72 ns, 235.9915 ms/op
+Result 15: 16 op, 4025923668.77 ns, 251.6202 ms/op
+Result 16: 16 op, 3588027171.64 ns, 224.2517 ms/op
+Result 17: 16 op, 3893176969.70 ns, 243.3236 ms/op
+Result 18: 16 op, 3921893519.39 ns, 245.1183 ms/op
+Result 19: 16 op, 3999076808.84 ns, 249.9423 ms/op
+Result 20: 16 op, 3842599823.98 ns, 240.1625 ms/op
+Result 21: 16 op, 3843942867.48 ns, 240.2464 ms/op
+Result 22: 16 op, 3897272965.79 ns, 243.5796 ms/op
+Result 23: 16 op, 4110001757.61 ns, 256.8751 ms/op
+Result 24: 16 op, 3806166346.35 ns, 237.8854 ms/op
+Result 25: 16 op, 3836985023.38 ns, 239.8116 ms/op
+Result 26: 16 op, 4033250228.94 ns, 252.0781 ms/op
+Result 27: 16 op, 3757601537.02 ns, 234.8501 ms/op
+Result 28: 16 op, 3878186337.25 ns, 242.3866 ms/op
+Result 29: 16 op, 3741039881.20 ns, 233.8150 ms/op
+Result 30: 16 op, 3801441813.55 ns, 237.5901 ms/op
+Result 31: 16 op, 3652833318.69 ns, 228.3021 ms/op
+Result 32: 16 op, 3915731694.43 ns, 244.7332 ms/op
+GC:  154 75 15 871460744 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 241.3793 ms, StdErr = 1.3122 ms (0.54%); N = 32, StdDev = 7.4231 ms
+Min = 224.2517 ms, Q1 = 237.6223 ms, Median = 240.2045 ms, Q3 = 246.9139 ms, Max = 256.8751 ms
+IQR = 9.2916 ms, LowerFence = 223.6848 ms, UpperFence = 260.8514 ms
+ConfidenceInterval = [236.6114 ms; 246.1472 ms] (CI 99.9%), Margin = 4.7679 ms (1.98% of Mean)
+Skewness = -0.17, Kurtosis = 2.61
 
 
 // **************************
@@ -798,17 +1425,16 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 2715739654.62 ns, 169.7337 ms/op
+Pilot  1: 16 op, 2806379488.43 ns, 175.3987 ms/op
 
-IdleWarmup  1: 16 op, 5094.52 ns, 318.4077 ns/op
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
 IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  3: 16 op, 636.82 ns, 39.8010 ns/op
-IdleWarmup  4: 16 op, 1910.45 ns, 119.4029 ns/op
-IdleWarmup  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  7: 16 op, 1273.63 ns, 79.6019 ns/op
 
-IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  1: 16 op, 636.82 ns, 39.8010 ns/op
 IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
@@ -816,209 +1442,213 @@ IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 14: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
 
-MainWarmup  1: 16 op, 2604653591.57 ns, 162.7908 ms/op
-MainWarmup  2: 16 op, 2649715916.69 ns, 165.6072 ms/op
-MainWarmup  3: 16 op, 2729443283.32 ns, 170.5902 ms/op
-MainWarmup  4: 16 op, 2682992064.01 ns, 167.6870 ms/op
-MainWarmup  5: 16 op, 2889499807.04 ns, 180.5937 ms/op
-MainWarmup  6: 16 op, 2615804864.50 ns, 163.4878 ms/op
+MainWarmup  1: 16 op, 2743311210.37 ns, 171.4570 ms/op
+MainWarmup  2: 16 op, 2503364295.29 ns, 156.4603 ms/op
+MainWarmup  3: 16 op, 2670457628.22 ns, 166.9036 ms/op
+MainWarmup  4: 16 op, 2651598342.75 ns, 165.7249 ms/op
+MainWarmup  5: 16 op, 2849996242.79 ns, 178.1248 ms/op
+MainWarmup  6: 16 op, 2842006121.07 ns, 177.6254 ms/op
 
 // BeforeMainRun
-MainTarget  1: 16 op, 2509377105.47 ns, 156.8361 ms/op
-MainTarget  2: 16 op, 2723534910.85 ns, 170.2209 ms/op
-MainTarget  3: 16 op, 2528407057.44 ns, 158.0254 ms/op
-MainTarget  4: 16 op, 2712577866.59 ns, 169.5361 ms/op
-MainTarget  5: 16 op, 2707784557.74 ns, 169.2365 ms/op
-MainTarget  6: 16 op, 2686349354.33 ns, 167.8968 ms/op
-MainTarget  7: 16 op, 2543330187.47 ns, 158.9581 ms/op
-MainTarget  8: 16 op, 2955926012.25 ns, 184.7454 ms/op
-MainTarget  9: 16 op, 2654629583.64 ns, 165.9143 ms/op
-MainTarget 10: 16 op, 2751819062.94 ns, 171.9887 ms/op
-MainTarget 11: 16 op, 2819855774.07 ns, 176.2410 ms/op
-MainTarget 12: 16 op, 3015631905.47 ns, 188.4770 ms/op
-MainTarget 13: 16 op, 2724485039.30 ns, 170.2803 ms/op
-MainTarget 14: 16 op, 2559486828.75 ns, 159.9679 ms/op
-MainTarget 15: 16 op, 2512526157.19 ns, 157.0329 ms/op
-MainTarget 16: 16 op, 2568064094.19 ns, 160.5040 ms/op
-MainTarget 17: 16 op, 2712872075.27 ns, 169.5545 ms/op
-MainTarget 18: 16 op, 2537670809.79 ns, 158.6044 ms/op
-MainTarget 19: 16 op, 2550071514.36 ns, 159.3795 ms/op
-MainTarget 20: 16 op, 2704369954.03 ns, 169.0231 ms/op
-MainTarget 21: 16 op, 2880270442.73 ns, 180.0169 ms/op
-MainTarget 22: 16 op, 2553051810.02 ns, 159.5657 ms/op
-MainTarget 23: 16 op, 2751352277.32 ns, 171.9595 ms/op
-MainTarget 24: 16 op, 2592392986.37 ns, 162.0246 ms/op
-MainTarget 25: 16 op, 2762868445.42 ns, 172.6793 ms/op
-MainTarget 26: 16 op, 2777114640.77 ns, 173.5697 ms/op
-MainTarget 27: 16 op, 2570583335.56 ns, 160.6615 ms/op
-MainTarget 28: 16 op, 2717780010.88 ns, 169.8613 ms/op
-MainTarget 29: 16 op, 2787911844.38 ns, 174.2445 ms/op
-MainTarget 30: 16 op, 2976553097.02 ns, 186.0346 ms/op
-MainTarget 31: 16 op, 2736885107.06 ns, 171.0553 ms/op
-MainTarget 32: 16 op, 2706429414.75 ns, 169.1518 ms/op
-MainTarget 33: 16 op, 2846023152.06 ns, 177.8764 ms/op
-MainTarget 34: 16 op, 2725517316.92 ns, 170.3448 ms/op
-MainTarget 35: 16 op, 2526501706.03 ns, 157.9064 ms/op
-MainTarget 36: 16 op, 2928436605.67 ns, 183.0273 ms/op
-MainTarget 37: 16 op, 2905815652.16 ns, 181.6135 ms/op
-MainTarget 38: 16 op, 2636046039.20 ns, 164.7529 ms/op
-MainTarget 39: 16 op, 2886432904.50 ns, 180.4021 ms/op
-MainTarget 40: 16 op, 2852104101.47 ns, 178.2565 ms/op
-MainTarget 41: 16 op, 2611459873.63 ns, 163.2162 ms/op
-MainTarget 42: 16 op, 2832726448.34 ns, 177.0454 ms/op
-MainTarget 43: 16 op, 2556174752.31 ns, 159.7609 ms/op
-MainTarget 44: 16 op, 2520413114.83 ns, 157.5258 ms/op
-MainTarget 45: 16 op, 2636244088.76 ns, 164.7653 ms/op
-MainTarget 46: 16 op, 2584336635.86 ns, 161.5210 ms/op
-MainTarget 47: 16 op, 2715053804.53 ns, 169.6909 ms/op
-MainTarget 48: 16 op, 2677672108.89 ns, 167.3545 ms/op
-MainTarget 49: 16 op, 2543505948.49 ns, 158.9691 ms/op
-MainTarget 50: 16 op, 2884865702.02 ns, 180.3041 ms/op
-MainTarget 51: 16 op, 2997182092.24 ns, 187.3239 ms/op
-MainTarget 52: 16 op, 2741012943.91 ns, 171.3133 ms/op
-MainTarget 53: 16 op, 2601516002.53 ns, 162.5948 ms/op
-MainTarget 54: 16 op, 2707973691.89 ns, 169.2484 ms/op
-MainTarget 55: 16 op, 2877945430.02 ns, 179.8716 ms/op
-MainTarget 56: 16 op, 2687924835.42 ns, 167.9953 ms/op
-MainTarget 57: 16 op, 2751482187.64 ns, 171.9676 ms/op
-MainTarget 58: 16 op, 2473389398.55 ns, 154.5868 ms/op
-MainTarget 59: 16 op, 2597758792.19 ns, 162.3599 ms/op
-MainTarget 60: 16 op, 2806108841.93 ns, 175.3818 ms/op
-MainTarget 61: 16 op, 2987596111.35 ns, 186.7248 ms/op
-MainTarget 62: 16 op, 2546005448.59 ns, 159.1253 ms/op
-MainTarget 63: 16 op, 2891773237.71 ns, 180.7358 ms/op
-MainTarget 64: 16 op, 2781519492.28 ns, 173.8450 ms/op
-MainTarget 65: 16 op, 2885307015.03 ns, 180.3317 ms/op
-MainTarget 66: 16 op, 2829728958.67 ns, 176.8581 ms/op
-MainTarget 67: 16 op, 2525790383.32 ns, 157.8619 ms/op
-MainTarget 68: 16 op, 2749601672.02 ns, 171.8501 ms/op
-MainTarget 69: 16 op, 2682721417.50 ns, 167.6701 ms/op
-MainTarget 70: 16 op, 2712959955.78 ns, 169.5600 ms/op
-MainTarget 71: 16 op, 2649811438.99 ns, 165.6132 ms/op
-MainTarget 72: 16 op, 2753705309.89 ns, 172.1066 ms/op
-MainTarget 73: 16 op, 2466455116.62 ns, 154.1534 ms/op
-MainTarget 74: 16 op, 3134827811.51 ns, 195.9267 ms/op
-MainTarget 75: 16 op, 2650621468.06 ns, 165.6638 ms/op
-MainTarget 76: 16 op, 2868928125.20 ns, 179.3080 ms/op
-MainTarget 77: 16 op, 2526755158.52 ns, 157.9222 ms/op
-MainTarget 78: 16 op, 3053258138.18 ns, 190.8286 ms/op
-MainTarget 79: 16 op, 2670016315.21 ns, 166.8760 ms/op
-MainTarget 80: 16 op, 2506001347.50 ns, 156.6251 ms/op
-MainTarget 81: 16 op, 2531587313.11 ns, 158.2242 ms/op
-MainTarget 82: 16 op, 2854588318.01 ns, 178.4118 ms/op
-MainTarget 83: 16 op, 2832581254.45 ns, 177.0363 ms/op
-MainTarget 84: 16 op, 3055420126.17 ns, 190.9638 ms/op
-MainTarget 85: 16 op, 2642935107.25 ns, 165.1834 ms/op
-MainTarget 86: 16 op, 2554836803.34 ns, 159.6773 ms/op
-MainTarget 87: 16 op, 2798590600.35 ns, 174.9119 ms/op
-MainTarget 88: 16 op, 2620538949.53 ns, 163.7837 ms/op
-MainTarget 89: 16 op, 2940440574.31 ns, 183.7775 ms/op
-MainTarget 90: 16 op, 2746723903.63 ns, 171.6702 ms/op
-MainTarget 91: 16 op, 2678943829.07 ns, 167.4340 ms/op
-MainTarget 92: 16 op, 2609809248.34 ns, 163.1131 ms/op
+MainTarget  1: 16 op, 2621313953.77 ns, 163.8321 ms/op
+MainTarget  2: 16 op, 2524450523.91 ns, 157.7782 ms/op
+MainTarget  3: 16 op, 2768155922.96 ns, 173.0097 ms/op
+MainTarget  4: 16 op, 2705551883.25 ns, 169.0970 ms/op
+MainTarget  5: 16 op, 2707605612.64 ns, 169.2254 ms/op
+MainTarget  6: 16 op, 2761455352.24 ns, 172.5910 ms/op
+MainTarget  7: 16 op, 2611289207.13 ns, 163.2056 ms/op
+MainTarget  8: 16 op, 2572800089.66 ns, 160.8000 ms/op
+MainTarget  9: 16 op, 2614456089.67 ns, 163.4035 ms/op
+MainTarget 10: 16 op, 2475616978.52 ns, 154.7261 ms/op
+MainTarget 11: 16 op, 2588067736.77 ns, 161.7542 ms/op
+MainTarget 12: 16 op, 2842102280.18 ns, 177.6314 ms/op
+MainTarget 13: 16 op, 2563590466.62 ns, 160.2244 ms/op
+MainTarget 14: 16 op, 2786645218.73 ns, 174.1653 ms/op
+MainTarget 15: 16 op, 2891739486.50 ns, 180.7337 ms/op
+MainTarget 16: 16 op, 2920136991.71 ns, 182.5086 ms/op
+MainTarget 17: 16 op, 2874242348.98 ns, 179.6401 ms/op
+MainTarget 18: 16 op, 2555486991.77 ns, 159.7179 ms/op
+MainTarget 19: 16 op, 2748462409.43 ns, 171.7789 ms/op
+MainTarget 20: 16 op, 2817803955.13 ns, 176.1127 ms/op
+MainTarget 21: 16 op, 2856859838.22 ns, 178.5537 ms/op
+MainTarget 22: 16 op, 2556056304.66 ns, 159.7535 ms/op
+MainTarget 23: 16 op, 2997254052.37 ns, 187.3284 ms/op
+MainTarget 24: 16 op, 2976313017.65 ns, 186.0196 ms/op
+MainTarget 25: 16 op, 2775192732.15 ns, 173.4495 ms/op
+MainTarget 26: 16 op, 2677937024.06 ns, 167.3711 ms/op
+MainTarget 27: 16 op, 2793028018.60 ns, 174.5643 ms/op
+MainTarget 28: 16 op, 2434339246.80 ns, 152.1462 ms/op
+MainTarget 29: 16 op, 2965203774.53 ns, 185.3252 ms/op
+MainTarget 30: 16 op, 2576114076.55 ns, 161.0071 ms/op
+MainTarget 31: 16 op, 3051867970.35 ns, 190.7417 ms/op
+MainTarget 32: 16 op, 3059914768.64 ns, 191.2447 ms/op
+MainTarget 33: 16 op, 2571276190.62 ns, 160.7048 ms/op
+MainTarget 34: 16 op, 2651777924.67 ns, 165.7361 ms/op
+MainTarget 35: 16 op, 2568132870.24 ns, 160.5083 ms/op
+MainTarget 36: 16 op, 2759487592.93 ns, 172.4680 ms/op
+MainTarget 37: 16 op, 2775141786.93 ns, 173.4464 ms/op
+MainTarget 38: 16 op, 2496313476.16 ns, 156.0196 ms/op
+MainTarget 39: 16 op, 2659691628.55 ns, 166.2307 ms/op
+MainTarget 40: 16 op, 2545408752.64 ns, 159.0880 ms/op
+MainTarget 41: 16 op, 2842558876.76 ns, 177.6599 ms/op
+MainTarget 42: 16 op, 2838478164.24 ns, 177.4049 ms/op
+MainTarget 43: 16 op, 2629306622.75 ns, 164.3317 ms/op
+MainTarget 44: 16 op, 2746390849.22 ns, 171.6494 ms/op
+MainTarget 45: 16 op, 2743397817.25 ns, 171.4624 ms/op
+MainTarget 46: 16 op, 2565533390.14 ns, 160.3458 ms/op
+MainTarget 47: 16 op, 2941535259.83 ns, 183.8460 ms/op
+MainTarget 48: 16 op, 2543295162.62 ns, 158.9559 ms/op
+MainTarget 49: 16 op, 2556010453.96 ns, 159.7507 ms/op
+MainTarget 50: 16 op, 2646283482.16 ns, 165.3927 ms/op
+MainTarget 51: 16 op, 2464264471.95 ns, 154.0165 ms/op
+MainTarget 52: 16 op, 2864258995.33 ns, 179.0162 ms/op
+MainTarget 53: 16 op, 3011942197.55 ns, 188.2464 ms/op
+MainTarget 54: 16 op, 2583915064.12 ns, 161.4947 ms/op
+MainTarget 55: 16 op, 2915079404.50 ns, 182.1925 ms/op
+MainTarget 56: 16 op, 2611480888.54 ns, 163.2176 ms/op
+MainTarget 57: 16 op, 2564062346.77 ns, 160.2539 ms/op
+MainTarget 58: 16 op, 2814893709.16 ns, 175.9309 ms/op
+MainTarget 59: 16 op, 2600392023.51 ns, 162.5245 ms/op
+MainTarget 60: 16 op, 2918528396.23 ns, 182.4080 ms/op
+MainTarget 61: 16 op, 2569411595.39 ns, 160.5882 ms/op
+MainTarget 62: 16 op, 2949557222.31 ns, 184.3473 ms/op
+MainTarget 63: 16 op, 2843651015.02 ns, 177.7282 ms/op
+MainTarget 64: 16 op, 2777556590.59 ns, 173.5973 ms/op
+MainTarget 65: 16 op, 2736443157.23 ns, 171.0277 ms/op
+MainTarget 66: 16 op, 2878690503.94 ns, 179.9182 ms/op
+MainTarget 67: 16 op, 2568630223.00 ns, 160.5394 ms/op
+MainTarget 68: 16 op, 2891503228.02 ns, 180.7190 ms/op
+MainTarget 69: 16 op, 2686090807.32 ns, 167.8807 ms/op
+MainTarget 70: 16 op, 2804726315.88 ns, 175.2954 ms/op
+MainTarget 71: 16 op, 2818633088.67 ns, 176.1646 ms/op
+MainTarget 72: 16 op, 2821767493.64 ns, 176.3605 ms/op
+MainTarget 73: 16 op, 2577649438.27 ns, 161.1031 ms/op
+MainTarget 74: 16 op, 2551136269.56 ns, 159.4460 ms/op
+MainTarget 75: 16 op, 2716378380.37 ns, 169.7736 ms/op
+MainTarget 76: 16 op, 2793669928.43 ns, 174.6044 ms/op
+MainTarget 77: 16 op, 2673492690.00 ns, 167.0933 ms/op
+MainTarget 78: 16 op, 3085258744.43 ns, 192.8287 ms/op
+MainTarget 79: 16 op, 2513640583.99 ns, 157.1025 ms/op
+MainTarget 80: 16 op, 2825327928.04 ns, 176.5830 ms/op
+MainTarget 81: 16 op, 2855283083.51 ns, 178.4552 ms/op
+MainTarget 82: 16 op, 2769255066.18 ns, 173.0784 ms/op
+MainTarget 83: 16 op, 2814675918.32 ns, 175.9172 ms/op
+MainTarget 84: 16 op, 2503050982.16 ns, 156.4407 ms/op
+MainTarget 85: 16 op, 2978362926.14 ns, 186.1477 ms/op
+MainTarget 86: 16 op, 2837780851.47 ns, 177.3613 ms/op
+MainTarget 87: 16 op, 2609349467.69 ns, 163.0843 ms/op
+MainTarget 88: 16 op, 2575290674.35 ns, 160.9557 ms/op
+MainTarget 89: 16 op, 2708255164.25 ns, 169.2659 ms/op
+MainTarget 90: 16 op, 2728524358.82 ns, 170.5328 ms/op
+MainTarget 91: 16 op, 2689266605.28 ns, 168.0792 ms/op
+MainTarget 92: 16 op, 2661663845.57 ns, 166.3540 ms/op
+MainTarget 93: 16 op, 2832147583.22 ns, 177.0092 ms/op
+MainTarget 94: 16 op, 2670500294.85 ns, 166.9063 ms/op
 
 // AfterMainRun
-Result  1: 16 op, 2509375831.84 ns, 156.8360 ms/op
-Result  2: 16 op, 2723533637.22 ns, 170.2209 ms/op
-Result  3: 16 op, 2528405783.81 ns, 158.0254 ms/op
-Result  4: 16 op, 2712576592.96 ns, 169.5360 ms/op
-Result  5: 16 op, 2707783284.11 ns, 169.2365 ms/op
-Result  6: 16 op, 2686348080.70 ns, 167.8968 ms/op
-Result  7: 16 op, 2543328913.84 ns, 158.9581 ms/op
-Result  8: 16 op, 2955924738.62 ns, 184.7453 ms/op
-Result  9: 16 op, 2654628310.01 ns, 165.9143 ms/op
-Result 10: 16 op, 2751817789.31 ns, 171.9886 ms/op
-Result 11: 16 op, 2819854500.44 ns, 176.2409 ms/op
-Result 12: 16 op, 3015630631.84 ns, 188.4769 ms/op
-Result 13: 16 op, 2724483765.67 ns, 170.2802 ms/op
-Result 14: 16 op, 2559485555.12 ns, 159.9678 ms/op
-Result 15: 16 op, 2512524883.56 ns, 157.0328 ms/op
-Result 16: 16 op, 2568062820.56 ns, 160.5039 ms/op
-Result 17: 16 op, 2712870801.64 ns, 169.5544 ms/op
-Result 18: 16 op, 2537669536.16 ns, 158.6043 ms/op
-Result 19: 16 op, 2550070240.73 ns, 159.3794 ms/op
-Result 20: 16 op, 2704368680.40 ns, 169.0230 ms/op
-Result 21: 16 op, 2880269169.10 ns, 180.0168 ms/op
-Result 22: 16 op, 2553050536.39 ns, 159.5657 ms/op
-Result 23: 16 op, 2751351003.68 ns, 171.9594 ms/op
-Result 24: 16 op, 2592391712.74 ns, 162.0245 ms/op
-Result 25: 16 op, 2762867171.79 ns, 172.6792 ms/op
-Result 26: 16 op, 2777113367.14 ns, 173.5696 ms/op
-Result 27: 16 op, 2570582061.93 ns, 160.6614 ms/op
-Result 28: 16 op, 2717778737.25 ns, 169.8612 ms/op
-Result 29: 16 op, 2787910570.75 ns, 174.2444 ms/op
-Result 30: 16 op, 2976551823.39 ns, 186.0345 ms/op
-Result 31: 16 op, 2736883833.42 ns, 171.0552 ms/op
-Result 32: 16 op, 2706428141.12 ns, 169.1518 ms/op
-Result 33: 16 op, 2846021878.43 ns, 177.8764 ms/op
-Result 34: 16 op, 2725516043.29 ns, 170.3448 ms/op
-Result 35: 16 op, 2526500432.40 ns, 157.9063 ms/op
-Result 36: 16 op, 2928435332.04 ns, 183.0272 ms/op
-Result 37: 16 op, 2905814378.53 ns, 181.6134 ms/op
-Result 38: 16 op, 2636044765.57 ns, 164.7528 ms/op
-Result 39: 16 op, 2886431630.87 ns, 180.4020 ms/op
-Result 40: 16 op, 2852102827.84 ns, 178.2564 ms/op
-Result 41: 16 op, 2611458600.00 ns, 163.2162 ms/op
-Result 42: 16 op, 2832725174.71 ns, 177.0453 ms/op
-Result 43: 16 op, 2556173478.68 ns, 159.7608 ms/op
-Result 44: 16 op, 2520411841.20 ns, 157.5257 ms/op
-Result 45: 16 op, 2636242815.13 ns, 164.7652 ms/op
-Result 46: 16 op, 2584335362.23 ns, 161.5210 ms/op
-Result 47: 16 op, 2715052530.90 ns, 169.6908 ms/op
-Result 48: 16 op, 2677670835.26 ns, 167.3544 ms/op
-Result 49: 16 op, 2543504674.86 ns, 158.9690 ms/op
-Result 50: 16 op, 2884864428.39 ns, 180.3040 ms/op
-Result 51: 16 op, 2997180818.61 ns, 187.3238 ms/op
-Result 52: 16 op, 2741011670.28 ns, 171.3132 ms/op
-Result 53: 16 op, 2601514728.90 ns, 162.5947 ms/op
-Result 54: 16 op, 2707972418.26 ns, 169.2483 ms/op
-Result 55: 16 op, 2877944156.39 ns, 179.8715 ms/op
-Result 56: 16 op, 2687923561.78 ns, 167.9952 ms/op
-Result 57: 16 op, 2751480914.01 ns, 171.9676 ms/op
-Result 58: 16 op, 2473388124.92 ns, 154.5868 ms/op
-Result 59: 16 op, 2597757518.56 ns, 162.3598 ms/op
-Result 60: 16 op, 2806107568.30 ns, 175.3817 ms/op
-Result 61: 16 op, 2987594837.72 ns, 186.7247 ms/op
-Result 62: 16 op, 2546004174.96 ns, 159.1253 ms/op
-Result 63: 16 op, 2891771964.08 ns, 180.7357 ms/op
-Result 64: 16 op, 2781518218.65 ns, 173.8449 ms/op
-Result 65: 16 op, 2885305741.40 ns, 180.3316 ms/op
-Result 66: 16 op, 2829727685.04 ns, 176.8580 ms/op
-Result 67: 16 op, 2525789109.69 ns, 157.8618 ms/op
-Result 68: 16 op, 2749600398.39 ns, 171.8500 ms/op
-Result 69: 16 op, 2682720143.87 ns, 167.6700 ms/op
-Result 70: 16 op, 2712958682.15 ns, 169.5599 ms/op
-Result 71: 16 op, 2649810165.36 ns, 165.6131 ms/op
-Result 72: 16 op, 2753704036.26 ns, 172.1065 ms/op
-Result 73: 16 op, 2466453842.99 ns, 154.1534 ms/op
-Result 74: 16 op, 3134826537.88 ns, 195.9267 ms/op
-Result 75: 16 op, 2650620194.43 ns, 165.6638 ms/op
-Result 76: 16 op, 2868926851.57 ns, 179.3079 ms/op
-Result 77: 16 op, 2526753884.89 ns, 157.9221 ms/op
-Result 78: 16 op, 3053256864.55 ns, 190.8286 ms/op
-Result 79: 16 op, 2670015041.58 ns, 166.8759 ms/op
-Result 80: 16 op, 2506000073.87 ns, 156.6250 ms/op
-Result 81: 16 op, 2531586039.48 ns, 158.2241 ms/op
-Result 82: 16 op, 2854587044.37 ns, 178.4117 ms/op
-Result 83: 16 op, 2832579980.82 ns, 177.0362 ms/op
-Result 84: 16 op, 3055418852.54 ns, 190.9637 ms/op
-Result 85: 16 op, 2642933833.62 ns, 165.1834 ms/op
-Result 86: 16 op, 2554835529.71 ns, 159.6772 ms/op
-Result 87: 16 op, 2798589326.72 ns, 174.9118 ms/op
-Result 88: 16 op, 2620537675.90 ns, 163.7836 ms/op
-Result 89: 16 op, 2940439300.67 ns, 183.7775 ms/op
-Result 90: 16 op, 2746722630.00 ns, 171.6702 ms/op
-Result 91: 16 op, 2678942555.44 ns, 167.4339 ms/op
-Result 92: 16 op, 2609807974.71 ns, 163.1130 ms/op
-GC:  106 58 12 587615248 16
+Result  1: 16 op, 2621312722.59 ns, 163.8320 ms/op
+Result  2: 16 op, 2524449292.73 ns, 157.7781 ms/op
+Result  3: 16 op, 2768154691.78 ns, 173.0097 ms/op
+Result  4: 16 op, 2705550652.08 ns, 169.0969 ms/op
+Result  5: 16 op, 2707604381.46 ns, 169.2253 ms/op
+Result  6: 16 op, 2761454121.07 ns, 172.5909 ms/op
+Result  7: 16 op, 2611287975.95 ns, 163.2055 ms/op
+Result  8: 16 op, 2572798858.49 ns, 160.7999 ms/op
+Result  9: 16 op, 2614454858.50 ns, 163.4034 ms/op
+Result 10: 16 op, 2475615747.34 ns, 154.7260 ms/op
+Result 11: 16 op, 2588066505.59 ns, 161.7542 ms/op
+Result 12: 16 op, 2842101049.00 ns, 177.6313 ms/op
+Result 13: 16 op, 2563589235.44 ns, 160.2243 ms/op
+Result 14: 16 op, 2786643987.55 ns, 174.1652 ms/op
+Result 15: 16 op, 2891738255.32 ns, 180.7336 ms/op
+Result 16: 16 op, 2920135760.53 ns, 182.5085 ms/op
+Result 17: 16 op, 2874241117.81 ns, 179.6401 ms/op
+Result 18: 16 op, 2555485760.60 ns, 159.7179 ms/op
+Result 19: 16 op, 2748461178.25 ns, 171.7788 ms/op
+Result 20: 16 op, 2817802723.96 ns, 176.1127 ms/op
+Result 21: 16 op, 2856858607.05 ns, 178.5537 ms/op
+Result 22: 16 op, 2556055073.49 ns, 159.7534 ms/op
+Result 23: 16 op, 2997252821.20 ns, 187.3283 ms/op
+Result 24: 16 op, 2976311786.47 ns, 186.0195 ms/op
+Result 25: 16 op, 2775191500.98 ns, 173.4495 ms/op
+Result 26: 16 op, 2677935792.88 ns, 167.3710 ms/op
+Result 27: 16 op, 2793026787.42 ns, 174.5642 ms/op
+Result 28: 16 op, 2434338015.62 ns, 152.1461 ms/op
+Result 29: 16 op, 2965202543.36 ns, 185.3252 ms/op
+Result 30: 16 op, 2576112845.37 ns, 161.0071 ms/op
+Result 31: 16 op, 3051866739.18 ns, 190.7417 ms/op
+Result 32: 16 op, 3059913537.46 ns, 191.2446 ms/op
+Result 33: 16 op, 2571274959.45 ns, 160.7047 ms/op
+Result 34: 16 op, 2651776693.49 ns, 165.7360 ms/op
+Result 35: 16 op, 2568131639.06 ns, 160.5082 ms/op
+Result 36: 16 op, 2759486361.75 ns, 172.4679 ms/op
+Result 37: 16 op, 2775140555.75 ns, 173.4463 ms/op
+Result 38: 16 op, 2496312244.98 ns, 156.0195 ms/op
+Result 39: 16 op, 2659690397.38 ns, 166.2306 ms/op
+Result 40: 16 op, 2545407521.47 ns, 159.0880 ms/op
+Result 41: 16 op, 2842557645.58 ns, 177.6599 ms/op
+Result 42: 16 op, 2838476933.06 ns, 177.4048 ms/op
+Result 43: 16 op, 2629305391.58 ns, 164.3316 ms/op
+Result 44: 16 op, 2746389618.04 ns, 171.6494 ms/op
+Result 45: 16 op, 2743396586.08 ns, 171.4623 ms/op
+Result 46: 16 op, 2565532158.96 ns, 160.3458 ms/op
+Result 47: 16 op, 2941534028.65 ns, 183.8459 ms/op
+Result 48: 16 op, 2543293931.45 ns, 158.9559 ms/op
+Result 49: 16 op, 2556009222.78 ns, 159.7506 ms/op
+Result 50: 16 op, 2646282250.98 ns, 165.3926 ms/op
+Result 51: 16 op, 2464263240.77 ns, 154.0165 ms/op
+Result 52: 16 op, 2864257764.16 ns, 179.0161 ms/op
+Result 53: 16 op, 3011940966.37 ns, 188.2463 ms/op
+Result 54: 16 op, 2583913832.94 ns, 161.4946 ms/op
+Result 55: 16 op, 2915078173.33 ns, 182.1924 ms/op
+Result 56: 16 op, 2611479657.36 ns, 163.2175 ms/op
+Result 57: 16 op, 2564061115.59 ns, 160.2538 ms/op
+Result 58: 16 op, 2814892477.98 ns, 175.9308 ms/op
+Result 59: 16 op, 2600390792.33 ns, 162.5244 ms/op
+Result 60: 16 op, 2918527165.06 ns, 182.4079 ms/op
+Result 61: 16 op, 2569410364.21 ns, 160.5881 ms/op
+Result 62: 16 op, 2949555991.14 ns, 184.3472 ms/op
+Result 63: 16 op, 2843649783.84 ns, 177.7281 ms/op
+Result 64: 16 op, 2777555359.42 ns, 173.5972 ms/op
+Result 65: 16 op, 2736441926.05 ns, 171.0276 ms/op
+Result 66: 16 op, 2878689272.76 ns, 179.9181 ms/op
+Result 67: 16 op, 2568628991.82 ns, 160.5393 ms/op
+Result 68: 16 op, 2891501996.84 ns, 180.7189 ms/op
+Result 69: 16 op, 2686089576.14 ns, 167.8806 ms/op
+Result 70: 16 op, 2804725084.71 ns, 175.2953 ms/op
+Result 71: 16 op, 2818631857.49 ns, 176.1645 ms/op
+Result 72: 16 op, 2821766262.46 ns, 176.3604 ms/op
+Result 73: 16 op, 2577648207.09 ns, 161.1030 ms/op
+Result 74: 16 op, 2551135038.39 ns, 159.4459 ms/op
+Result 75: 16 op, 2716377149.20 ns, 169.7736 ms/op
+Result 76: 16 op, 2793668697.26 ns, 174.6043 ms/op
+Result 77: 16 op, 2673491458.82 ns, 167.0932 ms/op
+Result 78: 16 op, 3085257513.25 ns, 192.8286 ms/op
+Result 79: 16 op, 2513639352.81 ns, 157.1025 ms/op
+Result 80: 16 op, 2825326696.87 ns, 176.5829 ms/op
+Result 81: 16 op, 2855281852.33 ns, 178.4551 ms/op
+Result 82: 16 op, 2769253835.01 ns, 173.0784 ms/op
+Result 83: 16 op, 2814674687.14 ns, 175.9172 ms/op
+Result 84: 16 op, 2503049750.98 ns, 156.4406 ms/op
+Result 85: 16 op, 2978361694.96 ns, 186.1476 ms/op
+Result 86: 16 op, 2837779620.30 ns, 177.3612 ms/op
+Result 87: 16 op, 2609348236.51 ns, 163.0843 ms/op
+Result 88: 16 op, 2575289443.17 ns, 160.9556 ms/op
+Result 89: 16 op, 2708253933.08 ns, 169.2659 ms/op
+Result 90: 16 op, 2728523127.65 ns, 170.5327 ms/op
+Result 91: 16 op, 2689265374.10 ns, 168.0791 ms/op
+Result 92: 16 op, 2661662614.40 ns, 166.3539 ms/op
+Result 93: 16 op, 2832146352.05 ns, 177.0091 ms/op
+Result 94: 16 op, 2670499063.67 ns, 166.9062 ms/op
+GC:  102 54 8 587623064 16
 
 // AfterAll
 Parse error in the following line:
@@ -1030,11 +1660,11 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 169.9347 ms, StdErr = 0.9967 ms (0.59%); N = 92, StdDev = 9.5600 ms
-Min = 154.1534 ms, Q1 = 161.7727 ms, Median = 169.5452 ms, Q3 = 176.9471 ms, Max = 195.9267 ms
-IQR = 15.1744 ms, LowerFence = 139.0111 ms, UpperFence = 199.7087 ms
-ConfidenceInterval = [166.5452 ms; 173.3241 ms] (CI 99.9%), Margin = 3.3894 ms (1.99% of Mean)
-Skewness = 0.46, Kurtosis = 2.5
+Mean = 170.4896 ms, StdErr = 0.9968 ms (0.58%); N = 94, StdDev = 9.6643 ms
+Min = 152.1461 ms, Q1 = 161.1030 ms, Median = 170.7802 ms, Q3 = 177.4048 ms, Max = 192.8286 ms
+IQR = 16.3018 ms, LowerFence = 136.6503 ms, UpperFence = 201.8575 ms
+ConfidenceInterval = [167.1023 ms; 173.8770 ms] (CI 99.9%), Margin = 3.3873 ms (1.99% of Mean)
+Skewness = 0.24, Kurtosis = 2.15
 
 
 // **************************
@@ -1050,14 +1680,15 @@ Number of words read from file: 573843
 // GC=Concurrent Workstation
 // Job: DefaultJob
 
-Pilot  1: 16 op, 959374367.16 ns, 59.9609 ms/op
+Pilot  1: 16 op, 939294943.56 ns, 58.7059 ms/op
 
-IdleWarmup  1: 16 op, 5094.52 ns, 318.4077 ns/op
-IdleWarmup  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  7: 16 op, 1273.63 ns, 79.6019 ns/op
 
 IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
@@ -1065,57 +1696,59 @@ IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget  7: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1910.45 ns, 119.4029 ns/op
 IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
 IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
-IdleTarget 14: 16 op, 636.82 ns, 39.8010 ns/op
-IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
 
-MainWarmup  1: 16 op, 974551586.50 ns, 60.9095 ms/op
-MainWarmup  2: 16 op, 980845232.23 ns, 61.3028 ms/op
-MainWarmup  3: 16 op, 981333669.57 ns, 61.3334 ms/op
-MainWarmup  4: 16 op, 966804091.41 ns, 60.4253 ms/op
-MainWarmup  5: 16 op, 971094952.98 ns, 60.6934 ms/op
-MainWarmup  6: 16 op, 943878740.18 ns, 58.9924 ms/op
+MainWarmup  1: 16 op, 1010463512.39 ns, 63.1540 ms/op
+MainWarmup  2: 16 op, 969383193.43 ns, 60.5864 ms/op
+MainWarmup  3: 16 op, 978185891.48 ns, 61.1366 ms/op
+MainWarmup  4: 16 op, 998176797.76 ns, 62.3860 ms/op
+MainWarmup  5: 16 op, 1011257621.09 ns, 63.2036 ms/op
+MainWarmup  6: 16 op, 1086753986.78 ns, 67.9221 ms/op
+MainWarmup  7: 16 op, 988634120.31 ns, 61.7896 ms/op
+MainWarmup  8: 16 op, 991484505.65 ns, 61.9678 ms/op
+MainWarmup  9: 16 op, 982673528.99 ns, 61.4171 ms/op
 
 // BeforeMainRun
-MainTarget  1: 16 op, 976456937.91 ns, 61.0286 ms/op
-MainTarget  2: 16 op, 961894882.17 ns, 60.1184 ms/op
-MainTarget  3: 16 op, 962352115.56 ns, 60.1470 ms/op
-MainTarget  4: 16 op, 975546292.02 ns, 60.9716 ms/op
-MainTarget  5: 16 op, 956312559.14 ns, 59.7695 ms/op
-MainTarget  6: 16 op, 977412160.88 ns, 61.0883 ms/op
-MainTarget  7: 16 op, 964442780.23 ns, 60.2777 ms/op
-MainTarget  8: 16 op, 958137671.83 ns, 59.8836 ms/op
-MainTarget  9: 16 op, 965581406.01 ns, 60.3488 ms/op
-MainTarget 10: 16 op, 963425786.18 ns, 60.2141 ms/op
-MainTarget 11: 16 op, 988118299.91 ns, 61.7574 ms/op
-MainTarget 12: 16 op, 974376462.29 ns, 60.8985 ms/op
-MainTarget 13: 16 op, 962596652.64 ns, 60.1623 ms/op
-MainTarget 14: 16 op, 959002467.02 ns, 59.9377 ms/op
-MainTarget 15: 16 op, 983723637.44 ns, 61.4827 ms/op
+MainTarget  1: 16 op, 965533008.05 ns, 60.3458 ms/op
+MainTarget  2: 16 op, 967526239.97 ns, 60.4704 ms/op
+MainTarget  3: 16 op, 971066296.29 ns, 60.6916 ms/op
+MainTarget  4: 16 op, 992688086.59 ns, 62.0430 ms/op
+MainTarget  5: 16 op, 970633261.88 ns, 60.6646 ms/op
+MainTarget  6: 16 op, 983369568.12 ns, 61.4606 ms/op
+MainTarget  7: 16 op, 971062475.40 ns, 60.6914 ms/op
+MainTarget  8: 16 op, 974781476.83 ns, 60.9238 ms/op
+MainTarget  9: 16 op, 964959237.45 ns, 60.3100 ms/op
+MainTarget 10: 16 op, 953546870.24 ns, 59.5967 ms/op
+MainTarget 11: 16 op, 975588321.83 ns, 60.9743 ms/op
+MainTarget 12: 16 op, 979688138.81 ns, 61.2305 ms/op
+MainTarget 13: 16 op, 955324221.78 ns, 59.7078 ms/op
+MainTarget 14: 16 op, 960221331.53 ns, 60.0138 ms/op
+MainTarget 15: 16 op, 970338416.39 ns, 60.6462 ms/op
 
 // AfterMainRun
-Result  1: 16 op, 976455791.64 ns, 61.0285 ms/op
-Result  2: 16 op, 961893735.90 ns, 60.1184 ms/op
-Result  3: 16 op, 962350969.30 ns, 60.1469 ms/op
-Result  4: 16 op, 975545145.75 ns, 60.9716 ms/op
-Result  5: 16 op, 956311412.88 ns, 59.7695 ms/op
-Result  6: 16 op, 977411014.61 ns, 61.0882 ms/op
-Result  7: 16 op, 964441633.97 ns, 60.2776 ms/op
-Result  8: 16 op, 958136525.56 ns, 59.8835 ms/op
-Result  9: 16 op, 965580259.74 ns, 60.3488 ms/op
-Result 10: 16 op, 963424639.91 ns, 60.2140 ms/op
-Result 11: 16 op, 988117153.64 ns, 61.7573 ms/op
-Result 12: 16 op, 974375316.02 ns, 60.8985 ms/op
-Result 13: 16 op, 962595506.38 ns, 60.1622 ms/op
-Result 14: 16 op, 959001320.75 ns, 59.9376 ms/op
-Result 15: 16 op, 983722491.17 ns, 61.4827 ms/op
-GC:  51 21 4 293808056 16
+Result  1: 16 op, 965531649.51 ns, 60.3457 ms/op
+Result  2: 16 op, 967524881.44 ns, 60.4703 ms/op
+Result  3: 16 op, 971064937.76 ns, 60.6916 ms/op
+Result  4: 16 op, 970631903.34 ns, 60.6645 ms/op
+Result  5: 16 op, 983368209.59 ns, 61.4605 ms/op
+Result  6: 16 op, 971061116.86 ns, 60.6913 ms/op
+Result  7: 16 op, 974780118.29 ns, 60.9238 ms/op
+Result  8: 16 op, 964957878.91 ns, 60.3099 ms/op
+Result  9: 16 op, 953545511.70 ns, 59.5966 ms/op
+Result 10: 16 op, 975586963.29 ns, 60.9742 ms/op
+Result 11: 16 op, 979686780.27 ns, 61.2304 ms/op
+Result 12: 16 op, 955322863.24 ns, 59.7077 ms/op
+Result 13: 16 op, 960219972.99 ns, 60.0137 ms/op
+Result 14: 16 op, 970337057.85 ns, 60.6461 ms/op
+GC:  51 21 4 293808040 16
 
 // AfterAll
 Parse error in the following line:
@@ -1127,112 +1760,440 @@ Parse error in the following line:
 Number of lines read from file: 67663
 Parse error in the following line:
 Number of words read from file: 573843
-Mean = 60.5390 ms, StdErr = 0.1588 ms (0.26%); N = 15, StdDev = 0.6152 ms
-Min = 59.7695 ms, Q1 = 60.1184 ms, Median = 60.2776 ms, Q3 = 61.0285 ms, Max = 61.7573 ms
-IQR = 0.9101 ms, LowerFence = 58.7532 ms, UpperFence = 62.3937 ms
-ConfidenceInterval = [59.8813 ms; 61.1967 ms] (CI 99.9%), Margin = 0.6577 ms (1.09% of Mean)
-Skewness = 0.53, Kurtosis = 1.84
+Mean = 60.5519 ms, StdErr = 0.1423 ms (0.24%); N = 14, StdDev = 0.5325 ms
+Min = 59.5966 ms, Q1 = 60.3099 ms, Median = 60.6553 ms, Q3 = 60.9238 ms, Max = 61.4605 ms
+IQR = 0.6139 ms, LowerFence = 59.3890 ms, UpperFence = 61.8446 ms
+ConfidenceInterval = [59.9512 ms; 61.1525 ms] (CI 99.9%), Margin = 0.6007 ms (0.99% of Mean)
+Skewness = -0.22, Kurtosis = 2.11
 
 
-// ***** BenchmarkRunner: Finish  *****
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm1: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
 
-// * Export *
-  BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-report.csv
-  BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-report-github.md
-  BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-report.html
-  BenchmarkDotNet.Artifacts\results\CpsBenchmark+CpsPerformanceTests-measurements.csv
-  BuildPlots.R
-  BenchmarkDotNet.Artifacts\results\CpsPerformanceTests-boxplot.png
-  BenchmarkDotNet.Artifacts\results\CpsPerformanceTests-barplot.png
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
 
-// * Detailed results *
-CpsPerformanceTests.Early: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 172.1258 ms, StdErr = 1.0133 ms (0.59%); N = 77, StdDev = 8.8917 ms
-Min = 156.5123 ms, Q1 = 164.6513 ms, Median = 172.1567 ms, Q3 = 178.3029 ms, Max = 198.4646 ms
-IQR = 13.6516 ms, LowerFence = 144.1738 ms, UpperFence = 198.7804 ms
-ConfidenceInterval = [168.6571 ms; 175.5945 ms] (CI 99.9%), Margin = 3.4687 ms (2.02% of Mean)
-Skewness = 0.33, Kurtosis = 2.72
+Pilot  1: 16 op, 3023900952.29 ns, 188.9938 ms/op
+
+IdleWarmup  1: 16 op, 7641.78 ns, 477.6115 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 12: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 13: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 2697869980.14 ns, 168.6169 ms/op
+MainWarmup  2: 16 op, 2930507529.07 ns, 183.1567 ms/op
+MainWarmup  3: 16 op, 2713209587.38 ns, 169.5756 ms/op
+MainWarmup  4: 16 op, 2913938868.28 ns, 182.1212 ms/op
+MainWarmup  5: 16 op, 2643770608.94 ns, 165.2357 ms/op
+MainWarmup  6: 16 op, 2992311091.92 ns, 187.0194 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2897100197.79 ns, 181.0688 ms/op
+MainTarget  2: 16 op, 2927036248.80 ns, 182.9398 ms/op
+MainTarget  3: 16 op, 2764079031.33 ns, 172.7549 ms/op
+MainTarget  4: 16 op, 2580300500.41 ns, 161.2688 ms/op
+MainTarget  5: 16 op, 2821261225.46 ns, 176.3288 ms/op
+MainTarget  6: 16 op, 2851502947.82 ns, 178.2189 ms/op
+MainTarget  7: 16 op, 2742263649.18 ns, 171.3915 ms/op
+MainTarget  8: 16 op, 2604829352.60 ns, 162.8018 ms/op
+MainTarget  9: 16 op, 2732024295.78 ns, 170.7515 ms/op
+MainTarget 10: 16 op, 2900592492.97 ns, 181.2870 ms/op
+MainTarget 11: 16 op, 2506297466.62 ns, 156.6436 ms/op
+MainTarget 12: 16 op, 2767194331.83 ns, 172.9496 ms/op
+MainTarget 13: 16 op, 2641324601.32 ns, 165.0828 ms/op
+MainTarget 14: 16 op, 2782946595.39 ns, 173.9342 ms/op
+MainTarget 15: 16 op, 2718180567.71 ns, 169.8863 ms/op
+MainTarget 16: 16 op, 2894009733.09 ns, 180.8756 ms/op
+MainTarget 17: 16 op, 2735913963.70 ns, 170.9946 ms/op
+MainTarget 18: 16 op, 3055289579.03 ns, 190.9556 ms/op
+MainTarget 19: 16 op, 2620568879.85 ns, 163.7856 ms/op
+MainTarget 20: 16 op, 2850577655.17 ns, 178.1611 ms/op
+MainTarget 21: 16 op, 2789357415.14 ns, 174.3348 ms/op
+MainTarget 22: 16 op, 2464744630.69 ns, 154.0465 ms/op
+MainTarget 23: 16 op, 2687412835.90 ns, 167.9633 ms/op
+MainTarget 24: 16 op, 2854639263.23 ns, 178.4150 ms/op
+MainTarget 25: 16 op, 2740083830.37 ns, 171.2552 ms/op
+MainTarget 26: 16 op, 2969536665.92 ns, 185.5960 ms/op
+MainTarget 27: 16 op, 2850009615.91 ns, 178.1256 ms/op
+MainTarget 28: 16 op, 2890009896.11 ns, 180.6256 ms/op
+MainTarget 29: 16 op, 2784953200.44 ns, 174.0596 ms/op
+MainTarget 30: 16 op, 2666326607.29 ns, 166.6454 ms/op
+MainTarget 31: 16 op, 2759327752.28 ns, 172.4580 ms/op
+MainTarget 32: 16 op, 2418899022.74 ns, 151.1812 ms/op
+MainTarget 33: 16 op, 2769128339.94 ns, 173.0705 ms/op
+MainTarget 34: 16 op, 2674221843.53 ns, 167.1389 ms/op
+MainTarget 35: 16 op, 2981087858.86 ns, 186.3180 ms/op
+MainTarget 36: 16 op, 2902755754.58 ns, 181.4222 ms/op
+MainTarget 37: 16 op, 2611030023.29 ns, 163.1894 ms/op
+MainTarget 38: 16 op, 2597804006.08 ns, 162.3628 ms/op
+MainTarget 39: 16 op, 2805603847.38 ns, 175.3502 ms/op
+MainTarget 40: 16 op, 2633438280.50 ns, 164.5899 ms/op
+MainTarget 41: 16 op, 2798777824.05 ns, 174.9236 ms/op
+MainTarget 42: 16 op, 2826336643.50 ns, 176.6460 ms/op
+MainTarget 43: 16 op, 2841856469.47 ns, 177.6160 ms/op
+MainTarget 44: 16 op, 2586245808.16 ns, 161.6404 ms/op
+MainTarget 45: 16 op, 3128120872.64 ns, 195.5076 ms/op
+MainTarget 46: 16 op, 2851855743.50 ns, 178.2410 ms/op
+MainTarget 47: 16 op, 2848045677.49 ns, 178.0029 ms/op
+MainTarget 48: 16 op, 2863368090.71 ns, 178.9605 ms/op
+MainTarget 49: 16 op, 2775097846.67 ns, 173.4436 ms/op
+MainTarget 50: 16 op, 2665712717.33 ns, 166.6070 ms/op
+MainTarget 51: 16 op, 3078544800.59 ns, 192.4091 ms/op
+MainTarget 52: 16 op, 2912707267.46 ns, 182.0442 ms/op
+MainTarget 53: 16 op, 2584930784.54 ns, 161.5582 ms/op
+MainTarget 54: 16 op, 2792596257.82 ns, 174.5373 ms/op
+MainTarget 55: 16 op, 2735796789.69 ns, 170.9873 ms/op
+MainTarget 56: 16 op, 2568361486.94 ns, 160.5226 ms/op
+MainTarget 57: 16 op, 2884370896.52 ns, 180.2732 ms/op
+MainTarget 58: 16 op, 2860106959.50 ns, 178.7567 ms/op
+MainTarget 59: 16 op, 2569477824.18 ns, 160.5924 ms/op
+MainTarget 60: 16 op, 2713465587.14 ns, 169.5916 ms/op
+MainTarget 61: 16 op, 2765601019.92 ns, 172.8501 ms/op
+MainTarget 62: 16 op, 2864286378.39 ns, 179.0179 ms/op
+MainTarget 63: 16 op, 2713450940.39 ns, 169.5907 ms/op
+MainTarget 64: 16 op, 2630426780.89 ns, 164.4017 ms/op
+MainTarget 65: 16 op, 2778806659.05 ns, 173.6754 ms/op
+MainTarget 66: 16 op, 2647686386.29 ns, 165.4804 ms/op
+MainTarget 67: 16 op, 2982023977.37 ns, 186.3765 ms/op
+MainTarget 68: 16 op, 2773261271.31 ns, 173.3288 ms/op
+MainTarget 69: 16 op, 2667328317.78 ns, 166.7080 ms/op
+MainTarget 70: 16 op, 2901389785.74 ns, 181.3369 ms/op
+MainTarget 71: 16 op, 2960636535.11 ns, 185.0398 ms/op
+MainTarget 72: 16 op, 2758754618.50 ns, 172.4222 ms/op
+MainTarget 73: 16 op, 2715428251.93 ns, 169.7143 ms/op
+MainTarget 74: 16 op, 2612343136.47 ns, 163.2714 ms/op
+MainTarget 75: 16 op, 2681240821.90 ns, 167.5776 ms/op
+MainTarget 76: 16 op, 2818478342.55 ns, 176.1549 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2897098796.80 ns, 181.0687 ms/op
+Result  2: 16 op, 2927034847.81 ns, 182.9397 ms/op
+Result  3: 16 op, 2764077630.33 ns, 172.7549 ms/op
+Result  4: 16 op, 2580299099.42 ns, 161.2687 ms/op
+Result  5: 16 op, 2821259824.47 ns, 176.3287 ms/op
+Result  6: 16 op, 2851501546.82 ns, 178.2188 ms/op
+Result  7: 16 op, 2742262248.19 ns, 171.3914 ms/op
+Result  8: 16 op, 2604827951.61 ns, 162.8017 ms/op
+Result  9: 16 op, 2732022894.78 ns, 170.7514 ms/op
+Result 10: 16 op, 2900591091.97 ns, 181.2869 ms/op
+Result 11: 16 op, 2506296065.63 ns, 156.6435 ms/op
+Result 12: 16 op, 2767192930.84 ns, 172.9496 ms/op
+Result 13: 16 op, 2641323200.33 ns, 165.0827 ms/op
+Result 14: 16 op, 2782945194.40 ns, 173.9341 ms/op
+Result 15: 16 op, 2718179166.71 ns, 169.8862 ms/op
+Result 16: 16 op, 2894008332.09 ns, 180.8755 ms/op
+Result 17: 16 op, 2735912562.71 ns, 170.9945 ms/op
+Result 18: 16 op, 3055288178.03 ns, 190.9555 ms/op
+Result 19: 16 op, 2620567478.86 ns, 163.7855 ms/op
+Result 20: 16 op, 2850576254.18 ns, 178.1610 ms/op
+Result 21: 16 op, 2789356014.15 ns, 174.3348 ms/op
+Result 22: 16 op, 2464743229.70 ns, 154.0465 ms/op
+Result 23: 16 op, 2687411434.91 ns, 167.9632 ms/op
+Result 24: 16 op, 2854637862.24 ns, 178.4149 ms/op
+Result 25: 16 op, 2740082429.37 ns, 171.2552 ms/op
+Result 26: 16 op, 2969535264.92 ns, 185.5960 ms/op
+Result 27: 16 op, 2850008214.92 ns, 178.1255 ms/op
+Result 28: 16 op, 2890008495.12 ns, 180.6255 ms/op
+Result 29: 16 op, 2784951799.45 ns, 174.0595 ms/op
+Result 30: 16 op, 2666325206.30 ns, 166.6453 ms/op
+Result 31: 16 op, 2759326351.29 ns, 172.4579 ms/op
+Result 32: 16 op, 2418897621.75 ns, 151.1811 ms/op
+Result 33: 16 op, 2769126938.94 ns, 173.0704 ms/op
+Result 34: 16 op, 2674220442.54 ns, 167.1388 ms/op
+Result 35: 16 op, 2981086457.87 ns, 186.3179 ms/op
+Result 36: 16 op, 2902754353.59 ns, 181.4221 ms/op
+Result 37: 16 op, 2611028622.30 ns, 163.1893 ms/op
+Result 38: 16 op, 2597802605.08 ns, 162.3627 ms/op
+Result 39: 16 op, 2805602446.39 ns, 175.3502 ms/op
+Result 40: 16 op, 2633436879.50 ns, 164.5898 ms/op
+Result 41: 16 op, 2798776423.06 ns, 174.9235 ms/op
+Result 42: 16 op, 2826335242.51 ns, 176.6460 ms/op
+Result 43: 16 op, 2841855068.48 ns, 177.6159 ms/op
+Result 44: 16 op, 2586244407.17 ns, 161.6403 ms/op
+Result 45: 16 op, 3128119471.65 ns, 195.5075 ms/op
+Result 46: 16 op, 2851854342.51 ns, 178.2409 ms/op
+Result 47: 16 op, 2848044276.50 ns, 178.0028 ms/op
+Result 48: 16 op, 2863366689.72 ns, 178.9604 ms/op
+Result 49: 16 op, 2775096445.68 ns, 173.4435 ms/op
+Result 50: 16 op, 2665711316.34 ns, 166.6070 ms/op
+Result 51: 16 op, 3078543399.60 ns, 192.4090 ms/op
+Result 52: 16 op, 2912705866.47 ns, 182.0441 ms/op
+Result 53: 16 op, 2584929383.55 ns, 161.5581 ms/op
+Result 54: 16 op, 2792594856.82 ns, 174.5372 ms/op
+Result 55: 16 op, 2735795388.69 ns, 170.9872 ms/op
+Result 56: 16 op, 2568360085.94 ns, 160.5225 ms/op
+Result 57: 16 op, 2884369495.53 ns, 180.2731 ms/op
+Result 58: 16 op, 2860105558.51 ns, 178.7566 ms/op
+Result 59: 16 op, 2569476423.19 ns, 160.5923 ms/op
+Result 60: 16 op, 2713464186.14 ns, 169.5915 ms/op
+Result 61: 16 op, 2765599618.93 ns, 172.8500 ms/op
+Result 62: 16 op, 2864284977.40 ns, 179.0178 ms/op
+Result 63: 16 op, 2713449539.39 ns, 169.5906 ms/op
+Result 64: 16 op, 2630425379.89 ns, 164.4016 ms/op
+Result 65: 16 op, 2778805258.06 ns, 173.6753 ms/op
+Result 66: 16 op, 2647684985.30 ns, 165.4803 ms/op
+Result 67: 16 op, 2982022576.38 ns, 186.3764 ms/op
+Result 68: 16 op, 2773259870.32 ns, 173.3287 ms/op
+Result 69: 16 op, 2667326916.78 ns, 166.7079 ms/op
+Result 70: 16 op, 2901388384.74 ns, 181.3368 ms/op
+Result 71: 16 op, 2960635134.12 ns, 185.0397 ms/op
+Result 72: 16 op, 2758753217.51 ns, 172.4221 ms/op
+Result 73: 16 op, 2715426850.94 ns, 169.7142 ms/op
+Result 74: 16 op, 2612341735.47 ns, 163.2714 ms/op
+Result 75: 16 op, 2681239420.91 ns, 167.5775 ms/op
+Result 76: 16 op, 2818476941.55 ns, 176.1548 ms/op
+GC:  104 56 11 587615232 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 173.0267 ms, StdErr = 0.9976 ms (0.58%); N = 76, StdDev = 8.6964 ms
+Min = 151.1811 ms, Q1 = 166.6766 ms, Median = 173.1996 ms, Q3 = 178.5857 ms, Max = 195.5075 ms
+IQR = 11.9091 ms, LowerFence = 148.8130 ms, UpperFence = 196.4494 ms
+ConfidenceInterval = [169.6101 ms; 176.4434 ms] (CI 99.9%), Margin = 3.4166 ms (1.97% of Mean)
+Skewness = 0.02, Kurtosis = 2.92
 
 
-CpsPerformanceTests.EarlyCPS: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 3.8602 us, StdErr = 0.0197 us (0.51%); N = 20, StdDev = 0.0883 us
-Min = 3.7535 us, Q1 = 3.7639 us, Median = 3.8590 us, Q3 = 3.9440 us, Max = 3.9784 us
-IQR = 0.1801 us, LowerFence = 3.4938 us, UpperFence = 4.2141 us
-ConfidenceInterval = [3.7835 us; 3.9368 us] (CI 99.9%), Margin = 0.0766 us (1.99% of Mean)
-Skewness = -0.01, Kurtosis = 1.11
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm2: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+Number of lines read from file: 67663
+Number of words read from file: 573843
 
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
 
-CpsPerformanceTests.Late: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 173.9910 ms, StdErr = 1.0107 ms (0.58%); N = 80, StdDev = 9.0403 ms
-Min = 157.4221 ms, Q1 = 166.5823 ms, Median = 172.5694 ms, Q3 = 179.3924 ms, Max = 195.6105 ms
-IQR = 12.8101 ms, LowerFence = 147.3672 ms, UpperFence = 198.6076 ms
-ConfidenceInterval = [170.5363 ms; 177.4457 ms] (CI 99.9%), Margin = 3.4547 ms (1.99% of Mean)
-Skewness = 0.57, Kurtosis = 2.55
+Pilot  1: 16 op, 2598335746.86 ns, 162.3960 ms/op
 
+IdleWarmup  1: 16 op, 6368.15 ns, 398.0096 ns/op
+IdleWarmup  2: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  4: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
 
-CpsPerformanceTests.LateCPS: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 170.8350 ms, StdErr = 0.9837 ms (0.58%); N = 60, StdDev = 7.6196 ms
-Min = 153.0319 ms, Q1 = 166.2351 ms, Median = 171.4609 ms, Q3 = 175.8716 ms, Max = 188.7910 ms
-IQR = 9.6365 ms, LowerFence = 151.7804 ms, UpperFence = 190.3263 ms
-ConfidenceInterval = [167.4283 ms; 174.2417 ms] (CI 99.9%), Margin = 3.4067 ms (1.99% of Mean)
-Skewness = -0.1, Kurtosis = 2.63
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  4: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 1273.63 ns, 79.6019 ns/op
 
+MainWarmup  1: 16 op, 2646725431.98 ns, 165.4203 ms/op
+MainWarmup  2: 16 op, 2601720420.25 ns, 162.6075 ms/op
+MainWarmup  3: 16 op, 2746430331.77 ns, 171.6519 ms/op
+MainWarmup  4: 16 op, 3112522081.57 ns, 194.5326 ms/op
+MainWarmup  5: 16 op, 2898654027.16 ns, 181.1659 ms/op
+MainWarmup  6: 16 op, 2481059202.17 ns, 155.0662 ms/op
+MainWarmup  7: 16 op, 3045041947.02 ns, 190.3151 ms/op
+MainWarmup  8: 16 op, 2737867076.27 ns, 171.1167 ms/op
 
-CpsPerformanceTests.NotFound: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 169.9347 ms, StdErr = 0.9967 ms (0.59%); N = 92, StdDev = 9.5600 ms
-Min = 154.1534 ms, Q1 = 161.7727 ms, Median = 169.5452 ms, Q3 = 176.9471 ms, Max = 195.9267 ms
-IQR = 15.1744 ms, LowerFence = 139.0111 ms, UpperFence = 199.7087 ms
-ConfidenceInterval = [166.5452 ms; 173.3241 ms] (CI 99.9%), Margin = 3.3894 ms (1.99% of Mean)
-Skewness = 0.46, Kurtosis = 2.5
+// BeforeMainRun
+MainTarget  1: 16 op, 2617988504.21 ns, 163.6243 ms/op
+MainTarget  2: 16 op, 2779081126.45 ns, 173.6926 ms/op
+MainTarget  3: 16 op, 2516242611.35 ns, 157.2652 ms/op
+MainTarget  4: 16 op, 2686656936.13 ns, 167.9161 ms/op
+MainTarget  5: 16 op, 2784765976.74 ns, 174.0479 ms/op
+MainTarget  6: 16 op, 2635446159.18 ns, 164.7154 ms/op
+MainTarget  7: 16 op, 2650863457.88 ns, 165.6790 ms/op
+MainTarget  8: 16 op, 3013084644.22 ns, 188.3178 ms/op
+MainTarget  9: 16 op, 2591700768.13 ns, 161.9813 ms/op
+MainTarget 10: 16 op, 2493833717.33 ns, 155.8646 ms/op
+MainTarget 11: 16 op, 2572635154.50 ns, 160.7897 ms/op
+MainTarget 12: 16 op, 2768490887.81 ns, 173.0307 ms/op
+MainTarget 13: 16 op, 2587458304.52 ns, 161.7161 ms/op
+MainTarget 14: 16 op, 2651072970.12 ns, 165.6921 ms/op
+MainTarget 15: 16 op, 2445305843.29 ns, 152.8316 ms/op
+MainTarget 16: 16 op, 2858434045.67 ns, 178.6521 ms/op
+MainTarget 17: 16 op, 2837752194.78 ns, 177.3595 ms/op
+MainTarget 18: 16 op, 2783265639.87 ns, 173.9541 ms/op
+MainTarget 19: 16 op, 2602310111.23 ns, 162.6444 ms/op
+MainTarget 20: 16 op, 2911620223.73 ns, 181.9763 ms/op
+MainTarget 21: 16 op, 2728687383.54 ns, 170.5430 ms/op
+MainTarget 22: 16 op, 2740781779.95 ns, 171.2989 ms/op
+MainTarget 23: 16 op, 2759039911.76 ns, 172.4400 ms/op
+MainTarget 24: 16 op, 2910072762.52 ns, 181.8795 ms/op
+MainTarget 25: 16 op, 2714076293.02 ns, 169.6298 ms/op
+MainTarget 26: 16 op, 2979966427.10 ns, 186.2479 ms/op
+MainTarget 27: 16 op, 2667149372.67 ns, 166.6968 ms/op
+MainTarget 28: 16 op, 2927970456.86 ns, 182.9982 ms/op
+MainTarget 29: 16 op, 2544293689.03 ns, 159.0184 ms/op
+MainTarget 30: 16 op, 2560496817.83 ns, 160.0311 ms/op
+MainTarget 31: 16 op, 2679768504.90 ns, 167.4855 ms/op
+MainTarget 32: 16 op, 2610630740.09 ns, 163.1644 ms/op
+MainTarget 33: 16 op, 2477472021.52 ns, 154.8420 ms/op
+MainTarget 34: 16 op, 2640217179.49 ns, 165.0136 ms/op
+MainTarget 35: 16 op, 2793361073.01 ns, 174.5851 ms/op
+MainTarget 36: 16 op, 2786725457.46 ns, 174.1703 ms/op
+MainTarget 37: 16 op, 2625201711.25 ns, 164.0751 ms/op
+MainTarget 38: 16 op, 2758051574.40 ns, 172.3782 ms/op
+MainTarget 39: 16 op, 2534656126.10 ns, 158.4160 ms/op
+MainTarget 40: 16 op, 2653615136.85 ns, 165.8509 ms/op
+MainTarget 41: 16 op, 3001678008.35 ns, 187.6049 ms/op
+MainTarget 42: 16 op, 2612283912.64 ns, 163.2677 ms/op
+MainTarget 43: 16 op, 3058336740.30 ns, 191.1460 ms/op
+MainTarget 44: 16 op, 2766444800.21 ns, 172.9028 ms/op
+MainTarget 45: 16 op, 2633709563.82 ns, 164.6068 ms/op
+MainTarget 46: 16 op, 2632684291.17 ns, 164.5428 ms/op
+MainTarget 47: 16 op, 2694233764.71 ns, 168.3896 ms/op
+MainTarget 48: 16 op, 3646251641.39 ns, 227.8907 ms/op
+MainTarget 49: 16 op, 4608538801.79 ns, 288.0337 ms/op
+MainTarget 50: 16 op, 4207423483.46 ns, 262.9640 ms/op
+MainTarget 51: 16 op, 4001401630.50 ns, 250.0876 ms/op
+MainTarget 52: 16 op, 3808463784.95 ns, 238.0290 ms/op
+MainTarget 53: 16 op, 3869182851.33 ns, 241.8239 ms/op
+MainTarget 54: 16 op, 3725166431.68 ns, 232.8229 ms/op
+MainTarget 55: 16 op, 4563340198.20 ns, 285.2088 ms/op
+MainTarget 56: 16 op, 3959550128.19 ns, 247.4719 ms/op
+MainTarget 57: 16 op, 3706984080.89 ns, 231.6865 ms/op
+MainTarget 58: 16 op, 4343530656.93 ns, 271.4707 ms/op
+MainTarget 59: 16 op, 4150542502.96 ns, 259.4089 ms/op
+MainTarget 60: 16 op, 4549342997.64 ns, 284.3339 ms/op
+MainTarget 61: 16 op, 4337440792.10 ns, 271.0900 ms/op
+MainTarget 62: 16 op, 4632179933.44 ns, 289.5112 ms/op
+MainTarget 63: 16 op, 4405824567.57 ns, 275.3640 ms/op
+MainTarget 64: 16 op, 3943858998.90 ns, 246.4912 ms/op
+MainTarget 65: 16 op, 4192074323.99 ns, 262.0046 ms/op
+MainTarget 66: 16 op, 3994640562.33 ns, 249.6650 ms/op
+MainTarget 67: 16 op, 4199545441.23 ns, 262.4716 ms/op
+MainTarget 68: 16 op, 3706651026.48 ns, 231.6657 ms/op
+MainTarget 69: 16 op, 2788336600.20 ns, 174.2710 ms/op
+MainTarget 70: 16 op, 2542170546.78 ns, 158.8857 ms/op
+MainTarget 71: 16 op, 2677216785.94 ns, 167.3260 ms/op
+MainTarget 72: 16 op, 3022722843.97 ns, 188.9202 ms/op
+MainTarget 73: 16 op, 2636747172.86 ns, 164.7967 ms/op
+MainTarget 74: 16 op, 2865374695.76 ns, 179.0859 ms/op
+MainTarget 75: 16 op, 2570119734.01 ns, 160.6325 ms/op
+MainTarget 76: 16 op, 2969246278.13 ns, 185.5779 ms/op
+MainTarget 77: 16 op, 2939502545.35 ns, 183.7189 ms/op
+MainTarget 78: 16 op, 2873995901.46 ns, 179.6247 ms/op
+MainTarget 79: 16 op, 2512459928.40 ns, 157.0287 ms/op
+MainTarget 80: 16 op, 2843209702.01 ns, 177.7006 ms/op
+MainTarget 81: 16 op, 3014655667.59 ns, 188.4160 ms/op
+MainTarget 82: 16 op, 2837482185.09 ns, 177.3426 ms/op
+MainTarget 83: 16 op, 2970942117.31 ns, 185.6839 ms/op
+MainTarget 84: 16 op, 2654157066.68 ns, 165.8848 ms/op
+MainTarget 85: 16 op, 2553067093.59 ns, 159.5667 ms/op
+MainTarget 86: 16 op, 2661211069.89 ns, 166.3257 ms/op
+MainTarget 87: 16 op, 2947895771.16 ns, 184.2435 ms/op
+MainTarget 88: 16 op, 2725587366.60 ns, 170.3492 ms/op
+MainTarget 89: 16 op, 2919459420.22 ns, 182.4662 ms/op
+MainTarget 90: 16 op, 3000792835.06 ns, 187.5496 ms/op
+MainTarget 91: 16 op, 2708074308.71 ns, 169.2546 ms/op
+MainTarget 92: 16 op, 2803739888.96 ns, 175.2337 ms/op
+MainTarget 93: 16 op, 2587982403.52 ns, 161.7489 ms/op
+MainTarget 94: 16 op, 2587225230.11 ns, 161.7016 ms/op
+MainTarget 95: 16 op, 2746656401.20 ns, 171.6660 ms/op
+MainTarget 96: 16 op, 2554147769.17 ns, 159.6342 ms/op
+MainTarget 97: 16 op, 2559706530.03 ns, 159.9817 ms/op
+MainTarget 98: 16 op, 2670635936.51 ns, 166.9147 ms/op
+MainTarget 99: 16 op, 2792540218.07 ns, 174.5338 ms/op
+MainTarget 100: 16 op, 2631522740.04 ns, 164.4702 ms/op
 
-
-CpsPerformanceTests.NotFoundCPS: DefaultJob
-Runtime = .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT; GC = Concurrent Workstation
-Mean = 60.5390 ms, StdErr = 0.1588 ms (0.26%); N = 15, StdDev = 0.6152 ms
-Min = 59.7695 ms, Q1 = 60.1184 ms, Median = 60.2776 ms, Q3 = 61.0285 ms, Max = 61.7573 ms
-IQR = 0.9101 ms, LowerFence = 58.7532 ms, UpperFence = 62.3937 ms
-ConfidenceInterval = [59.8813 ms; 61.1967 ms] (CI 99.9%), Margin = 0.6577 ms (1.09% of Mean)
-Skewness = 0.53, Kurtosis = 1.84
-
-
-Total time: 00:19:11 (1151.97 sec)
-
-// * Summary *
-
-BenchmarkDotNet=v0.10.12, OS=Windows 10 Redstone 3 [1709, Fall Creators Update] (10.0.16299.248)
-Intel Core m3-7Y30 CPU 1.00GHz, 1 CPU, 4 logical cores and 2 physical cores
-Frequency=1570314 Hz, Resolution=636.8153 ns, Timer=TSC
-.NET Core SDK=2.1.4
-  [Host]     : .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT DEBUG
-  DefaultJob : .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
-
-
-      Method |           Mean |         Error |        StdDev |     Gen 0 |     Gen 1 |    Gen 2 |   Allocated |
------------- |---------------:|--------------:|--------------:|----------:|----------:|---------:|------------:|
-       Early | 172,125.805 us | 3,468.7303 us | 8,891.6818 us | 6312.5000 | 3312.5000 | 437.5000 | 35865.19 KB |
-    EarlyCPS |       3.860 us |     0.0766 us |     0.0883 us |    2.9221 |         - |        - |     5.99 KB |
-        Late | 173,990.992 us | 3,454.6796 us | 9,040.2945 us | 6437.5000 | 3437.5000 | 562.5000 | 35865.67 KB |
-     LateCPS | 170,834.972 us | 3,406.7016 us | 7,619.5763 us | 6437.5000 | 3312.5000 | 625.0000 | 35459.65 KB |
-    NotFound | 169,934.681 us | 3,389.4392 us | 9,559.9733 us | 6625.0000 | 3625.0000 | 750.0000 | 35865.19 KB |
- NotFoundCPS |  60,539.012 us |   657.6858 us |   615.1997 us | 3187.5000 | 1312.5000 | 250.0000 | 17932.62 KB |
-
-// * Legends *
-  Mean      : Arithmetic mean of all measurements
-  Error     : Half of 99.9% confidence interval
-  StdDev    : Standard deviation of all measurements
-  Gen 0     : GC Generation 0 collects per 1k Operations
-  Gen 1     : GC Generation 1 collects per 1k Operations
-  Gen 2     : GC Generation 2 collects per 1k Operations
-  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
-  1 us      : 1 Microsecond (0.000001 sec)
-
-// * Diagnostic Output - MemoryDiagnoser *
-
-
-// ***** BenchmarkRunner: End *****
-// * Artifacts cleanup *
+// AfterMainRun
+Result  1: 16 op, 2617987301.34 ns, 163.6242 ms/op
+Result  2: 16 op, 2779079923.58 ns, 173.6925 ms/op
+Result  3: 16 op, 2516241408.48 ns, 157.2651 ms/op
+Result  4: 16 op, 2686655733.26 ns, 167.9160 ms/op
+Result  5: 16 op, 2784764773.87 ns, 174.0478 ms/op
+Result  6: 16 op, 2635444956.30 ns, 164.7153 ms/op
+Result  7: 16 op, 2650862255.01 ns, 165.6789 ms/op
+Result  8: 16 op, 3013083441.34 ns, 188.3177 ms/op
+Result  9: 16 op, 2591699565.25 ns, 161.9812 ms/op
+Result 10: 16 op, 2493832514.46 ns, 155.8645 ms/op
+Result 11: 16 op, 2572633951.62 ns, 160.7896 ms/op
+Result 12: 16 op, 2768489684.94 ns, 173.0306 ms/op
+Result 13: 16 op, 2587457101.64 ns, 161.7161 ms/op
+Result 14: 16 op, 2651071767.25 ns, 165.6920 ms/op
+Result 15: 16 op, 2445304640.42 ns, 152.8315 ms/op
+Result 16: 16 op, 2858432842.80 ns, 178.6521 ms/op
+Result 17: 16 op, 2837750991.91 ns, 177.3594 ms/op
+Result 18: 16 op, 2783264436.99 ns, 173.9540 ms/op
+Result 19: 16 op, 2602308908.35 ns, 162.6443 ms/op
+Result 20: 16 op, 2911619020.85 ns, 181.9762 ms/op
+Result 21: 16 op, 2728686180.67 ns, 170.5429 ms/op
+Result 22: 16 op, 2740780577.08 ns, 171.2988 ms/op
+Result 23: 16 op, 2759038708.89 ns, 172.4399 ms/op
+Result 24: 16 op, 2910071559.64 ns, 181.8795 ms/op
+Result 25: 16 op, 2714075090.15 ns, 169.6297 ms/op
+Result 26: 16 op, 2979965224.22 ns, 186.2478 ms/op
+Result 27: 16 op, 2667148169.80 ns, 166.6968 ms/op
+Result 28: 16 op, 2927969253.99 ns, 182.9981 ms/op
+Result 29: 16 op, 2544292486.16 ns, 159.0183 ms/op
+Result 30: 16 op, 2560495614.96 ns, 160.0310 ms/op
+Result 31: 16 op, 2679767302.02 ns, 167.4855 ms/op
+Result 32: 16 op, 2610629537.22 ns, 163.1643 ms/op
+Result 33: 16 op, 2477470818.65 ns, 154.8419 ms/op
+Result 34: 16 op, 2640215976.62 ns, 165.0135 ms/op
+Result 35: 16 op, 2793359870.13 ns, 174.5850 ms/op
+Result 36: 16 op, 2786724254.58 ns, 174.1703 ms/op
+Result 37: 16 op, 2625200508.38 ns, 164.0750 ms/op
+Result 38: 16 op, 2758050371.53 ns, 172.3781 ms/op
+Result 39: 16 op, 2534654923.23 ns, 158.4159 ms/op
+Result 40: 16 op, 2653613933.97 ns, 165.8509 ms/op
+Result 41: 16 op, 3001676805.47 ns, 187.6048 ms/op
+Result 42: 16 op, 2612282709.77 ns, 163.2677 ms/op
+Result 43: 16 op, 3058335537.42 ns, 191.1460 ms/op
+Result 44: 16 op, 2766443597.34 ns, 172.9027 ms/op
+Result 45: 16 op, 2633708360.95 ns, 164.6068 ms/op
+Result 46: 16 op, 2632683088.29 ns, 164.5427 ms/op
+Result 47: 16 op, 2694232561.84 ns, 168.3895 ms/op
+Result 48: 16 op, 2788335397.32 ns, 174.2710 ms/op
+Result 49: 16 op, 2542169343.91 ns, 158.8856 ms/op
+Result 50: 16 op, 2677215583.07 ns, 167.3260 ms/op
+Result 51: 16 op, 3022721641.09 ns, 188.9201 ms/op
+Result 52: 16 op, 2636745969.99 ns, 164.7966 ms/op
+Result 53: 16 op, 2865373492.8

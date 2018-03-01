@@ -30,6 +30,14 @@ type CpsPerformanceTests() =
         allTheWords |> replaceFirstItemCPS "MISÉRABLES" "PERSONNES-CONTENUES"
 
     [<Benchmark>]
+    member __.EarlyAvm1() = 
+        allTheWords |> replaceFirstItemAvm1 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
+    member __.EarlyAvm2() = 
+        allTheWords |> replaceFirstItemAvm2 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
     member __.Late() = 
         allTheWords |> replaceFirstItem "lichens" "BANANAS"
 
@@ -38,9 +46,25 @@ type CpsPerformanceTests() =
         allTheWords |> replaceFirstItemCPS "lichens" "BANANAS"
 
     [<Benchmark>]
+    member __.LateAvm1() = 
+        allTheWords |> replaceFirstItemAvm1 "lichens" "BANANAS"
+
+    [<Benchmark>]
+    member __.LateAvm2() = 
+        allTheWords |> replaceFirstItemAvm2 "lichens" "BANANAS"
+
+    [<Benchmark>]
     member __.NotFound() = 
         allTheWords |> replaceFirstItem "aWordThatNeverOccursInLesMisérables" "BANANAS"
 
     [<Benchmark>]
     member __.NotFoundCPS() = 
         allTheWords |> replaceFirstItemCPS "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm1() = 
+        allTheWords |> replaceFirstItemAvm1 "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm2() = 
+        allTheWords |> replaceFirstItemAvm2 "aWordThatNeverOccursInLesMisérables" "BANANAS"
