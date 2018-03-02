@@ -26,6 +26,10 @@ let ``replaceFirstItemAvm2 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
     objUnderTest.EarlyAvm2 () |> should equal allTheWordsEarly
 
 [<Fact>]
+let ``replaceFirstItemAvm3 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
+    objUnderTest.EarlyAvm3 () |> should equal allTheWordsEarly
+
+[<Fact>]
 let ``replaceFirstItem "lichens" "BANANAS"`` () =
     objUnderTest.Late () |> should equal allTheWordsLate
 
@@ -42,6 +46,10 @@ let ``replaceFirstItemAvm2 "lichens" "BANANAS"`` () =
     objUnderTest.LateAvm2 () |> should equal allTheWordsLate
 
 [<Fact>]
+let ``replaceFirstItemAvm3 "lichens" "BANANAS"`` () =
+    objUnderTest.LateAvm3 () |> should equal allTheWordsLate
+
+[<Fact>]
 let ``replaceFirstItem "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
     objUnderTest.NotFound () |> should equal allTheWords
 
@@ -56,3 +64,7 @@ let ``replaceFirstItemAvm1 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` ()
 [<Fact>]
 let ``replaceFirstItemAvm2 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
     objUnderTest.NotFoundAvm2 () |> should equal allTheWords
+
+[<Fact>]
+let ``replaceFirstItemAvm3 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
+    objUnderTest.NotFoundAvm3 () |> should equal allTheWords

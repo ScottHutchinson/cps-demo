@@ -52,6 +52,20 @@ let replaceFirstItemAvm2 itm rep lst =
 
     iter [] lst
 
+let inline revCons x y = List.fold ( fun acc x -> x :: acc) y x
+
+let replaceFirstItemAvm3 itm rep lst =
+    let rec iter acc lst =
+        match lst with
+        | [] -> List.rev acc
+        | h :: t ->
+            if h = itm then
+                revCons acc (rep :: t)
+            else
+                iter (h :: acc) t
+
+    iter [] lst
+
 let load filePath =
     filePath
     |> File.ReadAllLines

@@ -29,13 +29,17 @@ type CpsPerformanceTests() =
     member __.EarlyCPS() = 
         allTheWords |> replaceFirstItemCPS "MISÉRABLES" "PERSONNES-CONTENUES"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.EarlyAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "MISÉRABLES" "PERSONNES-CONTENUES"
 
     [<Benchmark>]
     member __.EarlyAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
+    member __.EarlyAvm3() = 
+        allTheWords |> replaceFirstItemAvm3 "MISÉRABLES" "PERSONNES-CONTENUES"
 
     [<Benchmark>]
     member __.Late() = 
@@ -45,13 +49,17 @@ type CpsPerformanceTests() =
     member __.LateCPS() = 
         allTheWords |> replaceFirstItemCPS "lichens" "BANANAS"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.LateAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "lichens" "BANANAS"
 
     [<Benchmark>]
     member __.LateAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "lichens" "BANANAS"
+
+    [<Benchmark>]
+    member __.LateAvm3() = 
+        allTheWords |> replaceFirstItemAvm3 "lichens" "BANANAS"
 
     [<Benchmark>]
     member __.NotFound() = 
@@ -61,10 +69,14 @@ type CpsPerformanceTests() =
     member __.NotFoundCPS() = 
         allTheWords |> replaceFirstItemCPS "aWordThatNeverOccursInLesMisérables" "BANANAS"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.NotFoundAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "aWordThatNeverOccursInLesMisérables" "BANANAS"
 
     [<Benchmark>]
     member __.NotFoundAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm3() = 
+        allTheWords |> replaceFirstItemAvm3 "aWordThatNeverOccursInLesMisérables" "BANANAS"
