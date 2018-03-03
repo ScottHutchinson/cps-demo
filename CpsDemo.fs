@@ -4,9 +4,13 @@ open System.IO
 open System.Text.RegularExpressions
 
 let replaceFirstItem itm replacement list =
-   let rec replace isFound acc lst =
+    let rec replace isFound acc lst =
        match lst with
-       | [] -> acc |> List.rev
+       | [] ->
+           if isFound then
+                acc |> List.rev
+           else
+                list
        | h :: t  when h = itm ->
            if isFound then
                replace true (h :: acc) t
@@ -14,7 +18,7 @@ let replaceFirstItem itm replacement list =
                replace true (replacement :: acc) t
        | h :: t -> replace isFound (h :: acc) t
    
-   replace false [] list
+    replace false [] list
 
 // let testList = [ 1; 4; 6; 4; 7 ]
 // let test = testList |> replaceFirstItem 4 42
