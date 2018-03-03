@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>CpsPerformanceTests</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.12, OS=Windows 10 Redstone 3 [1709, Fall Creators Update] (10.0.16299.248)
+Intel Core m3-7Y30 CPU 1.00GHz, 1 CPU, 4 logical cores and 2 physical cores
+Frequency=1570314 Hz, Resolution=636.8153 ns, Timer=TSC
+.NET Core SDK=2.1.4
+  [Host]   : .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT DEBUG
+  ShortRun : .NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+</code></pre>
+<pre><code>Job=ShortRun  LaunchCount=1  TargetCount=3  
+WarmupCount=3  
+</code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>    Mean</th><th>    Error</th><th>  StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>Early</td><td>180,491.624 us</td><td>159,075.2837 us</td><td>8,988.0485 us</td><td>6750.0000</td><td>3687.5000</td><td>875.0000</td><td>36725960 B</td>
+</tr><tr><td>EarlyCPS</td><td>3.866 us</td><td>0.9778 us</td><td>0.0552 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm3</td><td>3.457 us</td><td>0.3010 us</td><td>0.0170 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm4</td><td>5.140 us</td><td>2.0549 us</td><td>0.1161 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm5</td><td>4.735 us</td><td>0.7460 us</td><td>0.0422 us</td><td>2.9449</td><td>-</td><td>-</td><td>6192 B</td>
+</tr><tr><td>EarlyAvm6</td><td>4.849 us</td><td>0.2279 us</td><td>0.0129 us</td><td>2.9297</td><td>-</td><td>-</td><td>6160 B</td>
+</tr><tr><td>Late</td><td>174,611.853 us</td><td>44,038.2036 us</td><td>2,488.2402 us</td><td>6500.0000</td><td>3500.0000</td><td>625.0000</td><td>36726440 B</td>
+</tr><tr><td>LateCPS</td><td>170,064.623 us</td><td>68,481.3515 us</td><td>3,869.3234 us</td><td>6500.0000</td><td>3312.5000</td><td>687.5000</td><td>36310594 B</td>
+</tr><tr><td>LateAvm3</td><td>179,396.198 us</td><td>85,189.1162 us</td><td>4,813.3430 us</td><td>6687.5000</td><td>3687.5000</td><td>875.0000</td><td>36310591 B</td>
+</tr><tr><td>LateAvm4</td><td>187,679.981 us</td><td>49,387.8867 us</td><td>2,790.5072 us</td><td>6625.0000</td><td>3625.0000</td><td>812.5000</td><td>36310590 B</td>
+</tr><tr><td>LateAvm5</td><td>194,091.431 us</td><td>79,357.9202 us</td><td>4,483.8697 us</td><td>6687.5000</td><td>3500.0000</td><td>875.0000</td><td>36310650 B</td>
+</tr><tr><td>LateAvm6</td><td>201,362.364 us</td><td>240,230.8744 us</td><td>13,573.4899 us</td><td>6312.5000</td><td>3187.5000</td><td>500.0000</td><td>36310868 B</td>
+</tr><tr><td>NotFound</td><td>67,231.748 us</td><td>60,813.9644 us</td><td>3,436.1018 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>18362980 B</td>
+</tr><tr><td>NotFoundCPS</td><td>60,844.407 us</td><td>12,788.7406 us</td><td>722.5876 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>18363001 B</td>
+</tr><tr><td>NotFoundAvm3</td><td>185,242.019 us</td><td>82,551.6795 us</td><td>4,664.3230 us</td><td>6812.5000</td><td>3812.5000</td><td>937.5000</td><td>36726429 B</td>
+</tr><tr><td>NotFoundAvm4</td><td>7,874.739 us</td><td>214.1821 us</td><td>12.1017 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
+</tr><tr><td>NotFoundAvm5</td><td>8,754.382 us</td><td>567.0287 us</td><td>32.0382 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
+</tr><tr><td>NotFoundAvm6</td><td>9,568.871 us</td><td>2,771.6473 us</td><td>156.6032 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
+</tr></tbody></table>
+</body>
+</html>

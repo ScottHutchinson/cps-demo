@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <AssemblyTitle>59ba9537-aab0-4df7-b4a2-84d856f102cd</AssemblyTitle>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>59ba9537-aab0-4df7-b4a2-84d856f102cd</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <OutputPath>bin\Release</OutputPath>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="59ba9537-aab0-4df7-b4a2-84d856f102cd.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\scott\source\repos\cps-demo\CpsDemo.fsproj" />
+  </ItemGroup>
+  
+</Project>

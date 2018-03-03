@@ -25,7 +25,7 @@ let replaceFirstItemCPS itm replacement list =
         | [] -> list
         | h :: t when h = itm -> replacement :: t |> cont
         | h :: t -> replace (fun t' -> h :: t' |> cont) t
-        
+
     replace id list
 
 let load filePath =
@@ -88,3 +88,16 @@ allTheWords |> repeat replaceFirstItemCPS needle3 "BANANAS"
 #time
 
 printfn "Done."
+
+let memoize f =
+    fun x ->
+        let f_x = f x
+        f_x
+
+
+type Constraint<'a> =
+    | NotNull
+    | Unique
+    | PrimaryKey
+    | Check of ('a -> bool)
+    

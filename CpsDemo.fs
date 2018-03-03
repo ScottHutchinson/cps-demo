@@ -1,5 +1,6 @@
 ﻿module CpsDemo
 
+open System.Collections.Generic
 open System.IO
 open System.Text.RegularExpressions
 
@@ -70,6 +71,32 @@ let replaceFirstItemAvm3 itm rep lst =
 
     iter [] lst
 
+let replaceFirstItemAvm4 itm rep lst =
+    if List.contains itm lst then
+        let rec iter acc lst =
+            match lst with
+            | [] -> List.rev acc
+            | h :: t ->
+                if h = itm then
+                    revCons acc (rep :: t)
+                else
+                    iter (h :: acc) t
+        iter [] lst
+    else lst
+
+let replaceFirstItemAvm5 itm rep lst =
+    match lst |> List.tryFindIndex ((=) itm)  with
+    | None -> lst
+    | Some x ->
+        let splt = lst |> List.splitAt x
+        (fst splt) @ (rep :: (List.tail (snd splt)))
+
+let replaceFirstItemAvm6 itm rep lst =
+    match lst |> List.tryFindIndex ((=) itm) with
+    | None -> lst
+    | Some x ->
+        (lst |> (List.take x)) @ (rep :: (lst |> (List.skip (x + 1))))
+
 let load filePath =
     filePath
     |> File.ReadAllLines
@@ -81,6 +108,16 @@ let getAllWordsSeq lines =
             yield! words line
     }
 
+let memoize f =
+    let dict = Dictionary<_, _>()
+    fun x ->
+        match dict.TryGetValue x with
+            | true, value -> value
+            | _           ->
+                let f_x = f x
+                dict.Add (x, f_x)
+                f_x
+
 let getAllTheWordsAsList fileName =
     // https://www.gutenberg.org/files/135/135-0.txt (Les Mis�rables by Victor Hugo)
     let lines = load (__SOURCE_DIRECTORY__ + fileName)
@@ -91,4 +128,5 @@ let getAllTheWordsAsList fileName =
     allWords
     |> List.ofSeq
 
-let allTheWords = getAllTheWordsAsList @"\Les Misérables.txt"
+let mgetAllTheWordsAsList = memoize getAllTheWordsAsList
+let allTheWords = mgetAllTheWordsAsList @"\Les Misérables.txt"

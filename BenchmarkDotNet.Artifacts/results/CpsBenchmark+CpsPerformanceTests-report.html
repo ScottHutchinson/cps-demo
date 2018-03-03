@@ -25,18 +25,24 @@ Frequency=1570314 Hz, Resolution=636.8153 ns, Timer=TSC
 <table>
 <thead><tr><th>Method</th><th>    Mean</th><th>  Error</th><th> StdDev</th><th>  Median</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>Early</td><td>176,942.671 us</td><td>3,244.0972 us</td><td>3,984.0427 us</td><td>177,966.026 us</td><td>6625.0000</td><td>3625.0000</td><td>750.0000</td><td>35865.66 KB</td>
-</tr><tr><td>EarlyCPS</td><td>3.952 us</td><td>0.0535 us</td><td>0.0475 us</td><td>3.930 us</td><td>2.9221</td><td>-</td><td>-</td><td>5.99 KB</td>
-</tr><tr><td>EarlyAvm2</td><td>5.712 us</td><td>0.1094 us</td><td>0.1216 us</td><td>5.678 us</td><td>4.3869</td><td>-</td><td>-</td><td>9 KB</td>
-</tr><tr><td>EarlyAvm3</td><td>4.157 us</td><td>0.1483 us</td><td>0.4349 us</td><td>4.025 us</td><td>2.9221</td><td>-</td><td>-</td><td>5.99 KB</td>
-</tr><tr><td>Late</td><td>178,658.157 us</td><td>3,551.4505 us</td><td>6,403.9979 us</td><td>178,368.822 us</td><td>6500.0000</td><td>3500.0000</td><td>625.0000</td><td>35865.67 KB</td>
-</tr><tr><td>LateCPS</td><td>166,285.347 us</td><td>3,281.3855 us</td><td>6,400.0904 us</td><td>167,340.821 us</td><td>6312.5000</td><td>3312.5000</td><td>500.0000</td><td>35459.56 KB</td>
-</tr><tr><td>LateAvm2</td><td>230,814.118 us</td><td>4,588.9534 us</td><td>9,164.6357 us</td><td>232,057.315 us</td><td>9250.0000</td><td>4312.5000</td><td>562.5000</td><td>53189.75 KB</td>
-</tr><tr><td>LateAvm3</td><td>167,067.639 us</td><td>3,297.8993 us</td><td>5,134.4319 us</td><td>167,357.728 us</td><td>6187.5000</td><td>3187.5000</td><td>375.0000</td><td>35459.82 KB</td>
-</tr><tr><td>NotFound</td><td>63,980.407 us</td><td>607.4554 us</td><td>538.4933 us</td><td>63,941.825 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>17932.6 KB</td>
-</tr><tr><td>NotFoundCPS</td><td>60,985.400 us</td><td>435.7366 us</td><td>386.2691 us</td><td>61,021.702 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>17932.62 KB</td>
-</tr><tr><td>NotFoundAvm2</td><td>175,625.392 us</td><td>3,456.5750 us</td><td>6,492.2856 us</td><td>177,153.170 us</td><td>6625.0000</td><td>3625.0000</td><td>750.0000</td><td>35865.66 KB</td>
-</tr><tr><td>NotFoundAvm3</td><td>176,165.661 us</td><td>3,517.2910 us</td><td>5,679.7693 us</td><td>178,852.416 us</td><td>6562.5000</td><td>3562.5000</td><td>750.0000</td><td>35865.53 KB</td>
+</thead><tbody><tr><td>Early</td><td>176,271.281 us</td><td>3,678.2369 us</td><td>7,174.1187 us</td><td>176,600.689 us</td><td>6562.5000</td><td>3562.5000</td><td>687.5000</td><td>36726442 B</td>
+</tr><tr><td>EarlyCPS</td><td>3.776 us</td><td>0.0677 us</td><td>0.0566 us</td><td>3.751 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm3</td><td>3.520 us</td><td>0.1383 us</td><td>0.1293 us</td><td>3.456 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm4</td><td>4.532 us</td><td>0.0157 us</td><td>0.0147 us</td><td>4.534 us</td><td>2.9221</td><td>-</td><td>-</td><td>6136 B</td>
+</tr><tr><td>EarlyAvm5</td><td>4.563 us</td><td>0.0334 us</td><td>0.0312 us</td><td>4.563 us</td><td>2.9449</td><td>-</td><td>-</td><td>6192 B</td>
+</tr><tr><td>EarlyAvm6</td><td>4.824 us</td><td>0.0540 us</td><td>0.0451 us</td><td>4.811 us</td><td>2.9297</td><td>-</td><td>-</td><td>6160 B</td>
+</tr><tr><td>Late</td><td>174,850.716 us</td><td>3,462.2234 us</td><td>6,914.4342 us</td><td>175,909.680 us</td><td>6562.5000</td><td>3562.5000</td><td>687.5000</td><td>36725956 B</td>
+</tr><tr><td>LateCPS</td><td>170,345.615 us</td><td>3,337.2876 us</td><td>4,678.4111 us</td><td>170,420.882 us</td><td>6687.5000</td><td>3187.5000</td><td>875.0000</td><td>36310687 B</td>
+</tr><tr><td>LateAvm3</td><td>176,394.547 us</td><td>3,521.9263 us</td><td>6,869.2468 us</td><td>176,695.760 us</td><td>6500.0000</td><td>3500.0000</td><td>750.0000</td><td>36310594 B</td>
+</tr><tr><td>LateAvm4</td><td>183,095.358 us</td><td>3,627.4957 us</td><td>5,429.4648 us</td><td>184,058.304 us</td><td>6625.0000</td><td>3562.5000</td><td>812.5000</td><td>36310592 B</td>
+</tr><tr><td>LateAvm5</td><td>199,023.973 us</td><td>3,928.3515 us</td><td>5,879.7716 us</td><td>199,920.050 us</td><td>6687.5000</td><td>3625.0000</td><td>875.0000</td><td>36311188 B</td>
+</tr><tr><td>LateAvm6</td><td>189,675.587 us</td><td>4,110.2364 us</td><td>6,024.7312 us</td><td>187,835.361 us</td><td>6312.5000</td><td>3250.0000</td><td>500.0000</td><td>36310612 B</td>
+</tr><tr><td>NotFound</td><td>62,022.741 us</td><td>642.5011 us</td><td>569.5605 us</td><td>61,880.759 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>18363117 B</td>
+</tr><tr><td>NotFoundCPS</td><td>61,387.409 us</td><td>847.9648 us</td><td>708.0889 us</td><td>61,405.264 us</td><td>3187.5000</td><td>1312.5000</td><td>250.0000</td><td>18363002 B</td>
+</tr><tr><td>NotFoundAvm3</td><td>177,674.038 us</td><td>2,363.5224 us</td><td>1,973.6480 us</td><td>177,182.952 us</td><td>6500.0000</td><td>3500.0000</td><td>625.0000</td><td>36726442 B</td>
+</tr><tr><td>NotFoundAvm4</td><td>9,969.072 us</td><td>54.0994 us</td><td>47.9577 us</td><td>9,977.609 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
+</tr><tr><td>NotFoundAvm5</td><td>10,901.259 us</td><td>134.0387 us</td><td>125.3798 us</td><td>10,863.065 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
+</tr><tr><td>NotFoundAvm6</td><td>11,992.864 us</td><td>236.9226 us</td><td>467.6620 us</td><td>11,736.767 us</td><td>-</td><td>-</td><td>-</td><td>0 B</td>
 </tr></tbody></table>
 </body>
 </html>

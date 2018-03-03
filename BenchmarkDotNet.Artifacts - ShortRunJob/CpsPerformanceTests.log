@@ -1,0 +1,1368 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   CpsPerformanceTests.Early: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.EarlyCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.EarlyAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.EarlyAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.EarlyAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.EarlyAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.Late: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.LateCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.LateAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.LateAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.LateAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.LateAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFound: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFoundCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFoundAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFoundAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFoundAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+//   CpsPerformanceTests.NotFoundAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+// Validating benchmarks:
+// ***** Building 18 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:01:00 (60.51 sec)   *****
+// **************************
+// Benchmark: CpsPerformanceTests.Early: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 3181514652.48 ns, 198.8447 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 3184.08 ns, 199.0048 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 18: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 1910.45 ns, 119.4029 ns/op
+
+MainWarmup  1: 16 op, 3033502853.57 ns, 189.5939 ms/op
+MainWarmup  2: 16 op, 2767214709.92 ns, 172.9509 ms/op
+MainWarmup  3: 16 op, 2743551926.56 ns, 171.4720 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2926105861.63 ns, 182.8816 ms/op
+MainTarget  2: 16 op, 3008691892.19 ns, 188.0432 ms/op
+MainTarget  3: 16 op, 2728803920.74 ns, 170.5502 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2926104619.84 ns, 182.8815 ms/op
+Result  2: 16 op, 3008690650.40 ns, 188.0432 ms/op
+Result  3: 16 op, 2728802678.95 ns, 170.5502 ms/op
+GC:  108 59 14 587615352 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 180.4916 ms, StdErr = 5.1893 ms (2.88%); N = 3, StdDev = 8.9880 ms
+Min = 170.5502 ms, Q1 = 170.5502 ms, Median = 182.8815 ms, Q3 = 188.0432 ms, Max = 188.0432 ms
+IQR = 17.4930 ms, LowerFence = 144.3107 ms, UpperFence = 214.2827 ms
+ConfidenceInterval = [21.4163 ms; 339.5669 ms] (CI 99.9%), Margin = 159.0753 ms (88.13% of Mean)
+Skewness = -0.25, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 333054.41 ns, 20.8159 us/op
+Pilot  2: 32 op, 135641.66 ns, 4.2388 us/op
+Pilot  3: 64 op, 270646.51 ns, 4.2289 us/op
+Pilot  4: 128 op, 489710.98 ns, 3.8259 us/op
+Pilot  5: 256 op, 980058.77 ns, 3.8284 us/op
+Pilot  6: 512 op, 2424992.71 ns, 4.7363 us/op
+Pilot  7: 1024 op, 4269209.85 ns, 4.1692 us/op
+Pilot  8: 2048 op, 8501484.42 ns, 4.1511 us/op
+Pilot  9: 4096 op, 16038830.45 ns, 3.9157 us/op
+Pilot 10: 8192 op, 33839092.05 ns, 4.1307 us/op
+Pilot 11: 16384 op, 61314488.69 ns, 3.7423 us/op
+Pilot 12: 32768 op, 121491625.24 ns, 3.7076 us/op
+Pilot 13: 65536 op, 248722230.08 ns, 3.7952 us/op
+Pilot 14: 131072 op, 592715851.73 ns, 4.5221 us/op
+
+IdleWarmup  1: 131072 op, 749531.62 ns, 5.7185 ns/op
+IdleWarmup  2: 131072 op, 756536.59 ns, 5.7719 ns/op
+IdleWarmup  3: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  4: 131072 op, 739979.39 ns, 5.6456 ns/op
+IdleWarmup  5: 131072 op, 866068.82 ns, 6.6076 ns/op
+IdleWarmup  6: 131072 op, 899183.22 ns, 6.8602 ns/op
+IdleWarmup  7: 131072 op, 784556.46 ns, 5.9857 ns/op
+
+IdleTarget  1: 131072 op, 838685.77 ns, 6.3987 ns/op
+IdleTarget  2: 131072 op, 859063.86 ns, 6.5541 ns/op
+IdleTarget  3: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  4: 131072 op, 735521.69 ns, 5.6116 ns/op
+IdleTarget  5: 131072 op, 741889.84 ns, 5.6602 ns/op
+IdleTarget  6: 131072 op, 973690.61 ns, 7.4287 ns/op
+IdleTarget  7: 131072 op, 781372.39 ns, 5.9614 ns/op
+IdleTarget  8: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  9: 131072 op, 717690.86 ns, 5.4755 ns/op
+IdleTarget 10: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget 11: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 12: 131072 op, 752715.70 ns, 5.7428 ns/op
+IdleTarget 13: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 14: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget 15: 131072 op, 720874.93 ns, 5.4998 ns/op
+
+MainWarmup  1: 131072 op, 487375773.25 ns, 3.7184 us/op
+MainWarmup  2: 131072 op, 501820018.16 ns, 3.8286 us/op
+MainWarmup  3: 131072 op, 491414455.96 ns, 3.7492 us/op
+
+// BeforeMainRun
+MainTarget  1: 131072 op, 500703044.10 ns, 3.8201 us/op
+MainTarget  2: 131072 op, 506738779.63 ns, 3.8661 us/op
+MainTarget  3: 131072 op, 515122453.22 ns, 3.9301 us/op
+
+// AfterMainRun
+Result  1: 131072 op, 499939799.73 ns, 3.8142 us/op
+Result  2: 131072 op, 505975535.25 ns, 3.8603 us/op
+Result  3: 131072 op, 514359208.84 ns, 3.9242 us/op
+GC:  383 0 0 804257792 131072
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 3.8663 us, StdErr = 0.0319 us (0.83%); N = 3, StdDev = 0.0552 us
+Min = 3.8142 us, Q1 = 3.8142 us, Median = 3.8603 us, Q3 = 3.9242 us, Max = 3.9242 us
+IQR = 0.1100 us, LowerFence = 3.6492 us, UpperFence = 4.0893 us
+ConfidenceInterval = [2.8884 us; 4.8441 us] (CI 99.9%), Margin = 0.9778 us (25.29% of Mean)
+Skewness = 0.11, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 327323.07 ns, 20.4577 us/op
+Pilot  2: 32 op, 118447.65 ns, 3.7015 us/op
+Pilot  3: 64 op, 223522.17 ns, 3.4925 us/op
+Pilot  4: 128 op, 440676.20 ns, 3.4428 us/op
+Pilot  5: 256 op, 878805.13 ns, 3.4328 us/op
+Pilot  6: 512 op, 2244137.16 ns, 4.3831 us/op
+Pilot  7: 1024 op, 4267936.22 ns, 4.1679 us/op
+Pilot  8: 2048 op, 11512347.21 ns, 5.6213 us/op
+Pilot  9: 4096 op, 14880463.40 ns, 3.6329 us/op
+Pilot 10: 8192 op, 30094618.02 ns, 3.6737 us/op
+Pilot 11: 16384 op, 68879217.79 ns, 4.2041 us/op
+Pilot 12: 32768 op, 123049912.31 ns, 3.7552 us/op
+Pilot 13: 65536 op, 251719719.75 ns, 3.8409 us/op
+Pilot 14: 131072 op, 477244678.45 ns, 3.6411 us/op
+Pilot 15: 262144 op, 952123588.02 ns, 3.6321 us/op
+
+IdleWarmup  1: 262144 op, 1565928.85 ns, 5.9735 ns/op
+IdleWarmup  2: 262144 op, 1428376.75 ns, 5.4488 ns/op
+IdleWarmup  3: 262144 op, 1440476.24 ns, 5.4950 ns/op
+IdleWarmup  4: 262144 op, 1635978.54 ns, 6.2408 ns/op
+IdleWarmup  5: 262144 op, 1440476.24 ns, 5.4950 ns/op
+IdleWarmup  6: 262144 op, 1458307.06 ns, 5.5630 ns/op
+IdleWarmup  7: 262144 op, 1560834.33 ns, 5.9541 ns/op
+IdleWarmup  8: 262144 op, 1441113.05 ns, 5.4974 ns/op
+
+IdleTarget  1: 262144 op, 1559560.70 ns, 5.9493 ns/op
+IdleTarget  2: 262144 op, 1441113.05 ns, 5.4974 ns/op
+IdleTarget  3: 262144 op, 1441113.05 ns, 5.4974 ns/op
+IdleTarget  4: 262144 op, 1441113.05 ns, 5.4974 ns/op
+IdleTarget  5: 262144 op, 1587580.57 ns, 6.0561 ns/op
+IdleTarget  6: 262144 op, 1468496.11 ns, 5.6019 ns/op
+IdleTarget  7: 262144 op, 1616874.08 ns, 6.1679 ns/op
+IdleTarget  8: 262144 op, 1521988.60 ns, 5.8059 ns/op
+IdleTarget  9: 262144 op, 1508615.47 ns, 5.7549 ns/op
+IdleTarget 10: 262144 op, 1441749.87 ns, 5.4998 ns/op
+IdleTarget 11: 262144 op, 1561471.15 ns, 5.9565 ns/op
+IdleTarget 12: 262144 op, 1441113.05 ns, 5.4974 ns/op
+IdleTarget 13: 262144 op, 1520714.97 ns, 5.8011 ns/op
+IdleTarget 14: 262144 op, 1441113.05 ns, 5.4974 ns/op
+IdleTarget 15: 262144 op, 1560834.33 ns, 5.9541 ns/op
+
+MainWarmup  1: 262144 op, 929351072.46 ns, 3.5452 us/op
+MainWarmup  2: 262144 op, 935286191.17 ns, 3.5678 us/op
+MainWarmup  3: 262144 op, 911757139.02 ns, 3.4781 us/op
+
+// BeforeMainRun
+MainTarget  1: 262144 op, 904031295.65 ns, 3.4486 us/op
+MainTarget  2: 262144 op, 906195194.08 ns, 3.4569 us/op
+MainTarget  3: 262144 op, 912604740.20 ns, 3.4813 us/op
+
+// AfterMainRun
+Result  1: 262144 op, 902527732.25 ns, 3.4429 us/op
+Result  2: 262144 op, 904691630.68 ns, 3.4511 us/op
+Result  3: 262144 op, 911101176.79 ns, 3.4756 us/op
+GC:  766 0 0 1608515584 262144
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 3.4565 us, StdErr = 0.0098 us (0.28%); N = 3, StdDev = 0.0170 us
+Min = 3.4429 us, Q1 = 3.4429 us, Median = 3.4511 us, Q3 = 3.4756 us, Max = 3.4756 us
+IQR = 0.0327 us, LowerFence = 3.3938 us, UpperFence = 3.5246 us
+ConfidenceInterval = [3.1555 us; 3.7575 us] (CI 99.9%), Margin = 0.3010 us (8.71% of Mean)
+Skewness = 0.29, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 342606.64 ns, 21.4129 us/op
+Pilot  2: 32 op, 206328.16 ns, 6.4478 us/op
+Pilot  3: 64 op, 311402.69 ns, 4.8657 us/op
+Pilot  4: 128 op, 631720.79 ns, 4.9353 us/op
+Pilot  5: 256 op, 1233511.26 ns, 4.8184 us/op
+Pilot  6: 512 op, 3009589.16 ns, 5.8781 us/op
+Pilot  7: 1024 op, 6096869.80 ns, 5.9540 us/op
+Pilot  8: 2048 op, 11029641.21 ns, 5.3856 us/op
+Pilot  9: 4096 op, 23203639.53 ns, 5.6650 us/op
+Pilot 10: 8192 op, 45867259.67 ns, 5.5990 us/op
+Pilot 11: 16384 op, 80585793.67 ns, 4.9186 us/op
+Pilot 12: 32768 op, 157210596.10 ns, 4.7977 us/op
+Pilot 13: 65536 op, 333152477.78 ns, 5.0835 us/op
+Pilot 14: 131072 op, 667671561.23 ns, 5.0939 us/op
+
+IdleWarmup  1: 131072 op, 917650.86 ns, 7.0011 ns/op
+IdleWarmup  2: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  3: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  4: 131072 op, 909372.27 ns, 6.9380 ns/op
+IdleWarmup  5: 131072 op, 900456.85 ns, 6.8699 ns/op
+IdleWarmup  6: 131072 op, 756536.59 ns, 5.7719 ns/op
+IdleWarmup  7: 131072 op, 810665.89 ns, 6.1849 ns/op
+
+IdleTarget  1: 131072 op, 748257.99 ns, 5.7088 ns/op
+IdleTarget  2: 131072 op, 890904.62 ns, 6.7971 ns/op
+IdleTarget  3: 131072 op, 749531.62 ns, 5.7185 ns/op
+IdleTarget  4: 131072 op, 784556.46 ns, 5.9857 ns/op
+IdleTarget  5: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  6: 131072 op, 760357.48 ns, 5.8011 ns/op
+IdleTarget  7: 131072 op, 910645.90 ns, 6.9477 ns/op
+IdleTarget  8: 131072 op, 722148.56 ns, 5.5096 ns/op
+IdleTarget  9: 131072 op, 755262.96 ns, 5.7622 ns/op
+IdleTarget 10: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget 11: 131072 op, 780735.57 ns, 5.9565 ns/op
+IdleTarget 12: 131072 op, 734248.05 ns, 5.6019 ns/op
+IdleTarget 13: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget 14: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 15: 131072 op, 720874.93 ns, 5.4998 ns/op
+
+MainWarmup  1: 131072 op, 672783914.55 ns, 5.1329 us/op
+MainWarmup  2: 131072 op, 668661809.04 ns, 5.1015 us/op
+MainWarmup  3: 131072 op, 634798518.00 ns, 4.8431 us/op
+
+// BeforeMainRun
+MainTarget  1: 131072 op, 666808039.67 ns, 5.0873 us/op
+MainTarget  2: 131072 op, 664725653.60 ns, 5.0715 us/op
+MainTarget  3: 131072 op, 692064134.94 ns, 5.2800 us/op
+
+// AfterMainRun
+Result  1: 131072 op, 666045177.38 ns, 5.0815 us/op
+Result  2: 131072 op, 663962791.31 ns, 5.0656 us/op
+Result  3: 131072 op, 691301272.65 ns, 5.2742 us/op
+GC:  383 0 0 804257792 131072
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 5.1405 us, StdErr = 0.0670 us (1.30%); N = 3, StdDev = 0.1161 us
+Min = 5.0656 us, Q1 = 5.0656 us, Median = 5.0815 us, Q3 = 5.2742 us, Max = 5.2742 us
+IQR = 0.2086 us, LowerFence = 4.7528 us, UpperFence = 5.5871 us
+ConfidenceInterval = [3.0855 us; 7.1954 us] (CI 99.9%), Margin = 2.0549 us (39.98% of Mean)
+Skewness = 0.38, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 362984.73 ns, 22.6865 us/op
+Pilot  2: 32 op, 229890.33 ns, 7.1841 us/op
+Pilot  3: 64 op, 453412.50 ns, 7.0846 us/op
+Pilot  4: 128 op, 667382.45 ns, 5.2139 us/op
+Pilot  5: 256 op, 1388894.20 ns, 5.4254 us/op
+Pilot  6: 512 op, 3122305.48 ns, 6.0983 us/op
+Pilot  7: 1024 op, 5631357.80 ns, 5.4994 us/op
+Pilot  8: 2048 op, 10300487.67 ns, 5.0295 us/op
+Pilot  9: 4096 op, 19706886.65 ns, 4.8113 us/op
+Pilot 10: 8192 op, 39313793.29 ns, 4.7990 us/op
+Pilot 11: 16384 op, 78202193.96 ns, 4.7731 us/op
+Pilot 12: 32768 op, 157416287.44 ns, 4.8040 us/op
+Pilot 13: 65536 op, 314656813.86 ns, 4.8013 us/op
+Pilot 14: 131072 op, 633994857.08 ns, 4.8370 us/op
+
+IdleWarmup  1: 131072 op, 785830.10 ns, 5.9954 ns/op
+IdleWarmup  2: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleWarmup  3: 131072 op, 782646.02 ns, 5.9711 ns/op
+IdleWarmup  4: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleWarmup  5: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  6: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  7: 131072 op, 720874.93 ns, 5.4998 ns/op
+
+IdleTarget  1: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  2: 131072 op, 782646.02 ns, 5.9711 ns/op
+IdleTarget  3: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  4: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  5: 131072 op, 780735.57 ns, 5.9565 ns/op
+IdleTarget  6: 131072 op, 754626.14 ns, 5.7573 ns/op
+IdleTarget  7: 131072 op, 781372.39 ns, 5.9614 ns/op
+IdleTarget  8: 131072 op, 780735.57 ns, 5.9565 ns/op
+IdleTarget  9: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 10: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 11: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 12: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 13: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 14: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 15: 131072 op, 721511.75 ns, 5.5047 ns/op
+
+MainWarmup  1: 131072 op, 618033718.10 ns, 4.7152 us/op
+MainWarmup  2: 131072 op, 653925902.72 ns, 4.9891 us/op
+MainWarmup  3: 131072 op, 633484768.01 ns, 4.8331 us/op
+
+// BeforeMainRun
+MainTarget  1: 131072 op, 627680196.44 ns, 4.7888 us/op
+MainTarget  2: 131072 op, 618354036.20 ns, 4.7177 us/op
+MainTarget  3: 131072 op, 617884703.31 ns, 4.7141 us/op
+
+// AfterMainRun
+Result  1: 131072 op, 626940811.41 ns, 4.7832 us/op
+Result  2: 131072 op, 617614651.17 ns, 4.7120 us/op
+Result  3: 131072 op, 617145318.28 ns, 4.7084 us/op
+GC:  386 0 0 811597824 131072
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 4.7345 us, StdErr = 0.0243 us (0.51%); N = 3, StdDev = 0.0422 us
+Min = 4.7084 us, Q1 = 4.7084 us, Median = 4.7120 us, Q3 = 4.7832 us, Max = 4.7832 us
+IQR = 0.0747 us, LowerFence = 4.5963 us, UpperFence = 4.8953 us
+ConfidenceInterval = [3.9885 us; 5.4806 us] (CI 99.9%), Margin = 0.7460 us (15.76% of Mean)
+Skewness = 0.38, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.EarlyAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 338785.75 ns, 21.1741 us/op
+Pilot  2: 32 op, 221611.73 ns, 6.9254 us/op
+Pilot  3: 64 op, 315860.39 ns, 4.9353 us/op
+Pilot  4: 128 op, 619621.30 ns, 4.8408 us/op
+Pilot  5: 256 op, 1227779.92 ns, 4.7960 us/op
+Pilot  6: 512 op, 2970743.43 ns, 5.8022 us/op
+Pilot  7: 1024 op, 5923019.22 ns, 5.7842 us/op
+Pilot  8: 2048 op, 10024109.83 ns, 4.8946 us/op
+Pilot  9: 4096 op, 19927224.75 ns, 4.8650 us/op
+Pilot 10: 8192 op, 42178188.57 ns, 5.1487 us/op
+Pilot 11: 16384 op, 82722309.04 ns, 5.0490 us/op
+Pilot 12: 32768 op, 157456406.81 ns, 4.8052 us/op
+Pilot 13: 65536 op, 320521246.07 ns, 4.8908 us/op
+Pilot 14: 131072 op, 652850958.47 ns, 4.9809 us/op
+
+IdleWarmup  1: 131072 op, 724695.83 ns, 5.5290 ns/op
+IdleWarmup  2: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  3: 131072 op, 859063.86 ns, 6.5541 ns/op
+IdleWarmup  4: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleWarmup  5: 131072 op, 781372.39 ns, 5.9614 ns/op
+IdleWarmup  6: 131072 op, 720874.93 ns, 5.4998 ns/op
+
+IdleTarget  1: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  2: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  3: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  4: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  5: 131072 op, 752715.70 ns, 5.7428 ns/op
+IdleTarget  6: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget  7: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  8: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget  9: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 10: 131072 op, 750805.25 ns, 5.7282 ns/op
+IdleTarget 11: 131072 op, 807481.82 ns, 6.1606 ns/op
+IdleTarget 12: 131072 op, 720874.93 ns, 5.4998 ns/op
+IdleTarget 13: 131072 op, 755899.78 ns, 5.7671 ns/op
+IdleTarget 14: 131072 op, 721511.75 ns, 5.5047 ns/op
+IdleTarget 15: 131072 op, 720874.93 ns, 5.4998 ns/op
+
+MainWarmup  1: 131072 op, 640215905.86 ns, 4.8845 us/op
+MainWarmup  2: 131072 op, 636824864.33 ns, 4.8586 us/op
+MainWarmup  3: 131072 op, 636126914.74 ns, 4.8533 us/op
+
+// BeforeMainRun
+MainTarget  1: 131072 op, 637410734.41 ns, 4.8631 us/op
+MainTarget  2: 131072 op, 634403055.69 ns, 4.8401 us/op
+MainTarget  3: 131072 op, 637233062.94 ns, 4.8617 us/op
+
+// AfterMainRun
+Result  1: 131072 op, 636677462.81 ns, 4.8575 us/op
+Result  2: 131072 op, 633669784.09 ns, 4.8345 us/op
+Result  3: 131072 op, 636499791.34 ns, 4.8561 us/op
+GC:  384 0 0 807403520 131072
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 4.8494 us, StdErr = 0.0074 us (0.15%); N = 3, StdDev = 0.0129 us
+Min = 4.8345 us, Q1 = 4.8345 us, Median = 4.8561 us, Q3 = 4.8575 us, Max = 4.8575 us
+IQR = 0.0229 us, LowerFence = 4.8001 us, UpperFence = 4.8919 us
+ConfidenceInterval = [4.6215 us; 5.0772 us] (CI 99.9%), Margin = 0.2279 us (4.70% of Mean)
+Skewness = -0.38, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.Late: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 2932945894.90 ns, 183.3091 ms/op
+
+IdleWarmup  1: 16 op, 7004.97 ns, 437.8105 ns/op
+IdleWarmup  2: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  7: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 2810080022.21 ns, 175.6300 ms/op
+MainWarmup  2: 16 op, 3033445540.19 ns, 189.5903 ms/op
+MainWarmup  3: 16 op, 2650462901.05 ns, 165.6539 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2783938753.65 ns, 173.9962 ms/op
+MainTarget  2: 16 op, 2759830199.57 ns, 172.4894 ms/op
+MainTarget  3: 16 op, 2837603816.82 ns, 177.3502 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2783937480.02 ns, 173.9961 ms/op
+Result  2: 16 op, 2759828925.93 ns, 172.4893 ms/op
+Result  3: 16 op, 2837602543.19 ns, 177.3502 ms/op
+GC:  104 56 10 587623032 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 174.6119 ms, StdErr = 1.4366 ms (0.82%); N = 3, StdDev = 2.4882 ms
+Min = 172.4893 ms, Q1 = 172.4893 ms, Median = 173.9961 ms, Q3 = 177.3502 ms, Max = 177.3502 ms
+IQR = 4.8609 ms, LowerFence = 165.1980 ms, UpperFence = 184.6414 ms
+ConfidenceInterval = [130.5736 ms; 218.6501 ms] (CI 99.9%), Margin = 44.0382 ms (25.22% of Mean)
+Skewness = 0.23, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 2751635660.13 ns, 171.9772 ms/op
+
+IdleWarmup  1: 16 op, 7004.97 ns, 437.8105 ns/op
+IdleWarmup  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 2547.26 ns, 159.2038 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 2773367619.47 ns, 173.3355 ms/op
+MainWarmup  2: 16 op, 2584463998.92 ns, 161.5290 ms/op
+MainWarmup  3: 16 op, 2589210820.26 ns, 161.8257 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2731525032.57 ns, 170.7203 ms/op
+MainTarget  2: 16 op, 2777029307.51 ns, 173.5643 ms/op
+MainTarget  3: 16 op, 2654551255.35 ns, 165.9095 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2731523801.40 ns, 170.7202 ms/op
+Result  2: 16 op, 2777028076.34 ns, 173.5643 ms/op
+Result  3: 16 op, 2654550024.18 ns, 165.9094 ms/op
+GC:  104 53 11 580969504 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 170.0646 ms, StdErr = 2.2340 ms (1.31%); N = 3, StdDev = 3.8693 ms
+Min = 165.9094 ms, Q1 = 165.9094 ms, Median = 170.7202 ms, Q3 = 173.5643 ms, Max = 173.5643 ms
+IQR = 7.6549 ms, LowerFence = 154.4271 ms, UpperFence = 185.0466 ms
+ConfidenceInterval = [101.5833 ms; 238.5460 ms] (CI 99.9%), Margin = 68.4814 ms (40.27% of Mean)
+Skewness = -0.16, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 2773019281.49 ns, 173.3137 ms/op
+
+IdleWarmup  1: 16 op, 6368.15 ns, 398.0096 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+
+IdleTarget  1: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  3: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 18: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 636.82 ns, 39.8010 ns/op
+
+MainWarmup  1: 16 op, 2951220583.91 ns, 184.4513 ms/op
+MainWarmup  2: 16 op, 2921103677.35 ns, 182.5690 ms/op
+MainWarmup  3: 16 op, 2749851303.62 ns, 171.8657 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2928714893.96 ns, 183.0447 ms/op
+MainTarget  2: 16 op, 2899250723.10 ns, 181.2032 ms/op
+MainTarget  3: 16 op, 2783054854.00 ns, 173.9409 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2928713906.90 ns, 183.0446 ms/op
+Result  2: 16 op, 2899249736.04 ns, 181.2031 ms/op
+Result  3: 16 op, 2783053866.93 ns, 173.9409 ms/op
+GC:  107 59 14 580969456 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 179.3962 ms, StdErr = 2.7790 ms (1.55%); N = 3, StdDev = 4.8133 ms
+Min = 173.9409 ms, Q1 = 173.9409 ms, Median = 181.2031 ms, Q3 = 183.0446 ms, Max = 183.0446 ms
+IQR = 9.1038 ms, LowerFence = 160.2852 ms, UpperFence = 196.7002 ms
+ConfidenceInterval = [94.2071 ms; 264.5853 ms] (CI 99.9%), Margin = 85.1891 ms (47.49% of Mean)
+Skewness = -0.32, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 3009660488.28 ns, 188.1038 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 19: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 3023766584.26 ns, 188.9854 ms/op
+MainWarmup  2: 16 op, 2954348620.72 ns, 184.6468 ms/op
+MainWarmup  3: 16 op, 3003869926.65 ns, 187.7419 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2953977994.21 ns, 184.6236 ms/op
+MainTarget  2: 16 op, 3013195450.08 ns, 188.3247 ms/op
+MainTarget  3: 16 op, 3041468776.31 ns, 190.0918 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2953976943.46 ns, 184.6236 ms/op
+Result  2: 16 op, 3013194399.34 ns, 188.3246 ms/op
+Result  3: 16 op, 3041467725.56 ns, 190.0917 ms/op
+GC:  106 58 13 580969440 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 187.6800 ms, StdErr = 1.6111 ms (0.86%); N = 3, StdDev = 2.7905 ms
+Min = 184.6236 ms, Q1 = 184.6236 ms, Median = 188.3246 ms, Q3 = 190.0917 ms, Max = 190.0917 ms
+IQR = 5.4682 ms, LowerFence = 176.4213 ms, UpperFence = 198.2940 ms
+ConfidenceInterval = [138.2921 ms; 237.0679 ms] (CI 99.9%), Margin = 49.3879 ms (26.31% of Mean)
+Skewness = -0.22, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 3100026491.52 ns, 193.7517 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 636.82 ns, 39.8010 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  8: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  9: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 3184.08 ns, 199.0048 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 19: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 3092624787.14 ns, 193.2890 ms/op
+MainWarmup  2: 16 op, 3059979086.99 ns, 191.2487 ms/op
+MainWarmup  3: 16 op, 3246410590.49 ns, 202.9007 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 3084303521.46 ns, 192.7690 ms/op
+MainTarget  2: 16 op, 3185406230.86 ns, 199.0879 ms/op
+MainTarget  3: 16 op, 3046682383.27 ns, 190.4176 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 3084302375.19 ns, 192.7689 ms/op
+Result  2: 16 op, 3185405084.59 ns, 199.0878 ms/op
+Result  3: 16 op, 3046681237.00 ns, 190.4176 ms/op
+GC:  107 56 14 580970408 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 194.0914 ms, StdErr = 2.5888 ms (1.33%); N = 3, StdDev = 4.4839 ms
+Min = 190.4176 ms, Q1 = 190.4176 ms, Median = 192.7689 ms, Q3 = 199.0878 ms, Max = 199.0878 ms
+IQR = 8.6702 ms, LowerFence = 177.4122 ms, UpperFence = 212.0932 ms
+ConfidenceInterval = [114.7335 ms; 273.4494 ms] (CI 99.9%), Margin = 79.3579 ms (40.89% of Mean)
+Skewness = 0.27, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.LateAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 3358241090.64 ns, 209.8901 ms/op
+
+IdleWarmup  1: 16 op, 6368.15 ns, 398.0096 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 13: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 14: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 3519708160.28 ns, 219.9818 ms/op
+MainWarmup  2: 16 op, 3339340412.17 ns, 208.7088 ms/op
+MainWarmup  3: 16 op, 3419418027.22 ns, 213.7136 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 3302618457.20 ns, 206.4137 ms/op
+MainTarget  2: 16 op, 3386977381.59 ns, 211.6861 ms/op
+MainTarget  3: 16 op, 2975801018.14 ns, 185.9876 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 3302617325.08 ns, 206.4136 ms/op
+Result  2: 16 op, 3386976249.48 ns, 211.6860 ms/op
+Result  3: 16 op, 2975799886.02 ns, 185.9875 ms/op
+GC:  101 51 8 580973880 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 201.3624 ms, StdErr = 7.8367 ms (3.89%); N = 3, StdDev = 13.5735 ms
+Min = 185.9875 ms, Q1 = 185.9875 ms, Median = 206.4136 ms, Q3 = 211.6860 ms, Max = 211.6860 ms
+IQR = 25.6985 ms, LowerFence = 147.4397 ms, UpperFence = 250.2338 ms
+ConfidenceInterval = [-38.8685 ms; 441.5932 ms] (CI 99.9%), Margin = 240.2309 ms (119.30% of Mean)
+Skewness = -0.32, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFound: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 979947959.45 ns, 61.2467 ms/op
+
+IdleWarmup  1: 16 op, 7004.97 ns, 437.8105 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  4: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  5: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 11: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 12: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 1002529430.42 ns, 62.6581 ms/op
+MainWarmup  2: 16 op, 1006817744.73 ns, 62.9261 ms/op
+MainWarmup  3: 16 op, 989137204.41 ns, 61.8211 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 1038637495.43 ns, 64.9148 ms/op
+MainTarget  2: 16 op, 1049615554.60 ns, 65.6010 ms/op
+MainTarget  3: 16 op, 1138874772.82 ns, 71.1797 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 1038636184.34 ns, 64.9148 ms/op
+Result  2: 16 op, 1049614243.51 ns, 65.6009 ms/op
+Result  3: 16 op, 1138873461.73 ns, 71.1796 ms/op
+GC:  51 21 4 293807680 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 67.2317 ms, StdErr = 1.9838 ms (2.95%); N = 3, StdDev = 3.4361 ms
+Min = 64.9148 ms, Q1 = 64.9148 ms, Median = 65.6009 ms, Q3 = 71.1796 ms, Max = 71.1796 ms
+IQR = 6.2648 ms, LowerFence = 55.5175 ms, UpperFence = 80.5768 ms
+ConfidenceInterval = [6.4178 ms; 128.0457 ms] (CI 99.9%), Margin = 60.8140 ms (90.45% of Mean)
+Skewness = 0.37, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundCPS: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 1034519210.81 ns, 64.6575 ms/op
+
+IdleWarmup  1: 16 op, 6368.15 ns, 398.0096 ns/op
+IdleWarmup  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  3: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  4: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  5: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  7: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 10: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 11: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 12: 16 op, 1910.45 ns, 119.4029 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 16: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 19: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 965271913.77 ns, 60.3295 ms/op
+MainWarmup  2: 16 op, 966083853.29 ns, 60.3802 ms/op
+MainWarmup  3: 16 op, 971210216.56 ns, 60.7006 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 985588869.49 ns, 61.5993 ms/op
+MainTarget  2: 16 op, 972400424.37 ns, 60.7750 ms/op
+MainTarget  3: 16 op, 962546344.23 ns, 60.1591 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 985587500.33 ns, 61.5992 ms/op
+Result  2: 16 op, 972399055.22 ns, 60.7749 ms/op
+Result  3: 16 op, 962544975.08 ns, 60.1591 ms/op
+GC:  51 21 4 293808016 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 60.8444 ms, StdErr = 0.4172 ms (0.69%); N = 3, StdDev = 0.7226 ms
+Min = 60.1591 ms, Q1 = 60.1591 ms, Median = 60.7749 ms, Q3 = 61.5992 ms, Max = 61.5992 ms
+IQR = 1.4402 ms, LowerFence = 57.9988 ms, UpperFence = 63.7595 ms
+ConfidenceInterval = [48.0557 ms; 73.6331 ms] (CI 99.9%), Margin = 12.7887 ms (21.02% of Mean)
+Skewness = 0.1, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm3: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 2978386488.31 ns, 186.1492 ms/op
+
+IdleWarmup  1: 16 op, 5731.34 ns, 358.2086 ns/op
+IdleWarmup  2: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  3: 16 op, 636.82 ns, 39.8010 ns/op
+IdleWarmup  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  6: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleWarmup  7: 16 op, 1273.63 ns, 79.6019 ns/op
+
+IdleTarget  1: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  2: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  3: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  4: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  5: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  6: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  7: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget  8: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget  9: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 10: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 11: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 12: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 13: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 14: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 15: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 16: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 17: 16 op, 1273.63 ns, 79.6019 ns/op
+IdleTarget 18: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 19: 16 op, 636.82 ns, 39.8010 ns/op
+IdleTarget 20: 16 op, 1273.63 ns, 79.6019 ns/op
+
+MainWarmup  1: 16 op, 2961492414.89 ns, 185.0933 ms/op
+MainWarmup  2: 16 op, 2897868197.06 ns, 181.1168 ms/op
+MainWarmup  3: 16 op, 2832724537.89 ns, 177.0453 ms/op
+
+// BeforeMainRun
+MainTarget  1: 16 op, 2966319474.96 ns, 185.3950 ms/op
+MainTarget  2: 16 op, 2888051052.21 ns, 180.5032 ms/op
+MainTarget  3: 16 op, 3037249238.05 ns, 189.8281 ms/op
+
+// AfterMainRun
+Result  1: 16 op, 2966318519.74 ns, 185.3949 ms/op
+Result  2: 16 op, 2888050096.99 ns, 180.5031 ms/op
+Result  3: 16 op, 3037248282.83 ns, 189.8280 ms/op
+GC:  109 61 15 587622864 16
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 185.2420 ms, StdErr = 2.6929 ms (1.45%); N = 3, StdDev = 4.6643 ms
+Min = 180.5031 ms, Q1 = 180.5031 ms, Median = 185.3949 ms, Q3 = 189.8280 ms, Max = 189.8280 ms
+IQR = 9.3249 ms, LowerFence = 166.5158 ms, UpperFence = 203.8153 ms
+ConfidenceInterval = [102.6903 ms; 267.7937 ms] (CI 99.9%), Margin = 82.5517 ms (44.56% of Mean)
+Skewness = -0.03, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm4: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 128278166.02 ns, 8.0174 ms/op
+Pilot  2: 32 op, 248256081.27 ns, 7.7580 ms/op
+Pilot  3: 64 op, 509242100.62 ns, 7.9569 ms/op
+
+IdleWarmup  1: 64 op, 7004.97 ns, 109.4526 ns/op
+IdleWarmup  2: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  3: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  4: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleWarmup  5: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  6: 64 op, 1273.63 ns, 19.9005 ns/op
+
+IdleTarget  1: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  2: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  3: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  4: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  5: 64 op, 3184.08 ns, 49.7512 ns/op
+IdleTarget  6: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  7: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  8: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  9: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 10: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget 11: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget 12: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 13: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 14: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 15: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget 16: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget 17: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 18: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 19: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 20: 64 op, 1910.45 ns, 29.8507 ns/op
+
+MainWarmup  1: 64 op, 503755299.90 ns, 7.8712 ms/op
+MainWarmup  2: 64 op, 504270483.48 ns, 7.8792 ms/op
+MainWarmup  3: 64 op, 499722985.34 ns, 7.8082 ms/op
+
+// BeforeMainRun
+MainTarget  1: 64 op, 504456433.55 ns, 7.8821 ms/op
+MainTarget  2: 64 op, 504407398.78 ns, 7.8814 ms/op
+MainTarget  3: 64 op, 503091101.52 ns, 7.8608 ms/op
+
+// AfterMainRun
+Result  1: 64 op, 504454777.83 ns, 7.8821 ms/op
+Result  2: 64 op, 504405743.06 ns, 7.8813 ms/op
+Result  3: 64 op, 503089445.81 ns, 7.8608 ms/op
+GC:  0 0 0 0 64
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 7.8747 ms, StdErr = 0.0070 ms (0.09%); N = 3, StdDev = 0.0121 ms
+Min = 7.8608 ms, Q1 = 7.8608 ms, Median = 7.8813 ms, Q3 = 7.8821 ms, Max = 7.8821 ms
+IQR = 0.0213 ms, LowerFence = 7.8288 ms, UpperFence = 7.9141 ms
+ConfidenceInterval = [7.6606 ms; 8.0889 ms] (CI 99.9%), Margin = 0.2142 ms (2.72% of Mean)
+Skewness = -0.38, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm5: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 143264340.76 ns, 8.9540 ms/op
+Pilot  2: 32 op, 279319295.38 ns, 8.7287 ms/op
+Pilot  3: 64 op, 570453425.24 ns, 8.9133 ms/op
+
+IdleWarmup  1: 64 op, 6368.15 ns, 99.5024 ns/op
+IdleWarmup  2: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  3: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  4: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleWarmup  5: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleWarmup  6: 64 op, 1273.63 ns, 19.9005 ns/op
+
+IdleTarget  1: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  2: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  3: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  4: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  5: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  6: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  7: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  8: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  9: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 10: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 11: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 12: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 13: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 14: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget 15: 64 op, 1273.63 ns, 19.9005 ns/op
+
+MainWarmup  1: 64 op, 560768737.97 ns, 8.7620 ms/op
+MainWarmup  2: 64 op, 561020280.02 ns, 8.7659 ms/op
+MainWarmup  3: 64 op, 559504022.76 ns, 8.7423 ms/op
+
+// BeforeMainRun
+MainTarget  1: 64 op, 561780637.50 ns, 8.7778 ms/op
+MainTarget  2: 64 op, 561119623.21 ns, 8.7675 ms/op
+MainTarget  3: 64 op, 557945098.88 ns, 8.7179 ms/op
+
+// AfterMainRun
+Result  1: 64 op, 561779321.42 ns, 8.7778 ms/op
+Result  2: 64 op, 561118307.12 ns, 8.7675 ms/op
+Result  3: 64 op, 557943782.79 ns, 8.7179 ms/op
+GC:  0 0 0 1536 64
+
+// AfterAll
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+
+Parse error in the following line:
+Number of lines read from file: 67663
+Parse error in the following line:
+Number of words read from file: 573843
+Mean = 8.7544 ms, StdErr = 0.0185 ms (0.21%); N = 3, StdDev = 0.0320 ms
+Min = 8.7179 ms, Q1 = 8.7179 ms, Median = 8.7675 ms, Q3 = 8.7778 ms, Max = 8.7778 ms
+IQR = 0.0599 ms, LowerFence = 8.6280 ms, UpperFence = 8.8677 ms
+ConfidenceInterval = [8.1874 ms; 9.3214 ms] (CI 99.9%), Margin = 0.5670 ms (6.48% of Mean)
+Skewness = -0.34, Kurtosis = 0.67
+
+
+// **************************
+// Benchmark: CpsPerformanceTests.NotFoundAvm6: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.5 (Framework 4.6.26020.03), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(LaunchCount=1, TargetCount=3, WarmupCount=3)
+
+Number of lines read from file: 67663
+Number of words read from file: 573843
+Pilot  1: 16 op, 141132283.10 ns, 8.8208 ms/op
+Pilot  2: 32 op, 277987077.74 ns, 8.6871 ms/op
+Pilot  3: 64 op, 565638464.66 ns, 8.8381 ms/op
+
+IdleWarmup  1: 64 op, 6368.15 ns, 99.5024 ns/op
+IdleWarmup  2: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleWarmup  3: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  4: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  5: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleWarmup  6: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleWarmup  7: 64 op, 1273.63 ns, 19.9005 ns/op
+
+IdleTarget  1: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  2: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  3: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  4: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  5: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  6: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  7: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget  8: 64 op, 1910.45 ns, 29.8507 ns/op
+IdleTarget  9: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 10: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 11: 64 op, 1273.63 ns, 19.9005 ns/op
+IdleTarget 12: 64 op, 

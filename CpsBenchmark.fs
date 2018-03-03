@@ -5,6 +5,7 @@ open BenchmarkDotNet.Configs
 open BenchmarkDotNet.Exporters
 open BenchmarkDotNet.Exporters.Csv
 open CpsDemo
+open BenchmarkDotNet.Attributes.Jobs
 
 type CpsConfig() as this =
     inherit ManualConfig()
@@ -15,12 +16,17 @@ type CpsConfig() as this =
 [<
   MemoryDiagnoser; 
   Config(typeof<CpsConfig>);
-  RPlotExporter
+  RPlotExporter;
+//   ShortRunJob
 >]
 type CpsPerformanceTests() =
 
-    let allTheWords = getAllTheWordsAsList @"\Les Misérables.txt"
+    let mutable allTheWords = []
 
+    [<GlobalSetup>]
+    member __.Setup() =
+        allTheWords <- mgetAllTheWordsAsList @"\Les Misérables.txt"
+        
     [<Benchmark>]
     member __.Early() = 
         allTheWords |> replaceFirstItem "MISÉRABLES" "PERSONNES-CONTENUES"
@@ -33,13 +39,25 @@ type CpsPerformanceTests() =
     member __.EarlyAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "MISÉRABLES" "PERSONNES-CONTENUES"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.EarlyAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "MISÉRABLES" "PERSONNES-CONTENUES"
 
     [<Benchmark>]
     member __.EarlyAvm3() = 
         allTheWords |> replaceFirstItemAvm3 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
+    member __.EarlyAvm4() = 
+        allTheWords |> replaceFirstItemAvm4 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
+    member __.EarlyAvm5() = 
+        allTheWords |> replaceFirstItemAvm5 "MISÉRABLES" "PERSONNES-CONTENUES"
+
+    [<Benchmark>]
+    member __.EarlyAvm6() = 
+        allTheWords |> replaceFirstItemAvm6 "MISÉRABLES" "PERSONNES-CONTENUES"
 
     [<Benchmark>]
     member __.Late() = 
@@ -53,13 +71,25 @@ type CpsPerformanceTests() =
     member __.LateAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "lichens" "BANANAS"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.LateAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "lichens" "BANANAS"
 
     [<Benchmark>]
     member __.LateAvm3() = 
         allTheWords |> replaceFirstItemAvm3 "lichens" "BANANAS"
+
+    [<Benchmark>]
+    member __.LateAvm4() = 
+        allTheWords |> replaceFirstItemAvm4 "lichens" "BANANAS"
+
+    [<Benchmark>]
+    member __.LateAvm5() = 
+        allTheWords |> replaceFirstItemAvm5 "lichens" "BANANAS"
+
+    [<Benchmark>]
+    member __.LateAvm6() = 
+        allTheWords |> replaceFirstItemAvm6 "lichens" "BANANAS"
 
     [<Benchmark>]
     member __.NotFound() = 
@@ -73,10 +103,22 @@ type CpsPerformanceTests() =
     member __.NotFoundAvm1() = 
         allTheWords |> replaceFirstItemAvm1 "aWordThatNeverOccursInLesMisérables" "BANANAS"
 
-    [<Benchmark>]
+    // [<Benchmark>]
     member __.NotFoundAvm2() = 
         allTheWords |> replaceFirstItemAvm2 "aWordThatNeverOccursInLesMisérables" "BANANAS"
 
     [<Benchmark>]
     member __.NotFoundAvm3() = 
         allTheWords |> replaceFirstItemAvm3 "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm4() = 
+        allTheWords |> replaceFirstItemAvm4 "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm5() = 
+        allTheWords |> replaceFirstItemAvm5 "aWordThatNeverOccursInLesMisérables" "BANANAS"
+
+    [<Benchmark>]
+    member __.NotFoundAvm6() = 
+        allTheWords |> replaceFirstItemAvm6 "aWordThatNeverOccursInLesMisérables" "BANANAS"
