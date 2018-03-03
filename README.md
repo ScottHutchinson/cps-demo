@@ -24,6 +24,8 @@ CPS got started in Scheme (MIT’s dialect of LISP) and I found it much easier t
 
 # Articles relating to Continuation Passing Style
 
+http://jackfoxy.com/the-miracle-of-fsharp-continuation-passing/ <-- Added on 3 Mar, 2018
+
 https://fsharpforfunandprofit.com/posts/computation-expressions-continuations/
 
 http://www.markhneedham.com/blog/2009/06/22/f-continuation-passing-style/
