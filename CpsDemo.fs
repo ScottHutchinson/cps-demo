@@ -97,6 +97,35 @@ let replaceFirstItemAvm6 itm rep lst =
     | Some x ->
         (lst |> (List.take x)) @ (rep :: (lst |> (List.skip (x + 1))))
 
+let replaceFirstItemAvm7 itm rep lst = //version 7
+    let rec iter acc lst fnd =
+        match lst with
+        | [] -> List.rev acc
+        | h :: t ->
+            if not fnd && h = itm then
+                iter (rep :: acc) t true
+            else
+                iter (h :: acc) t fnd
+
+    iter [] lst false
+
+let replaceFirstItemAvm8 itm rep lst = //version 8 (attempt optimal late case, see if List.fold isn't tail recursive)
+    let rec iter acc lst =
+        match lst with
+            | [] -> List.rev acc
+            | h :: t ->
+                if h = itm then
+                    let rec iter2 acc lst = //reverse cons to rest of list
+                        match lst with
+                            | [] -> acc
+                            | h :: t -> iter2 (h :: acc) t
+
+                    iter2 (rep :: t) acc
+                else
+                    iter (h :: acc) t
+
+    iter [] lst
+
 let load filePath =
     filePath
     |> File.ReadAllLines
@@ -112,7 +141,9 @@ let memoize f =
     let dict = Dictionary<_, _>()
     fun x ->
         match dict.TryGetValue x with
-            | true, value -> value
+            | true, value ->
+                printfn "Words retrieved from cache: %s" x
+                value
             | _           ->
                 let f_x = f x
                 dict.Add (x, f_x)
@@ -122,7 +153,7 @@ let getAllTheWordsAsList fileName =
     // https://www.gutenberg.org/files/135/135-0.txt (Les Mis�rables by Victor Hugo)
     let lines = load (__SOURCE_DIRECTORY__ + fileName)
     let allWords = getAllWordsSeq lines
-    printfn "Number of lines read from file: %i" lines.Length
+    // printfn "Number of lines read from file: %i" lines.Length
     printfn "Number of words read from file: %i" (Seq.length allWords)
     // allWords |> Seq.take 1000 |> Seq.iter (fun w -> printfn "%s" w)
     allWords

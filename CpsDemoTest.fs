@@ -53,12 +53,12 @@ type Tests(helper: ITestOutputHelper) =
         allTheWords |> replaceFirstItemAvm4 "MISÉRABLES" "PERSONNES-CONTENUES" |> should equal allTheWordsEarly
 
     [<Fact>]
-    let ``replaceFirstItemAvm5 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
-        allTheWords |> replaceFirstItemAvm5 "MISÉRABLES" "PERSONNES-CONTENUES" |> should equal allTheWordsEarly
+    let ``replaceFirstItemAvm7 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
+        allTheWords |> replaceFirstItemAvm7 "MISÉRABLES" "PERSONNES-CONTENUES" |> should equal allTheWordsEarly
 
     [<Fact>]
-    let ``replaceFirstItemAvm6 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
-        allTheWords |> replaceFirstItemAvm6 "MISÉRABLES" "PERSONNES-CONTENUES" |> should equal allTheWordsEarly
+    let ``replaceFirstItemAvm8 "MISÉRABLES" "PERSONNES-CONTENUES"`` () =
+        allTheWords |> replaceFirstItemAvm8 "MISÉRABLES" "PERSONNES-CONTENUES" |> should equal allTheWordsEarly
 
     [<Fact>]
     let ``replaceFirstItem "lichens" "BANANAS"`` () =
@@ -85,12 +85,12 @@ type Tests(helper: ITestOutputHelper) =
         allTheWords |> replaceFirstItemAvm4 "lichens" "BANANAS" |> should equal allTheWordsLate
 
     [<Fact>]
-    let ``replaceFirstItemAvm5 "lichens" "BANANAS"`` () =
-        allTheWords |> replaceFirstItemAvm5 "lichens" "BANANAS" |> should equal allTheWordsLate
+    let ``replaceFirstItemAvm7 "lichens" "BANANAS"`` () =
+        allTheWords |> replaceFirstItemAvm7 "lichens" "BANANAS" |> should equal allTheWordsLate
 
     [<Fact>]
-    let ``replaceFirstItemAvm6 "lichens" "BANANAS"`` () =
-        allTheWords |> replaceFirstItemAvm6 "lichens" "BANANAS" |> should equal allTheWordsLate
+    let ``replaceFirstItemAvm8 "lichens" "BANANAS"`` () =
+        allTheWords |> replaceFirstItemAvm8 "lichens" "BANANAS" |> should equal allTheWordsLate
 
     [<Fact>]
     let ``replaceFirstItem "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
@@ -117,9 +117,9 @@ type Tests(helper: ITestOutputHelper) =
         allTheWords |> replaceFirstItemAvm4 "aWordThatNeverOccursInLesMisérables" "BANANAS" |> should equal allTheWords
 
     [<Fact>]
-    let ``replaceFirstItemAvm5 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
-        allTheWords |> replaceFirstItemAvm5 "aWordThatNeverOccursInLesMisérables" "BANANAS" |> should equal allTheWords
+    let ``replaceFirstItemAvm7 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
+        allTheWords |> replaceFirstItemAvm7 "aWordThatNeverOccursInLesMisérables" "BANANAS" |> should equal allTheWords
 
     [<Fact>]
-    let ``replaceFirstItemAvm6 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
-        allTheWords |> replaceFirstItemAvm6 "aWordThatNeverOccursInLesMisérables" "BANANAS" |> should equal allTheWords
+    let ``replaceFirstItemAvm8 "aWordThatNeverOccursInLesMisérables" "BANANAS"`` () =
+        allTheWords |> replaceFirstItemAvm8 "aWordThatNeverOccursInLesMisérables" "BANANAS" |> should equal allTheWords

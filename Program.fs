@@ -5,5 +5,5 @@ module Program =
 
     let [<EntryPoint>] main _ = 
         BenchmarkRunner.Run<CpsPerformanceTests>() |> printfn "%A"
-        System.Console.ReadKey() |> ignore
+        // System.Console.ReadKey() |> ignore
         0
