@@ -33,6 +33,7 @@ let replaceFirstItemCPS itm replacement list =
         
     replace id list
 
+// The functions below (with an Avm# suffix) were developed by André van Meulebrouck <vanmeule@roadrunner.com>
 let replaceFirstItemAvm1 itm rep lst =
     let rec iter acc lst =
         match lst with
@@ -42,7 +43,6 @@ let replaceFirstItemAvm1 itm rep lst =
                 (List.rev acc) @ [rep] @ t
             else
                 iter (h :: acc) t
-
     iter [] lst
 
 let replaceFirstItemAvm2 itm rep lst =
@@ -54,7 +54,6 @@ let replaceFirstItemAvm2 itm rep lst =
                 ((rep :: acc) |> List.rev) @ t
             else
                 iter (h :: acc) t
-
     iter [] lst
 
 let inline revCons x y = List.fold ( fun acc x -> x :: acc) y x
@@ -68,7 +67,6 @@ let replaceFirstItemAvm3 itm rep lst =
                 revCons acc (rep :: t)
             else
                 iter (h :: acc) t
-
     iter [] lst
 
 let replaceFirstItemAvm4 itm rep lst =
@@ -106,7 +104,6 @@ let replaceFirstItemAvm7 itm rep lst = //version 7
                 iter (rep :: acc) t true
             else
                 iter (h :: acc) t fnd
-
     iter [] lst false
 
 let replaceFirstItemAvm8 itm rep lst = //version 8 (attempt optimal late case, see if List.fold isn't tail recursive)
@@ -123,7 +120,6 @@ let replaceFirstItemAvm8 itm rep lst = //version 8 (attempt optimal late case, s
                     iter2 (rep :: t) acc
                 else
                     iter (h :: acc) t
-
     iter [] lst
 
 let load filePath =

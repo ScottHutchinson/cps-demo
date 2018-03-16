@@ -2,7 +2,7 @@
 
 This is a demonstration of Continuation Passing Style (CPS).
 
-Here is what my friend André van Meulebrouck has to say about CPS:
+Here is what my friend André van Meulebrouck <vanmeule@roadrunner.com> has to say about CPS:
 
 "As to CPS: I’d be very surprised if CPS is ever faster.  My guess: it should always be slower.
 
